@@ -1,6 +1,6 @@
 ---
 layout: level
-permalink: christmas2024/act1/day-1-the-icy-threshold/
+permalink: stories/christmas2024/act1/day-1-the-icy-threshold/
 story: christmas2024
 level: 1
 solution: Fire

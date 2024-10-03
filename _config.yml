@@ -2,9 +2,7 @@ title: RiddleVerse
 url: https://riddleverse.franciscogc.com
 author: Francisco Cerqueira
 email: franciscogc@outlook.pt
-description: > # this means to ignore newlines until "show_exerpts:"
-  Miguel is a software engineer and indie game developer currently based in the UK.
-  <br/>He occasionally blogs about software design, continuous integration and game development with Godot Engine.
+description:
 show_excerpts: false # set to true to show excerpts on the homepage
 
 paginate: 5
@@ -24,9 +22,6 @@ tabs:
   - title: Instructions
     url: /instructions/
     color: orange
-
-stories:
-  - christmas2024
 
 # jekyll-dash date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this

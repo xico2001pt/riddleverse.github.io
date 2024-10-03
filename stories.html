@@ -1,0 +1,30 @@
+---
+layout: page
+title: Stories
+permalink: /stories/
+---
+
+{% assign featured_stories = site.data.stories | where: "type","featured" %}
+{% assign upcoming_stories = site.data.stories | where: "type","upcoming" %}
+{% assign normal_stories = site.data.stories | where: "type","normal" %}
+
+<h2>Available</h2>
+<!-- Featured stories -->
+{% for story in featured_stories %}
+    <div><a class="colorless" href="{{ story.id }}"><span class="progress-sep">[FEATURED]</span> {{ story.title }}</a></div>
+{% endfor %}
+
+<!-- Normal stories -->
+{% for story in normal_stories %}
+    <div><a class="colorless" href="{{ story.id }}">{{ story.title }}</a></div>
+{% endfor %}
+
+<h2>Upcoming</h2>
+<!-- Upcoming stories -->
+{% if upcoming_stories.size == 0 %}
+    Nothing for now...
+{% else %}
+    {% for story in upcoming_stories %}
+        <div><a class="colorless" href="{{ story.id }}"><span class="progress-total">[UPCOMING]</span> {{ story.title }}</a></div>
+    {% endfor %}
+{% endif %}

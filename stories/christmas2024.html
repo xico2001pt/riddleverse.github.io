@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Instructions | RiddleVerse</title>
+<title>The Lost Artifacts of Christmas | RiddleVerse</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Instructions" />
+<meta property="og:title" content="The Lost Artifacts of Christmas" />
 <meta name="author" content="Francisco Cerqueira" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://riddleverse.franciscogc.com/instructions/" />
-<meta property="og:url" content="https://riddleverse.franciscogc.com/instructions/" />
+<link rel="canonical" href="https://riddleverse.franciscogc.com/stories/christmas2024.html" />
+<meta property="og:url" content="https://riddleverse.franciscogc.com/stories/christmas2024.html" />
 <meta property="og:site_name" content="RiddleVerse" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Instructions" />
+<meta property="twitter:title" content="The Lost Artifacts of Christmas" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Francisco Cerqueira"},"headline":"Instructions","url":"https://riddleverse.franciscogc.com/instructions/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Francisco Cerqueira"},"headline":"The Lost Artifacts of Christmas","url":"https://riddleverse.franciscogc.com/stories/christmas2024.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" type="image/png" href="/assets/favicon.png" />
@@ -43,8 +43,7 @@
     <span class="separator">|</span>
     
     <a href="/instructions/" class="
-    active color-orange
-    "
+    color-foreground color-orange-hover"
     >Instructions</a>
     
     
@@ -52,14 +51,86 @@
   </div>
 </div><main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <p><strong>Profile</strong>: Setup your profile and check your progress by accessing the <a href="/profile/">profile page</a>.</p>
+        
 
-<p><strong>Storage</strong>: Your profile and progress are stored in your browser’s local storage, which means that your account is only accessible from the device you are using. Therefore, if you want to access your profile from another device, you need export your profile and import it on the other device in the <a href="/profile/">profile page</a>.</p>
 
-<p><strong>Gameplay</strong>: Each story is divided into levels. To complete a level, you need to solve a puzzle. If you are stuck, you can peek at the hints without any penalty. You can only advance to the next level if you solve the puzzle of the current level.</p>
 
-<p><strong>Feedback</strong>: If you have any feedback or suggestions, please let me know by sending an email to <a href="mailto:franciscogc@outlook.pt">franciscogc@outlook.pt</a>.</p>
 
+
+<div class="post">
+  <div class="post-header">
+    <h1 class="post-title">The Lost Artifacts of Christmas</h1>
+    <button class="back-button" onclick="location.href='/stories/'">Back</button>
+  </div>
+  <script type="module">
+    import { updateLockbyLevel } from '/assets/js/locker.js';
+    const story = "christmas2024";
+    updateLockbyLevel("act2", story, 6);
+    updateLockbyLevel("act3", story, 14);
+</script>
+
+
+
+Long description of the story.
+
+<br>
+<br>
+
+<div>
+    <div style="display: flex; justify-content: flex-start; margin-bottom:4vh;">
+        <img src="/assets/img/placeholder.jpg" style="width:48%;">
+        <div style="width:44%; margin-left:1.25vw;">
+            <h3>Act 1: XXXXX</h3>
+            <div>Short description of the act. This is intended to be aproximatly 2 or 3 lines.</div>
+            <a href="/stories/christmas2024/act1/">See more...</a>
+        </div>
+    </div>
+
+    <div id="act2" style="display: flex; justify-content: flex-end; margin-bottom:4vh;">
+        <div style="width:44%; margin-right:1.25vw; text-align:right;">
+            <h3 style="text-align:right;">Act 2: XXXXX</h3>
+            <div>Short description of the act. This is intended to be aproximatly 2 or 3 lines.</div>
+            <a href="/stories/christmas2024/act2/">See more...</a>
+        </div>
+        <img src="/assets/img/placeholder.jpg" style="width:48%;">
+    </div>
+
+    <div id="act3" style="display: flex; justify-content: flex-start;">
+        <img src="/assets/img/placeholder.jpg" style="width:48%;">
+        <div style="width:44%; margin-left:1.25vw;">
+            <h3>Act 3: XXXXX</h3>
+            <div>Short description of the act. This is intended to be aproximatly 2 or 3 lines.</div>
+            <a href="/stories/christmas2024/act3/">See more...</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<script>
+// Image modal
+var $imgs = [];
+$('img').each(function(idx) {
+  var obj = {
+    src: $(this).attr('src')
+  }
+  $imgs.push(obj);
+  var elem = $(this);
+  $(this).click(function() {
+    $('.modal').magnificPopup('open', idx);
+  });
+});
+
+$('.modal').magnificPopup({
+  items: $imgs,
+  type: 'image',
+  closeOnContentClick: true,
+  mainClass: 'mfp-img-mobile',
+  image: {
+    verticalFit: true
+  }
+  
+});
+</script>
 
       </div>
     </main><footer class="site-footer">

@@ -1,0 +1,23 @@
+---
+layout: page
+title: Profile
+permalink: /profile/
+---
+<script src="{{ "/assets/js/profile-page.js" | relative_url }}" type="module"></script>
+
+<h2 style="margin-top: 0;">Profile</h2>
+<table id="info-table">
+    <tr>
+        <td class="profile-input-header">Name:</td>
+        <td><input type="text" id="form-name" class="profile-input-text"></td>
+    </tr>
+</table>
+
+<!-- Save button -->
+<div style="margin-top: 20px;">
+    <button id="update-button" class="form-save" onclick="updateProfile()">Save</button>
+</div>
+
+<h2>Progress</h2>
+<div id="progress-container">
+</div>

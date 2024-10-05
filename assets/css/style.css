@@ -3081,11 +3081,7 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 
 .post-header { display: flex; justify-content: space-between; }
 
-.post-title { text-align: left; margin-top: 0.4em; display: inline-block; }
-
-.theme--dark .post-title { color: #DAE4ED; }
-
-.theme--light .post-title { color: #1E2227; }
+.post-title { text-align: left; margin-top: 0.4em; display: inline-block; color: #50BD6A; }
 
 .post-description { margin-top: 1em; font-size: 23px; overflow: hidden; width: 100%; margin-bottom: 1em; margin-left: 0.5em; }
 
@@ -3206,6 +3202,12 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 .theme--light .back-button:hover { background-color: white; }
 
 .back-button:before { content: "\f053"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; margin-right: 0.5em; }
+
+.grid-container { display: grid; grid-template-columns: auto auto auto; gap: 5vh 3%; padding: 10px; }
+
+.small-desc { font-size: 19px; }
+
+.locked-region { font-size: 28px; display: flex; align-items: center; }
 
 .level-input-text { width: 30%; border: 0px solid #DAE4ED; color: #DAE4ED; padding: 0.35em 0.5em; border-radius: 0.3em; font-size: 20px; }
 

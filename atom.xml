@@ -57,7 +57,7 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-05T00:56:08+00:00</updated>
+ <updated>2024-10-05T14:41:17+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
@@ -68,7 +68,7 @@
  <entry>
    <title>Day 1: The Icy Threshold</title>
    <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-1-the-icy-threshold/"/>
-   <updated>2023-12-01T00:00:00+00:00</updated>
+   <updated>2024-10-05T00:00:00+00:00</updated>
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-icy-threshold</id>
    <content type="html">&lt;p&gt;The riddle etched into the gates reads:&lt;/p&gt;
 
@@ -85,6 +85,15 @@
  &lt;summary&gt;Hint 2&lt;/summary&gt;
  &quot;I&apos;m used to warm homes and light the way in darkness.&quot;
 &lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Ember of Warmth: Prologue</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/prologue/"/>
+   <updated>2024-10-04T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/act-1-prologue</id>
+   <content type="html">&lt;p&gt;Prologue description&lt;/p&gt;
 </content>
  </entry>
  

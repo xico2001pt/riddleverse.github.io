@@ -1,8 +1,10 @@
 import { getProgress, setProgress } from './profile.js';
+import { getStoryData } from './stories.js';
 
-export function sendLevelAnswer(story, level, correct) {
+export function sendLevelAnswer(story, level) {
     let elem = document.getElementById('submission-text');
     let answer = elem.value.toLowerCase();
+    let correct = getStoryData(story).solutions[level-1];
     correct = correct.toLowerCase();
     if (answer == correct) {
         let playerLevel = getProgress(story);

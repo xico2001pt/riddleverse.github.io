@@ -388,6 +388,12 @@
   @include relative-font-size(0.95);
 }
 
+.locked-region {
+  @include relative-font-size(1.4);
+  display: flex;
+  align-items: center;
+}
+
 .level-input-text {
   width: 30%;
   border: 0px solid $color-foreground;

@@ -4,7 +4,6 @@ permalink: stories/christmas2024/act1/day-1-the-icy-threshold/
 cover_img: stories/christmas2024/the-icy-threshold.webp
 story: christmas2024
 level: 1
-solution: Fire
 title: "Day 1: The Icy Threshold"
 previosly: >
     After receiving a desperate plea from the Christmas Realm, you set out on a quest to restore the fading Christmas Spirit. The first step in your journey leads you to the edge of the Frosty Forest, a once-beautiful place now engulfed in a bone-chilling cold.

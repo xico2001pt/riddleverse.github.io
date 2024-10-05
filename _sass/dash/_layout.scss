@@ -384,9 +384,29 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 5vh 3%;
-  padding: 10px;
+  grid-template-columns: 33% 33% 33%;
+  gap: 0 2%;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-background-dark;
+}
+
+.grid-title {
+  @include relative-font-size(0.8);
+  margin-top: 2vh;
+  display: flex;
+  align-items: flex-end;
+  vertical-align: bottom;
+  border-radius: 0.3em 0.3em 0 0;
+}
+
+.grid-img {
+  padding: 1vh;
+  border-radius: 0 0 0.3em 0.3em;
 }
 
 .small-desc {

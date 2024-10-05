@@ -1,0 +1,34 @@
+{% assign img_path = "/assets/img/" %}
+{% assign posts = include.posts %}
+{% assign length = posts | size | divided_by: 3 %}
+
+<div class="grid-container">
+    {% for i in (0..length) %}
+        {% for j in (0..2) %}
+            {% assign num = i | times: 3 | plus: j %}
+            {% assign post = posts[num] %}
+            {% if post %}
+            <div class="grid-item grid-title">
+            {% else %}
+            <div>
+            {% endif %}
+                {% if post %}
+                    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+                {% endif %}
+            </div>
+        {% endfor %}
+        {% for j in (0..2) %}
+            {% assign num = i | times: 3 | plus: j %}
+            {% assign post = posts[num] %}
+            {% if post %}
+            <div class="grid-item grid-img">
+            {% else %}
+            <div>
+            {% endif %}
+                {% if post and post.cover_img %}
+                    <a href="{{ post.url }}"><img src="{{ img_path }}{{ post.cover_img }}"></a>
+                {% endif %}
+            </div>
+        {% endfor %}
+    {% endfor %}
+</div>

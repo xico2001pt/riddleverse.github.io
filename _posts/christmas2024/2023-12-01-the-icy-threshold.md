@@ -6,9 +6,9 @@ level: 1
 solution: Fire
 title: "Day 1: The Icy Threshold"
 previosly: >
-    After receiving a desperate plea from the Christmas Realm, you set out on a quest to restore the fading Christmas Spirit. The first step in your journey leads you to the edge of the Frosty Forest, a once-beautiful place now engulfed in a bone-chilling cold. Ahead lies the Guardian's keep, where the Ember of Warmth is hidden deep within the Vault of the Hearth. But before you can enter, you must solve the riddle that seals the gates.
+    After receiving a desperate plea from the Christmas Realm, you set out on a quest to restore the fading Christmas Spirit. The first step in your journey leads you to the edge of the Frosty Forest, a once-beautiful place now engulfed in a bone-chilling cold.
 narrative: >
-    As you step into the Frosty Forest, the temperature drops dramatically. The trees, once green and full of life, are now coated in thick layers of frost. A dense fog rolls in, obscuring your path, and the only sound is the crunch of snow beneath your feet. You approach the towering gates of the Guardian’s keep. Carved into the gate is an ancient riddle, the key to unlocking the entrance and beginning your quest.
+    As you step into the Frosty Forest, the temperature drops dramatically. The trees, once green and full of life, are now coated in thick layers of frost. A dense fog rolls in, obscuring your path, and the only sound is the crunch of snow beneath your feet. You decide to approach the towering gates of the Guardian’s keep. Carved into the gate is an ancient riddle, the key to unlocking the entrance and beginning your quest.
 objective: >
     Your objective is to decipher the riddle inscribed on the gates. Solving it will open the way forward, allowing you to enter the keep and continue your journey to reclaim the Ember of Warmth.
 outcome: >

@@ -3203,7 +3203,13 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 
 .back-button:before { content: "\f053"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; margin-right: 0.5em; }
 
-.grid-container { display: grid; grid-template-columns: auto auto auto; gap: 5vh 3%; padding: 10px; }
+.grid-container { display: grid; grid-template-columns: 33% 33% 33%; gap: 0 2%; }
+
+.grid-item { display: flex; align-items: center; justify-content: center; background-color: #1E2227; }
+
+.grid-title { font-size: 16px; margin-top: 2vh; display: flex; align-items: flex-end; vertical-align: bottom; border-radius: 0.3em 0.3em 0 0; }
+
+.grid-img { padding: 1vh; border-radius: 0 0 0.3em 0.3em; }
 
 .small-desc { font-size: 19px; }
 

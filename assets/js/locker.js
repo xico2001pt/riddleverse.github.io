@@ -26,11 +26,11 @@ function lockElement(element) {
         } else {
             element.textContent = 'Locked';
         }
-        if (element.href) {
-            // Change the image src to a placeholder
-            element.href = '';
-        } 
     }
+    if (element.href) {
+        // Change the image src to a placeholder
+        element.href = '';
+    } 
 }
 
 export function updateLockbyLevel(elemId, story, minLevel) {

@@ -1,6 +1,7 @@
 ---
 layout: level
 permalink: stories/christmas2024/act1/day-1-the-icy-threshold/
+cover_img: stories/christmas2024/the-icy-threshold.webp
 story: christmas2024
 level: 1
 solution: Fire

@@ -384,6 +384,10 @@
   @include relative-font-size(0.9);
 }
 
+.small-desc {
+  @include relative-font-size(0.95);
+}
+
 .level-input-text {
   width: 30%;
   border: 0px solid $color-foreground;

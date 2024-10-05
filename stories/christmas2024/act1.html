@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Act 1: The Ember of Warmth"
+---
+
+{% assign img_path = "/assets/img/" %}
+{% assign posts = site.categories.christmas2024 | reverse %}
+
+<div class="grid-container">
+    {% for post in posts %}
+    <div>
+        <h2>{{ post.title }}</h2>
+        <img src="{{ img_path }}{{ post.cover_img }}">
+    </div>    
+    {% endfor %}
+</div>

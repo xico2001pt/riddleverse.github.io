@@ -1,18 +1,10 @@
 ---
-layout: post
+layout: lock_post
 ---
 <script src="{{ "/assets/js/level-checker.js" | relative_url }}" type="module"></script>
 <script type="module">
     import { updateLevelPage } from '/assets/js/level-checker.js';
-    updateLevelPage('{{ page.story }}', '{{ page.level }}');
-</script>
-<script type="module">
-    import { updateLockbyLevel } from '/assets/js/locker.js';
-    let story = '{{ page.story }}';
-    let level = parseInt('{{ page.level }}') - 1;
-    updateLockbyLevel("level-region", story, level);
-    updateLockbyLevel("post-cover-img", story, level);
-    updateLockbyLevel("post-title", story, level);
+    updateLevelPage('{{ page.category }}', '{{ page.level }}');
 </script>
 <lock-region id="level-region" class="post">
     <h2>Previously</h2>
@@ -31,7 +23,7 @@ layout: post
             <span id="answer-feedback" class="answer-feedback">Wrong answer!</span>
         </span>
         <br>
-        <button id="submit-button" class="level-input-button" onclick="sendLevelAnswer('{{ page.story }}', '{{ page.level }}')">Submit</button>
+        <button id="submit-button" class="level-input-button" onclick="sendLevelAnswer('{{ page.category }}', '{{ page.level }}')">Submit</button>
     </div>
     <div id="outcome-field">
         <h2>Outcome</h2>

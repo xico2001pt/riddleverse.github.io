@@ -11,12 +11,12 @@ permalink: /stories/
 <h2>Available</h2>
 <!-- Featured stories -->
 {% for story in featured_stories %}
-    <div><a class="colorless" href="{{ story.id }}"><span class="progress-sep">[FEATURED]</span> {{ story.title }}</a></div>
+    <div><a class="colorless" href="{{ story.id }}/"><span class="progress-sep">[FEATURED]</span> {{ story.title }}</a></div>
 {% endfor %}
 
 <!-- Normal stories -->
 {% for story in normal_stories %}
-    <div><a class="colorless" href="{{ story.id }}">{{ story.title }}</a></div>
+    <div><a class="colorless" href="{{ story.id }}/">{{ story.title }}</a></div>
 {% endfor %}
 
 <h2>Upcoming</h2>
@@ -25,6 +25,6 @@ permalink: /stories/
     Nothing for now...
 {% else %}
     {% for story in upcoming_stories %}
-        <div><a class="colorless" href="{{ story.id }}"><span class="progress-total">[UPCOMING]</span> {{ story.title }}</a></div>
+        <div><a class="colorless" href="{{ story.id }}/"><span class="progress-total">[UPCOMING]</span> {{ story.title }}</a></div>
     {% endfor %}
 {% endif %}

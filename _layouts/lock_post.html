@@ -1,0 +1,14 @@
+---
+layout: post
+---
+<script type="module">
+    import { updateLockbyLevel } from '/assets/js/locker.js';
+    let story = '{{ page.category }}';
+    let level = parseInt('{{ page.level }}') - 1;
+    updateLockbyLevel("level-region", story, level);
+    updateLockbyLevel("post-cover-img", story, level);
+    updateLockbyLevel("post-title", story, level);
+</script>
+<lock-region id="level-region" class="post">
+    {{ content }}
+</lock-region>

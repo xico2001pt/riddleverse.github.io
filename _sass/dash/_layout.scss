@@ -145,12 +145,10 @@
 }
 
 .post-title {
-    @include themed() {
-       color: t('foreground-color');
-    }
     text-align: left;
     margin-top: 0.4em;
     display: inline-block;
+    color: $color-green;
 }
 
 .post-description {
@@ -382,6 +380,13 @@
     margin-right: 0.5em;
   }
   @include relative-font-size(0.9);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5vh 3%;
+  padding: 10px;
 }
 
 .small-desc {

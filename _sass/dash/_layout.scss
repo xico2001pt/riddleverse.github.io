@@ -215,7 +215,7 @@
     margin-left: 0;
 
     &:before {
-      content: $icon-check;
+      content: $icon-info;
       @include font-awesome-icon;
       margin-right: 0.5em;
     }
@@ -385,7 +385,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  gap: 0 2%;
+  gap: 0 0.8vw;
 }
 
 .grid-item {
@@ -396,12 +396,26 @@
 }
 
 .grid-title {
-  @include relative-font-size(0.8);
+  @include relative-font-size(0.65);
   margin-top: 2vh;
   display: flex;
-  align-items: flex-end;
-  vertical-align: bottom;
+  align-items: center;
   border-radius: 0.3em 0.3em 0 0;
+}
+
+.grid-title-text {
+  text-align: center !important;
+  margin-top: 1.5vh;
+  margin-bottom: 0.3vh;
+}
+
+.challenge-img {
+  display: block;
+  height: 40vh;
+  width: auto !important;
+  margin: 0 auto;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
 }
 
 .grid-img {
@@ -411,6 +425,7 @@
 
 .small-desc {
   @include relative-font-size(0.95);
+  margin-bottom: 1vh;
 }
 
 .locked-region {

@@ -7,10 +7,11 @@
         {% for j in (0..2) %}
             {% assign num = i | times: 3 | plus: j %}
             {% assign post = posts[num] %}
+            <div id="{{ post.id }}-title" 
             {% if post %}
-            <div class="grid-item grid-title">
+            class="grid-item grid-title">
             {% else %}
-            <div>
+            >
             {% endif %}
                 {% if post %}
                     <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
@@ -20,10 +21,11 @@
         {% for j in (0..2) %}
             {% assign num = i | times: 3 | plus: j %}
             {% assign post = posts[num] %}
+            <div id="{{ post.id }}-img" 
             {% if post %}
-            <div class="grid-item grid-img">
+            class="grid-item grid-img">
             {% else %}
-            <div>
+            >
             {% endif %}
                 {% if post and post.cover_img %}
                     <a href="{{ post.url }}"><img src="{{ img_path }}{{ post.cover_img }}"></a>

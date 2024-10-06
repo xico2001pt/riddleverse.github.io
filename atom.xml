@@ -57,13 +57,43 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-05T20:11:38+00:00</updated>
+ <updated>2024-10-06T01:01:01+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Day 2: The Rotating Labyrinth</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-2-the-rotating-labyrinth/"/>
+   <updated>2024-10-06T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-2-the-rotating-labyrinth</id>
+   <content type="html">&lt;p&gt;Knowing that, with each step you make, the maze rotates 90 degrees clockwise, you must determine the sequence of cardinal directions you must follow at each step in order to successfully reach the exit.&lt;/p&gt;
+
+&lt;p&gt;Here is the maze that you drew:&lt;/p&gt;
+
+&lt;div&gt;&lt;img class=&quot;challenge-img&quot; src=&quot;/assets/img/stories/christmas2024/rotating-labyrinth-sketch.webp&quot; width=&quot;20%&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Notice the following assumptions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You already &lt;strong&gt;start inside&lt;/strong&gt; the maze, at the initial tile &lt;strong&gt;(marked with red)&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The image is represented so that the &lt;strong&gt;North&lt;/strong&gt; direction is pointing &lt;strong&gt;upwards&lt;/strong&gt; and the &lt;strong&gt;South&lt;/strong&gt; direction is pointing &lt;strong&gt;downwards&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The sequence must &lt;strong&gt;only contain&lt;/strong&gt; the letters &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;E&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;W&lt;/code&gt;. An example of an answer (obviously wrong) is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SENSW&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ The simplest (yet most time-consuming) approach is to determine the path &lt;b&gt;dynamically&lt;/b&gt;, by rotating the maze each time you make a move. But there is a clever way to solve it...
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ The second approach consists in determining the path &lt;b&gt;statically&lt;/b&gt;, by solving the path while ignoring the rotations. After that, you only need to rotate each step according to its position in the sequence. For example, the second step should be rotated by 90 degrees, the third by 180 degrees, and so on.
+&lt;/details&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Day 1: The Icy Threshold</title>

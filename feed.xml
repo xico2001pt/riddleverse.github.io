@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-05T20:11:38+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 1: The Icy Threshold</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-1-the-icy-threshold/" rel="alternate" type="text/html" title="Day 1: The Icy Threshold" /><published>2024-10-05T00:00:00+00:00</published><updated>2024-10-05T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-icy-threshold</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-1-the-icy-threshold/"><![CDATA[<p>The riddle etched into the gates reads:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-06T01:01:01+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 2: The Rotating Labyrinth</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-2-the-rotating-labyrinth/" rel="alternate" type="text/html" title="Day 2: The Rotating Labyrinth" /><published>2024-10-06T00:00:00+00:00</published><updated>2024-10-06T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-2-the-rotating-labyrinth</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-2-the-rotating-labyrinth/"><![CDATA[<p>Knowing that, with each step you make, the maze rotates 90 degrees clockwise, you must determine the sequence of cardinal directions you must follow at each step in order to successfully reach the exit.</p>
+
+<p>Here is the maze that you drew:</p>
+
+<div><img class="challenge-img" src="/assets/img/stories/christmas2024/rotating-labyrinth-sketch.webp" width="20%" /></div>
+
+<p>Notice the following assumptions:</p>
+<ul>
+  <li>You already <strong>start inside</strong> the maze, at the initial tile <strong>(marked with red)</strong>.</li>
+  <li>The image is represented so that the <strong>North</strong> direction is pointing <strong>upwards</strong> and the <strong>South</strong> direction is pointing <strong>downwards</strong>.</li>
+  <li>The sequence must <strong>only contain</strong> the letters <code class="language-plaintext highlighter-rouge">N</code>, <code class="language-plaintext highlighter-rouge">S</code>, <code class="language-plaintext highlighter-rouge">E</code>, and <code class="language-plaintext highlighter-rouge">W</code>. An example of an answer (obviously wrong) is <code class="language-plaintext highlighter-rouge">SENSW</code>.</li>
+</ul>
+
+<details>
+ <summary>Hint 1</summary>
+ The simplest (yet most time-consuming) approach is to determine the path <b>dynamically</b>, by rotating the maze each time you make a move. But there is a clever way to solve it...
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ The second approach consists in determining the path <b>statically</b>, by solving the path while ignoring the rotations. After that, you only need to rotate each step according to its position in the sequence. For example, the second step should be rotated by 90 degrees, the third by 180 degrees, and so on.
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Knowing that, with each step you make, the maze rotates 90 degrees clockwise, you must determine the sequence of cardinal directions you must follow at each step in order to successfully reach the exit.]]></summary></entry><entry><title type="html">Day 1: The Icy Threshold</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-1-the-icy-threshold/" rel="alternate" type="text/html" title="Day 1: The Icy Threshold" /><published>2024-10-05T00:00:00+00:00</published><updated>2024-10-05T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-icy-threshold</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-1-the-icy-threshold/"><![CDATA[<p>The riddle etched into the gates reads:</p>
 
 <blockquote>
   <p>I am not alive, but I grow; I don’t have lungs, but I need air; I don’t have a mouth, but I can drown. What am I?</p>

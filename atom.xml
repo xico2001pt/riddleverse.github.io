@@ -57,7 +57,7 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-07T00:58:30+00:00</updated>
+ <updated>2024-10-07T14:32:23+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
@@ -66,19 +66,52 @@
 
  
  <entry>
+   <title>Day 3: Perilous Froststeps</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/perilous-froststeps/"/>
+   <updated>2024-10-07T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/perilous-froststeps</id>
+   <content type="html">&lt;p&gt;As you stand before the magical staircase, the steps shimmer with ancient numbers. Some glow brightly, while others appear cracked and unstable, as if someone has tried and failed to ascend before. You notice that the steps marked &lt;strong&gt;2&lt;/strong&gt;, &lt;strong&gt;3&lt;/strong&gt;, &lt;strong&gt;5&lt;/strong&gt;, &lt;strong&gt;7&lt;/strong&gt;, and &lt;strong&gt;11&lt;/strong&gt; appear safe, while others (up to the step number 11) show signs of wear and danger.&lt;/p&gt;
+
+&lt;p&gt;The Guardian’s cryptic words echo in your mind:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Step only on those numbers that follow the rhythm of the prime. Tread carefully, for one wrong step will cast you into the abyss.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Given the fact that the staircase has 30 steps and the steps are inscribed with numbers ranging from 1 to 30, your task is to determine the correct sequence of safe steps based on this pattern.&lt;/p&gt;
+
+&lt;p&gt;Notice that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The sequence values should be separated by commas (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;,&lt;/code&gt;).&lt;/li&gt;
+  &lt;li&gt;The sequence should start with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2,3,5,7,11&lt;/code&gt; and must be ordered from the smallest to the largest value.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt; 
+ You notice that numbers like 2, 3, 5, 7, and 11 seem untouched and stable. There might be something special about these numbers.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt; 
+ Look for numbers that can only be divided by 1 and themselves. These numbers seem to hold the key to safe passage.
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Day 2: The Rotating Labyrinth</title>
-   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-2-the-rotating-labyrinth/"/>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-rotating-labyrinth/"/>
    <updated>2024-10-06T00:00:00+00:00</updated>
-   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-2-the-rotating-labyrinth</id>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-rotating-labyrinth</id>
    <content type="html">&lt;p&gt;Knowing that, with each step you make, the maze rotates 90 degrees clockwise, you must determine the sequence of cardinal directions you must follow at each step in order to successfully reach the exit.&lt;/p&gt;
 
 &lt;p&gt;Here is the maze that you drew:&lt;/p&gt;
 
-&lt;div&gt;&lt;img class=&quot;challenge-img&quot; src=&quot;/assets/img/stories/christmas2024/rotating-labyrinth-sketch.webp&quot; width=&quot;20%&quot; /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;img class=&quot;challenge-img&quot; src=&quot;/assets/img/stories/christmas2024/rotating-labyrinth-sketch.webp&quot; /&gt;&lt;/div&gt;
 
 &lt;p&gt;Notice the following assumptions:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;You already &lt;strong&gt;start inside&lt;/strong&gt; the maze, at the initial tile &lt;strong&gt;(marked with red)&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;You already &lt;strong&gt;start inside&lt;/strong&gt; the maze, at the initial tile &lt;strong&gt;(marked with red)&lt;/strong&gt;, and you target position is &lt;strong&gt;outside&lt;/strong&gt; the maze.&lt;/li&gt;
   &lt;li&gt;The image is represented so that the &lt;strong&gt;North&lt;/strong&gt; direction is pointing &lt;strong&gt;upwards&lt;/strong&gt; and the &lt;strong&gt;South&lt;/strong&gt; direction is pointing &lt;strong&gt;downwards&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;The sequence must &lt;strong&gt;only contain&lt;/strong&gt; the letters &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;E&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;W&lt;/code&gt;. An example of an answer (obviously wrong) is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SENSW&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -97,7 +130,7 @@
  
  <entry>
    <title>Day 1: The Icy Threshold</title>
-   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/day-1-the-icy-threshold/"/>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-icy-threshold/"/>
    <updated>2024-10-05T00:00:00+00:00</updated>
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-icy-threshold</id>
    <content type="html">&lt;p&gt;The riddle etched into the gates reads:&lt;/p&gt;

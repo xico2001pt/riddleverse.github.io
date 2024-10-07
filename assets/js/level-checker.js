@@ -1,12 +1,20 @@
 import { getProgress, setProgress } from './profile.js';
 import { getStoryData } from './stories.js';
 
+function checkAnswer(answer, correct) {
+    if (Array.isArray(correct)) {
+        return correct.some(correctAnswer => answer === correctAnswer.toLowerCase());
+    } else {
+        correct = correct.toLowerCase();
+        return answer == correct;
+    }
+}
+
 export function sendLevelAnswer(story, level) {
     let elem = document.getElementById('submission-text');
     let answer = elem.value.toLowerCase();
     let correct = getStoryData(story).solutions[level-1];
-    correct = correct.toLowerCase();
-    if (answer == correct) {
+    if (checkAnswer(answer, correct)) {
         let playerLevel = getProgress(story);
         if (playerLevel < level) {
             setProgress(story, level);

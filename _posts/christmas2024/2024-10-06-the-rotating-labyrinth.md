@@ -9,7 +9,7 @@ previously: >
     After unlocking the ancient gates of the Frosty Forest, you entered the Guardian’s domain — a land now gripped by an unnatural chill.
 narrative: >
     As you venture further into the Guardian’s keep, the fog thickens, and you find yourself standing before a massive structure made entirely of ice — the Rotating Labyrinth. People speak of this labyrinth as ever-shifting, a living maze that defends the path to the Ember of Warmth. Each step you take causes the walls to twist and the corridors to rotate, disorienting even the bravest of souls. To prepare for the challenge, you begin drawing the maze on a piece of paper, hoping to better navigate its twists and turns.
-    <br>
+    <br><br>
     The entrance looms before you, and you know that to reach the Ember, you must outwit the labyrinth’s magic. But beware, for every move you make will cause the maze to rotate, shifting the very ground beneath your feet. The journey ahead requires both cleverness and precision.
 objective: >
     Your objective is to navigate the Rotating Labyrinth. With each step, the maze rotates 90 degrees clockwise. Solve the maze and plan your steps carefully to reach the exit and continue your quest to reignite the Ember of Warmth.

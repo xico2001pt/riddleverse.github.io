@@ -6,7 +6,8 @@ export const STORIES_DATA = [
         solutions: [
             "Fire",
             "SOONSOWESOESOONE",
-            "2,3,5,7,11,13,17,19,23,29"
+            "2,3,5,7,11,13,17,19,23,29",
+            ["2,2 7,5", "7,5 2,2"],
         ]
     },
 ];

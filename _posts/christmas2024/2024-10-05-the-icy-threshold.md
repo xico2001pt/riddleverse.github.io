@@ -5,7 +5,7 @@ cover_img: stories/christmas2024/the-icy-threshold.webp
 category: christmas2024
 level: 1
 title: "Day 1: The Icy Threshold"
-previosly: >
+previously: >
     After receiving a desperate plea from the Christmas Realm, you set out on a quest to restore the fading Christmas Spirit. The first step in your journey leads you to the edge of the Frosty Forest, a once-beautiful place now engulfed in a bone-chilling cold.
 narrative: >
     As you step into the Frosty Forest, the temperature drops dramatically. The trees, once green and full of life, are now coated in thick layers of frost. A dense fog rolls in, obscuring your path, and the only sound is the crunch of snow beneath your feet. You decide to approach the towering gates of the Guardian’s keep. Carved into the gate is an ancient riddle, the key to unlocking the entrance and beginning your quest.

@@ -1,6 +1,6 @@
 ---
 layout: level
-permalink: stories/christmas2024/act1/day-2-the-rotating-labyrinth/
+permalink: stories/christmas2024/act1/the-rotating-labyrinth/
 cover_img: stories/christmas2024/the-rotating-labyrinth.webp
 category: christmas2024
 level: 2
@@ -16,17 +16,17 @@ objective: >
 outcome: >
     After carefully navigating through the rotating labyrinth, the walls cease their movement, and you find the exit. The cold has deepened, but a distant light calls you onward. The Ember of Warmth is near, yet the Guardian's final trial awaits.
     <br><br>
-    Tomorrow, you will face the Guardian’s test—a challenge meant only for those worthy of restoring the Ember’s flame.
+    Tomorrow, you will face the final test...
 ---
 
 Knowing that, with each step you make, the maze rotates 90 degrees clockwise, you must determine the sequence of cardinal directions you must follow at each step in order to successfully reach the exit.
 
 Here is the maze that you drew:
 
-<div><img class="challenge-img" src="/assets/img/stories/christmas2024/rotating-labyrinth-sketch.webp" width="20%"></div>
+<div><img class="challenge-img" src="/assets/img/stories/christmas2024/rotating-labyrinth-sketch.webp"></div>
 
 Notice the following assumptions:
-- You already **start inside** the maze, at the initial tile **(marked with red)**.
+- You already **start inside** the maze, at the initial tile **(marked with red)**, and you target position is **outside** the maze.
 - The image is represented so that the **North** direction is pointing **upwards** and the **South** direction is pointing **downwards**.
 - The sequence must **only contain** the letters `N`, `S`, `E`, and `W`. An example of an answer (obviously wrong) is `SENSW`.
 

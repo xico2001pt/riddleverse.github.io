@@ -5,13 +5,9 @@ export const STORIES_DATA = [
         total_levels: 24,
         solutions: [
             "Fire",
+            "SOONSOWESOESOONE",
         ]
     },
-    {
-        story: 'christmas2025',
-        title: 'Christmas 2025',
-        total_levels: 24,
-    }
 ];
 
 export function getStoryData(story) {

@@ -3211,7 +3211,7 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 
 .grid-title-text { text-align: center !important; margin-top: 1.5vh; margin-bottom: 0.3vh; }
 
-.challenge-img { display: block; height: 50vh; width: auto !important; margin: 0 auto; margin-top: 3vh; margin-bottom: 4vh; }
+.challenge-img { display: block; height: 60vh; width: auto !important; margin: 0 auto; margin-top: 3vh; margin-bottom: 4vh; }
 
 .grid-img { padding: 1vh; border-radius: 0 0 0.3em 0.3em; }
 

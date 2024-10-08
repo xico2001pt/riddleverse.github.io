@@ -57,7 +57,7 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-08T00:56:34+00:00</updated>
+ <updated>2024-10-08T20:33:15+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
@@ -66,9 +66,46 @@
 
  
  <entry>
+   <title>Day 5: Flames Bound in Ice</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/flames-bound-in-ice/"/>
+   <updated>2024-10-06T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/flames-bound-in-ice</id>
+   <content type="html">&lt;p&gt;You need to gather and combine five magical ingredients using four ancient recipes to create the &lt;strong&gt;Essence of Warmth&lt;/strong&gt;. Each recipe requires specific quantities of ingredients, and you must calculate the total amount needed for each ingredient to produce &lt;strong&gt;exactly one&lt;/strong&gt; Essence of Warmth.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ingredients:
+6- Fire Herb (F)
+6- Sunstone Dust (S)
+4- Ember Flower (E)
+3- Ash Root (A)
+1- Glowing Coal (G)
+
+Recipes:
+- 3 Fire Herb (F) + 2 Sunstone Dust (S) + 1 Ash Root (A) = 2 Warm Essence (W)
+- 4 Ember Flower (E) + 1 Ash Root (A) = 3 Flame Potion (P)
+- 1 Glowing Coal (G) + 2 Flame Potion (P) + 2 Sunstone Dust (S) = 1 Blazing Core (B)
+- 3 Warm Essence (W) + 1 Blazing Core (B) = 1 Essence of Warmth
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Given this information, your task is to determine how many of each base ingredient is required to make the final product.&lt;/p&gt;
+
+&lt;p&gt;Your answer must be in the format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FxSxExAxGx&lt;/code&gt;, where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; represents the amount of the ingredient preceding it. An example of a possible answer (obviously wrong) could be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F12S5E1A2G6&lt;/code&gt;.&lt;/p&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Start by figuring out how many Warm Essences (W) and Blazing Cores (B) are needed for the final Essence of Warmth.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ Break down Recipe 3 carefully — it involves three ingredients, and you’ll need to make sure you produce enough Flame Potions and Sunstone Dust to create the Blazing Core.
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Day 4: Echoes of Light</title>
    <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/echoes-of-light/"/>
-   <updated>2024-10-08T00:00:00+00:00</updated>
+   <updated>2024-10-05T00:00:00+00:00</updated>
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/echoes-of-light</id>
    <content type="html">&lt;p&gt;You are on a grid with solar panels scattered across the field. The top-left corner contains the sunlight source focused through a magnifying glass, and the bottom-right corner is blocked by snow and ice, preventing your exit.&lt;/p&gt;
 
@@ -78,13 +115,13 @@
 
 &lt;div&gt;&lt;img class=&quot;challenge-img&quot; src=&quot;/assets/img/stories/christmas2024/gridfield-with-panels.webp&quot; /&gt;&lt;/div&gt;
 
-&lt;p&gt;You need to:&lt;/p&gt;
+&lt;p&gt;Keep these aspects in mind:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Rotate &lt;strong&gt;exactly two&lt;/strong&gt; solar panels to direct the sunlight from the top-left corner to the bottom-right corner.&lt;/li&gt;
   &lt;li&gt;The beam of light is casted with a &lt;strong&gt;45-degree&lt;/strong&gt; angle, i.e. diagonally (as depicted by the arrow).&lt;/li&gt;
   &lt;li&gt;The solar panels can only be rotated by a &lt;strong&gt;90-degree&lt;/strong&gt; angle. Therefore, their orientation is either &lt;strong&gt;horizontal&lt;/strong&gt; or &lt;strong&gt;vertical&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;The answer must contain the &lt;strong&gt;coordinates&lt;/strong&gt; of the solar panels that need to be &lt;strong&gt;rotated&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;The answer must folow the format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x,y x,y&lt;/code&gt;, where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; indicates the column index and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y&lt;/code&gt; indicates the row index. The top left corner position is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1,1&lt;/code&gt;, while the bottom right position is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8,8&lt;/code&gt;. The order of the coordinades is irrelevant.&lt;/li&gt;
+  &lt;li&gt;The answer must folow the format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x,y x,y&lt;/code&gt;, where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; indicates the column index and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y&lt;/code&gt; indicates the row index. The top left corner position is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1,1&lt;/code&gt;, while the bottom right position is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8,8&lt;/code&gt;. The order of the positions is irrelevant.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;details&gt;
@@ -101,7 +138,7 @@
  <entry>
    <title>Day 3: Perilous Froststeps</title>
    <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/perilous-froststeps/"/>
-   <updated>2024-10-07T00:00:00+00:00</updated>
+   <updated>2024-10-04T00:00:00+00:00</updated>
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/perilous-froststeps</id>
    <content type="html">&lt;p&gt;As you stand before the magical staircase, the steps shimmer with ancient numbers. Some glow brightly, while others appear cracked and unstable, as if someone has tried and failed to ascend before. You notice that the steps marked &lt;strong&gt;2&lt;/strong&gt;, &lt;strong&gt;3&lt;/strong&gt;, &lt;strong&gt;5&lt;/strong&gt;, &lt;strong&gt;7&lt;/strong&gt;, and &lt;strong&gt;11&lt;/strong&gt; appear safe, while others (up to the step number 11) show signs of wear and danger.&lt;/p&gt;
 
@@ -134,7 +171,7 @@
  <entry>
    <title>Day 2: The Rotating Labyrinth</title>
    <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-rotating-labyrinth/"/>
-   <updated>2024-10-06T00:00:00+00:00</updated>
+   <updated>2024-10-03T00:00:00+00:00</updated>
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-rotating-labyrinth</id>
    <content type="html">&lt;p&gt;Knowing that, with each step you make, the maze rotates 90 degrees clockwise, you must determine the sequence of cardinal directions you must follow at each step in order to successfully reach the exit.&lt;/p&gt;
 
@@ -164,7 +201,7 @@
  <entry>
    <title>Day 1: The Icy Threshold</title>
    <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-icy-threshold/"/>
-   <updated>2024-10-05T00:00:00+00:00</updated>
+   <updated>2024-10-02T00:00:00+00:00</updated>
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-icy-threshold</id>
    <content type="html">&lt;p&gt;The riddle etched into the gates reads:&lt;/p&gt;
 
@@ -187,7 +224,7 @@
  <entry>
    <title>Prologue</title>
    <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/prologue/"/>
-   <updated>2024-10-04T00:00:00+00:00</updated>
+   <updated>2024-10-01T00:00:00+00:00</updated>
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/act-1-prologue</id>
    <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 

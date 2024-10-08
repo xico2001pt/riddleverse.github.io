@@ -12,7 +12,7 @@ narrative: >
     <br><br>
     Soon, you reach a staircase carved into the mountain, glowing faintly with ancient magic. This is the <b>Guardian’s Trial</b>, the final test before the Ember can be reached. The Guardian of the Hearth has been imprisoned by the malevolent force, bound by powerful magic. The Guardian’s voice echoes faintly, trapped and unable to help directly. However, the trial itself remains active, enforcing the ancient laws of the keep.
     <br><br>
-    The voice speaks softly but urgently: <i>I cannot aid you directly, for I am bound by the very magic that protects the Ember. The path forward requires wisdom — step only on those numbers that follow the rhythm of the prime. Tread carefully, for one wrong step will cast you into the abyss.</i>
+    The voice speaks softly but urgently: <i>"I cannot aid you directly, for I am bound by the very magic that protects the Ember. The path forward requires wisdom — step only on those numbers that follow the rhythm of the prime. Tread carefully, for one wrong step will cast you into the abyss."</i>
     <br><br>
     The trial isn't the Guardian's will but an ancient safeguard. You must prove your worth by solving the riddle of the stairs to ascend.
 objective: >

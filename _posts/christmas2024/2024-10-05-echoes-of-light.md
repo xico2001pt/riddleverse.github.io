@@ -31,12 +31,12 @@ Here a representation of your location:
 
 <div><img class="challenge-img" src="/assets/img/stories/christmas2024/gridfield-with-panels.webp"></div>
 
-You need to:
+Keep these aspects in mind:
 - Rotate **exactly two** solar panels to direct the sunlight from the top-left corner to the bottom-right corner.
 - The beam of light is casted with a **45-degree** angle, i.e. diagonally (as depicted by the arrow).
 - The solar panels can only be rotated by a **90-degree** angle. Therefore, their orientation is either **horizontal** or **vertical**.
 - The answer must contain the **coordinates** of the solar panels that need to be **rotated**.
-- The answer must folow the format `x,y x,y`, where `x` indicates the column index and `y` indicates the row index. The top left corner position is `1,1`, while the bottom right position is `8,8`. The order of the coordinades is irrelevant.
+- The answer must folow the format `x,y x,y`, where `x` indicates the column index and `y` indicates the row index. The top left corner position is `1,1`, while the bottom right position is `8,8`. The order of the positions is irrelevant.
 
 <details>
  <summary>Hint 1</summary> 

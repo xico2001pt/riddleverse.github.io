@@ -28,11 +28,11 @@ You need to gather and combine five magical ingredients using four ancient recip
 
 ```
 Ingredients:
-6- Fire Herb (F)
-6- Sunstone Dust (S)
-4- Ember Flower (E)
-3- Ash Root (A)
-1- Glowing Coal (G)
+- Fire Herb (F)
+- Sunstone Dust (S)
+- Ember Flower (E)
+- Ash Root (A)
+- Glowing Coal (G)
 
 Recipes:
 - 3 Fire Herb (F) + 2 Sunstone Dust (S) + 1 Ash Root (A) = 2 Warm Essence (W)

@@ -12,16 +12,19 @@ narrative: >
     <br><br>
     In the center of the vault, bound by shimmering chains of ice and fire, lies the <b>Guardian of the Hearth</b>. Their once-glowing form is dimmed, weakened by the malevolent force. The Guardian’s eyes flicker weakly as they speak to you:
     <blockquote>
-    This place... it was meant to imprison the greedy and the reckless. But now, I am its prisoner. The chains that hold me cannot be broken by strength alone. Only by recreating the <b>Essence of Warmth</b> — the potion that fuels the very flame of my power — can these chains be dissolved.
+    <p>This place... it was meant to imprison the greedy and the reckless. But now, I am its prisoner. The chains that hold me cannot be broken by strength alone. Only by recreating the <b>Essence of Warmth</b> — the potion that fuels the very flame of my power — can these chains be dissolved.</p>
     </blockquote>
-    <br><br>
     You look around and find ancient cauldrons and shelves lined with dusty jars of magical ingredients. A long-forgotten recipe book lies open, its pages glowing faintly with the secrets of the Essence of Warmth. It’s clear that those who were imprisoned here once tried to brew their own potions in an attempt to escape, but their efforts failed.
     <br><br>
     The challenge before you is immense. You’ll need to combine rare ingredients in precise quantities to recreate the Essence of Warmth and free the Guardian. But the vault’s traps are still active, and time is running out as the malevolent force grows stronger with each passing moment.
 objective: >
-    Recreate the Essence of Warmth by combining ingredients in the correct quantities to free the Guardian.
+    Recreate the <b>Essence of Warmth</b> by combining ingredients in the correct quantities to free the Guardian.
 outcome: >
-
+    After carefully mixing the ingredients and following the ancient recipes, the <b>Essence of Warmth</b> glows brightly in your hands. As you approach the Guardian, you pour the potion over the magical chains binding them. The chains dissolve in a flash of light and heat, freeing the Guardian from their frozen prison.
+    <br><br>
+    The room grows warmer as the Guardian’s power begins to return. They stand tall, their fiery aura radiating once more. With gratitude in their voice, the Guardian turns to you: <i>"You have restored my strength, but the fight is not over. Together, we will face the force that threatens the Ember of Warmth."</i>
+    <br><br>
+    As the Guardian steps forward, the vault doors creak open, revealing the final path toward the Ember. The time has come to confront the malevolent force, with the Guardian by your side.
 ---
 
 You need to gather and combine five magical ingredients using four ancient recipes to create the **Essence of Warmth**. Each recipe requires specific quantities of ingredients, and you must calculate the total amount needed for each ingredient to produce **exactly one** Essence of Warmth.
@@ -43,7 +46,7 @@ Recipes:
 
 Given this information, your task is to determine how many of each base ingredient is required to make the final product.
 
-Your answer must be in the format `FxSxExAxGx`, where `x` represents the amount of the ingredient preceding it. An example of a possible answer (obviously wrong) could be `F12S5E1A2G6`.
+- Your answer must be in the format `FxSxExAxGx`, where `x` represents the amount of the ingredient preceding it. An example of a possible answer (obviously wrong) could be `F12S5E1A2G6`.
 
 <details>
  <summary>Hint 1</summary>

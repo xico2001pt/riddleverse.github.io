@@ -26,7 +26,7 @@ Here is the maze that you drew:
 <div><img class="challenge-img" src="/assets/img/stories/christmas2024/rotating-labyrinth-sketch.webp"></div>
 
 Notice the following assumptions:
-- You already **start inside** the maze, at the initial tile **(marked with red)**, and you target position is **outside** the maze.
+- You already **start inside** the maze, at the initial tile **(marked with red)**, and your target position is **outside** the maze.
 - The image is represented so that the **North** direction is pointing **upwards** and the **South** direction is pointing **downwards**.
 - The sequence must **only contain** the letters `N`, `S`, `E`, and `W`. An example of an answer (obviously wrong) is `SENSW`.
 

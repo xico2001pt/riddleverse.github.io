@@ -9,7 +9,8 @@ export const STORIES_DATA = [
             "2,3,5,7,11,13,17,19,23,29",
             ["2,2 7,5", "7,5 2,2"],
             "F6S6E4A3G1",
-            "DB,I,FA,IW,IS,LS,SF,SW,FB,B,LO,FS"
+            "DB,I,FA,IW,IS,LS,SF,SW,FB,B,LO,FS",
+            "wheel",
         ]
     },
 ];

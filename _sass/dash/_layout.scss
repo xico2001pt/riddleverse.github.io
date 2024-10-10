@@ -327,6 +327,10 @@ table, th, td {
   border: 1px solid;
 }
 
+th, td {
+  text-align: center;
+}
+
 .profile-input-header {
   @include relative-font-size(1.1);
   padding-right: 1em;

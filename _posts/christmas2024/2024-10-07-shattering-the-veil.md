@@ -6,7 +6,7 @@ category: christmas2024
 level: 6
 title: "Day 6: Shattering the Veil"
 previously: >
-    After successfully crafting the Essence of Warmth, you freed the Guardian of the Hearth from their icy chains. With the Guardian's power restored, the vault doors opened, revealing the final path to the Ember of Warmth. Together, you now prepare to confront the malevolent force standing between you and the Ember.
+    After successfully crafting the <b>Essence of Warmth</b>, you freed the <b>Guardian of the Hearth</b> from their icy chains. With the Guardian's power restored, the vault doors opened, revealing the final path to the Ember of Warmth. Together, you now prepare to confront the malevolent force standing between you and the Ember.
 narrative: >
     After freeing the Guardian from the icy prison, the path forward seemed clear. Together, you left the cold stone walls of the prison behind, following the Ember’s faint glow deep into the heart of the Frostspire. Each step took you closer to the <b>Vault of the Ember</b>, where the malevolent force’s strongest defenses awaited. As you and the Guardian entered the final chamber, the temperature dropped even lower, and the air thickened with the oppressive weight of the force's magic.
     <br><br>

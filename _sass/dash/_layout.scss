@@ -319,6 +319,14 @@
   margin: 0.3em 0.3em 0.3em 0;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
 .profile-input-header {
   @include relative-font-size(1.1);
   padding-right: 1em;

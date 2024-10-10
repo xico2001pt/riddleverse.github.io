@@ -1,6 +1,6 @@
 ---
 layout: level
-permalink: stories/christmas2024/act1/the-beeping-signal/
+permalink: stories/christmas2024/act2/the-beeping-signal/
 cover_img: stories/christmas2024/the-beeping-signal.webp
 category: christmas2024
 level: 7

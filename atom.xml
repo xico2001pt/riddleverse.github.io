@@ -57,13 +57,119 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-10T00:56:20+00:00</updated>
+ <updated>2024-10-10T17:40:56+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Day 6: Shattering the Veil</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/shattering-the-veil/"/>
+   <updated>2024-10-07T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/shattering-the-veil</id>
+   <content type="html">&lt;p&gt;A malevolent force has enveloped the mystical Ember with four elemental barriers. To break through these barriers and save the realm, you must cast &lt;strong&gt;all 12 spells&lt;/strong&gt; in the correct order, adhering strictly to their prerequisites. Your mission is to determine the unique sequence of spells that will dismantle the barriers and defeat the force.&lt;/p&gt;
+
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Category&lt;/th&gt;
+            &lt;th&gt;Abbreviation&lt;/th&gt;
+            &lt;th&gt;Spell&lt;/th&gt;
+            &lt;th&gt;Description&lt;/th&gt;
+            &lt;th&gt;Prerequisite&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&quot;3&quot;&gt;Ice&lt;/td&gt;
+            &lt;td&gt;IW&lt;/td&gt;
+            &lt;td&gt;Ice Wave&lt;/td&gt;
+            &lt;td&gt;Weakens fire defenses and prepares for fire spells.&lt;/td&gt;
+            &lt;td&gt;Must be cast &lt;b&gt;immediately after Flame Aura&lt;/b&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;IS&lt;/td&gt;
+            &lt;td&gt;Ice Shard&lt;/td&gt;
+            &lt;td&gt;A defensive spell that weakens fire barriers and shields against shadow.&lt;/td&gt;
+            &lt;td&gt;Must be cast &lt;b&gt;immediately after Ice Wave&lt;/b&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;FS&lt;/td&gt;
+            &lt;td&gt;Frozen Seal&lt;/td&gt;
+            &lt;td&gt;Freezes fire defenses, but requires light empowerment.&lt;/td&gt;
+            &lt;td&gt;Must be cast &lt;b&gt;immediately after Light Orb&lt;/b&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&quot;3&quot;&gt;Fire&lt;/td&gt;
+            &lt;td&gt;FB&lt;/td&gt;
+            &lt;td&gt;Fire Burst&lt;/td&gt;
+            &lt;td&gt;Melts the ice barrier.&lt;/td&gt;
+            &lt;td&gt;Must be cast &lt;b&gt;immediately after Shadow Ward&lt;/b&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;FA&lt;/td&gt;
+            &lt;td&gt;Flame Aura&lt;/td&gt;
+            &lt;td&gt;Strengthens fire spells and melts shadow barriers.&lt;/td&gt;
+            &lt;td&gt;Must be cast &lt;b&gt;immediately after Inferno&lt;/b&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;I&lt;/td&gt;
+            &lt;td&gt;Inferno&lt;/td&gt;
+            &lt;td&gt;Breaks through both ice and shadow barriers.&lt;/td&gt;
+            &lt;td&gt;Must be cast &lt;b&gt;immediately after Dark Binding&lt;/b&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&quot;3&quot;&gt;Shadow&lt;/td&gt;
+            &lt;td&gt;SW&lt;/td&gt;
+            &lt;td&gt;Shadow Ward&lt;/td&gt;
+            &lt;td&gt;Dispels light barriers and weakens fire defenses.&lt;/td&gt;
+            &lt;td&gt;Must be cast &lt;b&gt;immediately after Sun Flare&lt;/b&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;DB&lt;/td&gt;
+            &lt;td&gt;Dark Binding&lt;/td&gt;
+            &lt;td&gt;Binds light defenses temporarily, allowing other spells to be effective.&lt;/td&gt;
+            &lt;td&gt;None.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;B&lt;/td&gt;
+            &lt;td&gt;Blackout&lt;/td&gt;
+            &lt;td&gt;Completely removes the light barrier but makes fire spells temporarily less effective.&lt;/td&gt;
+            &lt;td&gt;Must be cast &lt;b&gt;immediately after Fire Burst&lt;/b&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=&quot;3&quot;&gt;Light&lt;/td&gt;
+            &lt;td&gt;LS&lt;/td&gt;
+            &lt;td&gt;Light Shield&lt;/td&gt;
+            &lt;td&gt;Protects against shadow attacks and allows fire spells to be cast.&lt;/td&gt;
+            &lt;td&gt;Must be cast &lt;b&gt;immediately after Ice Shard&lt;/b&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;SF&lt;/td&gt;
+            &lt;td&gt;Sun Flare&lt;/td&gt;
+            &lt;td&gt;Weakens shadow defenses.&lt;/td&gt;
+            &lt;td&gt;Must be cast &lt;b&gt;immediately after Light Shield&lt;/b&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;LO&lt;/td&gt;
+            &lt;td&gt;Light Orb&lt;/td&gt;
+            &lt;td&gt;Empowers all light-based spells and weakens shadow barriers.&lt;/td&gt;
+            &lt;td&gt;Must be cast &lt;b&gt;immediately after Blackout&lt;/b&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Note that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;All spells must be used exactly once.&lt;/li&gt;
+  &lt;li&gt;Prerequisites must be strictly followed.&lt;/li&gt;
+  &lt;li&gt;The answer should contain the sequence of the abbreviation of the spells, from the first to the last one, separated by commas (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;,&lt;/code&gt;). For example: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SF,B,DB,...,IS&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Day 5: Flames Bound in Ice</title>
@@ -88,7 +194,9 @@ Recipes:
 
 &lt;p&gt;Given this information, your task is to determine how many of each base ingredient is required to make the final product.&lt;/p&gt;
 
-&lt;p&gt;Your answer must be in the format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FxSxExAxGx&lt;/code&gt;, where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; represents the amount of the ingredient preceding it. An example of a possible answer (obviously wrong) could be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F12S5E1A2G6&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Your answer must be in the format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FxSxExAxGx&lt;/code&gt;, where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; represents the amount of the ingredient preceding it. An example of a possible answer (obviously wrong) could be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F12S5E1A2G6&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;details&gt;
  &lt;summary&gt;Hint 1&lt;/summary&gt;
@@ -181,7 +289,7 @@ Recipes:
 
 &lt;p&gt;Notice the following assumptions:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;You already &lt;strong&gt;start inside&lt;/strong&gt; the maze, at the initial tile &lt;strong&gt;(marked with red)&lt;/strong&gt;, and you target position is &lt;strong&gt;outside&lt;/strong&gt; the maze.&lt;/li&gt;
+  &lt;li&gt;You already &lt;strong&gt;start inside&lt;/strong&gt; the maze, at the initial tile &lt;strong&gt;(marked with red)&lt;/strong&gt;, and your target position is &lt;strong&gt;outside&lt;/strong&gt; the maze.&lt;/li&gt;
   &lt;li&gt;The image is represented so that the &lt;strong&gt;North&lt;/strong&gt; direction is pointing &lt;strong&gt;upwards&lt;/strong&gt; and the &lt;strong&gt;South&lt;/strong&gt; direction is pointing &lt;strong&gt;downwards&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;The sequence must &lt;strong&gt;only contain&lt;/strong&gt; the letters &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;E&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;W&lt;/code&gt;. An example of an answer (obviously wrong) is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SENSW&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;

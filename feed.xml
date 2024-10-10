@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-10T00:56:20+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 5: Flames Bound in Ice</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/flames-bound-in-ice/" rel="alternate" type="text/html" title="Day 5: Flames Bound in Ice" /><published>2024-10-06T00:00:00+00:00</published><updated>2024-10-06T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/flames-bound-in-ice</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act1/flames-bound-in-ice/"><![CDATA[<p>You need to gather and combine five magical ingredients using four ancient recipes to create the <strong>Essence of Warmth</strong>. Each recipe requires specific quantities of ingredients, and you must calculate the total amount needed for each ingredient to produce <strong>exactly one</strong> Essence of Warmth.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-10T17:40:56+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 6: Shattering the Veil</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/shattering-the-veil/" rel="alternate" type="text/html" title="Day 6: Shattering the Veil" /><published>2024-10-07T00:00:00+00:00</published><updated>2024-10-07T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/shattering-the-veil</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act1/shattering-the-veil/"><![CDATA[<p>A malevolent force has enveloped the mystical Ember with four elemental barriers. To break through these barriers and save the realm, you must cast <strong>all 12 spells</strong> in the correct order, adhering strictly to their prerequisites. Your mission is to determine the unique sequence of spells that will dismantle the barriers and defeat the force.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Abbreviation</th>
+            <th>Spell</th>
+            <th>Description</th>
+            <th>Prerequisite</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">Ice</td>
+            <td>IW</td>
+            <td>Ice Wave</td>
+            <td>Weakens fire defenses and prepares for fire spells.</td>
+            <td>Must be cast <b>immediately after Flame Aura</b>.</td>
+        </tr>
+        <tr>
+            <td>IS</td>
+            <td>Ice Shard</td>
+            <td>A defensive spell that weakens fire barriers and shields against shadow.</td>
+            <td>Must be cast <b>immediately after Ice Wave</b>.</td>
+        </tr>
+        <tr>
+            <td>FS</td>
+            <td>Frozen Seal</td>
+            <td>Freezes fire defenses, but requires light empowerment.</td>
+            <td>Must be cast <b>immediately after Light Orb</b>.</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Fire</td>
+            <td>FB</td>
+            <td>Fire Burst</td>
+            <td>Melts the ice barrier.</td>
+            <td>Must be cast <b>immediately after Shadow Ward</b>.</td>
+        </tr>
+        <tr>
+            <td>FA</td>
+            <td>Flame Aura</td>
+            <td>Strengthens fire spells and melts shadow barriers.</td>
+            <td>Must be cast <b>immediately after Inferno</b>.</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>Inferno</td>
+            <td>Breaks through both ice and shadow barriers.</td>
+            <td>Must be cast <b>immediately after Dark Binding</b>.</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Shadow</td>
+            <td>SW</td>
+            <td>Shadow Ward</td>
+            <td>Dispels light barriers and weakens fire defenses.</td>
+            <td>Must be cast <b>immediately after Sun Flare</b>.</td>
+        </tr>
+        <tr>
+            <td>DB</td>
+            <td>Dark Binding</td>
+            <td>Binds light defenses temporarily, allowing other spells to be effective.</td>
+            <td>None.</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Blackout</td>
+            <td>Completely removes the light barrier but makes fire spells temporarily less effective.</td>
+            <td>Must be cast <b>immediately after Fire Burst</b>.</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Light</td>
+            <td>LS</td>
+            <td>Light Shield</td>
+            <td>Protects against shadow attacks and allows fire spells to be cast.</td>
+            <td>Must be cast <b>immediately after Ice Shard</b>.</td>
+        </tr>
+        <tr>
+            <td>SF</td>
+            <td>Sun Flare</td>
+            <td>Weakens shadow defenses.</td>
+            <td>Must be cast <b>immediately after Light Shield</b>.</td>
+        </tr>
+        <tr>
+            <td>LO</td>
+            <td>Light Orb</td>
+            <td>Empowers all light-based spells and weakens shadow barriers.</td>
+            <td>Must be cast <b>immediately after Blackout</b>.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Note that:</p>
+<ul>
+  <li>All spells must be used exactly once.</li>
+  <li>Prerequisites must be strictly followed.</li>
+  <li>The answer should contain the sequence of the abbreviation of the spells, from the first to the last one, separated by commas (<code class="language-plaintext highlighter-rouge">,</code>). For example: <code class="language-plaintext highlighter-rouge">SF,B,DB,...,IS</code>.</li>
+</ul>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[A malevolent force has enveloped the mystical Ember with four elemental barriers. To break through these barriers and save the realm, you must cast all 12 spells in the correct order, adhering strictly to their prerequisites. Your mission is to determine the unique sequence of spells that will dismantle the barriers and defeat the force.]]></summary></entry><entry><title type="html">Day 5: Flames Bound in Ice</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/flames-bound-in-ice/" rel="alternate" type="text/html" title="Day 5: Flames Bound in Ice" /><published>2024-10-06T00:00:00+00:00</published><updated>2024-10-06T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/flames-bound-in-ice</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act1/flames-bound-in-ice/"><![CDATA[<p>You need to gather and combine five magical ingredients using four ancient recipes to create the <strong>Essence of Warmth</strong>. Each recipe requires specific quantities of ingredients, and you must calculate the total amount needed for each ingredient to produce <strong>exactly one</strong> Essence of Warmth.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ingredients:
 - Fire Herb (F)
@@ -16,7 +113,9 @@ Recipes:
 
 <p>Given this information, your task is to determine how many of each base ingredient is required to make the final product.</p>
 
-<p>Your answer must be in the format <code class="language-plaintext highlighter-rouge">FxSxExAxGx</code>, where <code class="language-plaintext highlighter-rouge">x</code> represents the amount of the ingredient preceding it. An example of a possible answer (obviously wrong) could be <code class="language-plaintext highlighter-rouge">F12S5E1A2G6</code>.</p>
+<ul>
+  <li>Your answer must be in the format <code class="language-plaintext highlighter-rouge">FxSxExAxGx</code>, where <code class="language-plaintext highlighter-rouge">x</code> represents the amount of the ingredient preceding it. An example of a possible answer (obviously wrong) could be <code class="language-plaintext highlighter-rouge">F12S5E1A2G6</code>.</li>
+</ul>
 
 <details>
  <summary>Hint 1</summary>
@@ -82,7 +181,7 @@ Recipes:
 
 <p>Notice the following assumptions:</p>
 <ul>
-  <li>You already <strong>start inside</strong> the maze, at the initial tile <strong>(marked with red)</strong>, and you target position is <strong>outside</strong> the maze.</li>
+  <li>You already <strong>start inside</strong> the maze, at the initial tile <strong>(marked with red)</strong>, and your target position is <strong>outside</strong> the maze.</li>
   <li>The image is represented so that the <strong>North</strong> direction is pointing <strong>upwards</strong> and the <strong>South</strong> direction is pointing <strong>downwards</strong>.</li>
   <li>The sequence must <strong>only contain</strong> the letters <code class="language-plaintext highlighter-rouge">N</code>, <code class="language-plaintext highlighter-rouge">S</code>, <code class="language-plaintext highlighter-rouge">E</code>, and <code class="language-plaintext highlighter-rouge">W</code>. An example of an answer (obviously wrong) is <code class="language-plaintext highlighter-rouge">SENSW</code>.</li>
 </ul>

@@ -57,13 +57,52 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-12T00:55:27+00:00</updated>
+ <updated>2024-10-12T12:27:42+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Day 8: Circuit of Trust</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/circuit-of-trust/"/>
+   <updated>2024-10-10T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/circuit-of-trust</id>
+   <content type="html">&lt;p&gt;The Power Core is locked behind a security compartment within the generator, and the only way to access it is by rerouting the electrical current through a series of &lt;strong&gt;logic gates&lt;/strong&gt; to activate a mechanism. Once the correct sequence is established, the mechanism will light up a &lt;strong&gt;lamp&lt;/strong&gt;, signaling that the compartment has been unlocked.&lt;/p&gt;
+
+&lt;p&gt;The circuit board in front of you displays a series of interconnected &lt;strong&gt;AND&lt;/strong&gt;, &lt;strong&gt;OR&lt;/strong&gt;, &lt;strong&gt;XOR&lt;/strong&gt;, and &lt;strong&gt;NOT&lt;/strong&gt; gates, each affecting the flow of electricity. Your goal is to guide the power from the input through the logic gates in such a way that it activates the output lamp.&lt;/p&gt;
+
+&lt;div&gt;&lt;img class=&quot;challenge-img&quot; src=&quot;/assets/img/stories/christmas2024/logic-circuit.png&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Instructions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You must manipulate the switches connected to the input so that the output result activates the lamp.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AND Gates&lt;/strong&gt; require both inputs to be active for the power to pass through.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;OR Gates&lt;/strong&gt; allow power to pass if at least one input is active.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;XOR Gates&lt;/strong&gt; allow power to pass only if one input is active, but not both. If both inputs are active, the power is blocked.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NOT Gates&lt;/strong&gt; invert the signal, meaning an inactive input becomes active and vice versa.&lt;/li&gt;
+  &lt;li&gt;The answer must contain the activation state of the switches from the top to the bottom, where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; indicates &lt;strong&gt;active&lt;/strong&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt; indicates &lt;strong&gt;inactive&lt;/strong&gt;. An example of a possible answer (obviously wrong) could be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;00011&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Note that there is more than one possible answer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Start by focusing on the **end of the circuit** where the lamp is. Work backwards from there to figure out how the power needs to flow to reach the output.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ The last two switches in the sequence are very direct and will help you narrow down the correct path. Pay close attention to those.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 3&lt;/summary&gt;
+ Be careful with the **XOR gates** — they require exactly one input to be active, so ensure you&apos;re sending only one signal through.
+&lt;/details&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Day 7: The Beeping Signal</title>

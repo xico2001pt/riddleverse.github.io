@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-12T00:55:27+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 7: The Beeping Signal</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-beeping-signal/" rel="alternate" type="text/html" title="Day 7: The Beeping Signal" /><published>2024-10-09T00:00:00+00:00</published><updated>2024-10-09T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-beeping-signal</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-beeping-signal/"><![CDATA[<p>Here is an excerpt of the captured audio. Make sure to decode it and write it as the answer.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-12T12:27:42+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 8: Circuit of Trust</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/circuit-of-trust/" rel="alternate" type="text/html" title="Day 8: Circuit of Trust" /><published>2024-10-10T00:00:00+00:00</published><updated>2024-10-10T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/circuit-of-trust</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/circuit-of-trust/"><![CDATA[<p>The Power Core is locked behind a security compartment within the generator, and the only way to access it is by rerouting the electrical current through a series of <strong>logic gates</strong> to activate a mechanism. Once the correct sequence is established, the mechanism will light up a <strong>lamp</strong>, signaling that the compartment has been unlocked.</p>
+
+<p>The circuit board in front of you displays a series of interconnected <strong>AND</strong>, <strong>OR</strong>, <strong>XOR</strong>, and <strong>NOT</strong> gates, each affecting the flow of electricity. Your goal is to guide the power from the input through the logic gates in such a way that it activates the output lamp.</p>
+
+<div><img class="challenge-img" src="/assets/img/stories/christmas2024/logic-circuit.png" /></div>
+
+<p>Instructions:</p>
+<ul>
+  <li>You must manipulate the switches connected to the input so that the output result activates the lamp.</li>
+  <li><strong>AND Gates</strong> require both inputs to be active for the power to pass through.</li>
+  <li><strong>OR Gates</strong> allow power to pass if at least one input is active.</li>
+  <li><strong>XOR Gates</strong> allow power to pass only if one input is active, but not both. If both inputs are active, the power is blocked.</li>
+  <li><strong>NOT Gates</strong> invert the signal, meaning an inactive input becomes active and vice versa.</li>
+  <li>The answer must contain the activation state of the switches from the top to the bottom, where <code class="language-plaintext highlighter-rouge">1</code> indicates <strong>active</strong> and <code class="language-plaintext highlighter-rouge">0</code> indicates <strong>inactive</strong>. An example of a possible answer (obviously wrong) could be <code class="language-plaintext highlighter-rouge">00011</code>.</li>
+  <li>Note that there is more than one possible answer.</li>
+</ul>
+
+<details>
+ <summary>Hint 1</summary>
+ Start by focusing on the **end of the circuit** where the lamp is. Work backwards from there to figure out how the power needs to flow to reach the output.
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ The last two switches in the sequence are very direct and will help you narrow down the correct path. Pay close attention to those.
+</details>
+
+<details>
+ <summary>Hint 3</summary>
+ Be careful with the **XOR gates** — they require exactly one input to be active, so ensure you're sending only one signal through.
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[The Power Core is locked behind a security compartment within the generator, and the only way to access it is by rerouting the electrical current through a series of logic gates to activate a mechanism. Once the correct sequence is established, the mechanism will light up a lamp, signaling that the compartment has been unlocked.]]></summary></entry><entry><title type="html">Day 7: The Beeping Signal</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-beeping-signal/" rel="alternate" type="text/html" title="Day 7: The Beeping Signal" /><published>2024-10-09T00:00:00+00:00</published><updated>2024-10-09T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-beeping-signal</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-beeping-signal/"><![CDATA[<p>Here is an excerpt of the captured audio. Make sure to decode it and write it as the answer.</p>
 
 <audio controls="">
     <source src="/assets/audio/the-beeping-signal.wav" type="audio/wav" />

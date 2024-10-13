@@ -57,7 +57,7 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-13T13:38:43+00:00</updated>
+ <updated>2024-10-13T13:54:28+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
@@ -70,12 +70,13 @@
    <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"/>
    <updated>2024-10-12T00:00:00+00:00</updated>
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown</id>
-   <content type="html">&lt;p&gt;Given the following instructions, determine how much time does it take for electricity to travel from &lt;strong&gt;Node A&lt;/strong&gt; to &lt;strong&gt;Node D&lt;/strong&gt; (Crystal Palace):&lt;/p&gt;
+   <content type="html">&lt;p&gt;Given the following instructions, determine how much time does it take for electricity to travel from &lt;strong&gt;Node A&lt;/strong&gt; (Control Room) to &lt;strong&gt;Node D&lt;/strong&gt; (Crystal Palace):&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Electricity takes &lt;strong&gt;15 minutes&lt;/strong&gt; to travel from &lt;strong&gt;Node A&lt;/strong&gt;, the first node of the chain, to &lt;strong&gt;Node B&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;It takes &lt;strong&gt;5 minutes&lt;/strong&gt; to travel from &lt;strong&gt;Node B&lt;/strong&gt; to &lt;strong&gt;Node C&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;It takes &lt;strong&gt;10 minutes&lt;/strong&gt; to travel from &lt;strong&gt;Node C&lt;/strong&gt; to the last node of the chain, &lt;strong&gt;Node D&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The chain is a &lt;strong&gt;straight line&lt;/strong&gt; with &lt;strong&gt;no branches&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;However, it does &lt;strong&gt;not&lt;/strong&gt; take &lt;strong&gt;30 minutes&lt;/strong&gt; anymore to travel from &lt;strong&gt;Node A&lt;/strong&gt; to &lt;strong&gt;Node D&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 

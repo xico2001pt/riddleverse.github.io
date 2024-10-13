@@ -8,8 +8,8 @@
 <meta property="og:title" content="Day 10: Timed Shutdown" />
 <meta name="author" content="Francisco Cerqueira" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Given the following instructions, determine how much time does it take for electricity to travel from Node A to Node D (Crystal Palace):" />
-<meta property="og:description" content="Given the following instructions, determine how much time does it take for electricity to travel from Node A to Node D (Crystal Palace):" />
+<meta name="description" content="Given the following instructions, determine how much time does it take for electricity to travel from Node A (Control Room) to Node D (Crystal Palace):" />
+<meta property="og:description" content="Given the following instructions, determine how much time does it take for electricity to travel from Node A (Control Room) to Node D (Crystal Palace):" />
 <link rel="canonical" href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/" />
 <meta property="og:url" content="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/" />
 <meta property="og:site_name" content="RiddleVerse" />
@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Day 10: Timed Shutdown" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Francisco Cerqueira"},"dateModified":"2024-10-12T00:00:00+00:00","datePublished":"2024-10-12T00:00:00+00:00","description":"Given the following instructions, determine how much time does it take for electricity to travel from Node A to Node D (Crystal Palace):","headline":"Day 10: Timed Shutdown","mainEntityOfPage":{"@type":"WebPage","@id":"https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"},"url":"https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Francisco Cerqueira"},"dateModified":"2024-10-12T00:00:00+00:00","datePublished":"2024-10-12T00:00:00+00:00","description":"Given the following instructions, determine how much time does it take for electricity to travel from Node A (Control Room) to Node D (Crystal Palace):","headline":"Day 10: Timed Shutdown","mainEntityOfPage":{"@type":"WebPage","@id":"https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"},"url":"https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" type="image/png" href="/assets/favicon.png" />
@@ -89,18 +89,19 @@
     After restoring Jolly’s mobility by retrieving the servo motor from the carousel, you are now ready to begin the plan to infiltrate the Crystal Palace.
 
     <h2>Narrative</h3>
-    With Jolly’s mobility restored, the two of you set out toward the <b>Crystal Palace</b>, where the Crystal of Joy is kept. Jolly explains that the palace’s defenses are strong, but there’s a way to weaken them. <i>“The first step is cutting off the palace’s power grid,”</i> Jolly says, as you move through the corrupted carnival. <i>“Without power, the barriers around the crystal will come down. We’ll have a short window to get inside.”</i> <br><br> The journey leads you to a rusted, hidden <b>control room</b> deep in the carnival, where the remnants of the palace’s power grid are displayed across a flickering console. <i>“The system’s corrupted,”</i> Jolly explains. <i>“We need to cut the power at <b>Node A</b>, but the time it takes for the power to actually shut down at <b>Node D</b> — the palace — doesn’t make sense anymore.”</i> <br><br> Jolly pulls up a map of the power grid, highlighting key nodes. <i>“It should take 30 minutes in total to shut off the defenses, but corruption has altered the flow. We need to figure out the real time, or we’ll miss our window.”</i> <br><br> You step forward, studying the grid and its complex connections. The answer lies in calculating how long the power will take to shut down once the switch is flipped. <br><br> Jolly’s eyes flicker with unease. <i>“This has to be precise. If we get it wrong, the palace’s defenses won’t fall, and we’ll be trapped out here—cut off from the Crystal of Joy with no way in.”</i>
+    With Jolly’s mobility restored, the two of you set out toward the <b>Crystal Palace</b>, where the Crystal of Joy is kept. Jolly explains that the palace’s defenses are strong, but there’s a way to weaken them. <i>“The first step is cutting off the palace’s power grid,”</i> Jolly says, as you move through the corrupted carnival. <i>“Without power, the barriers around the crystal will come down. We’ll have a short window to get inside.”</i> <br><br> The journey leads you to a rusted, hidden <b>control room</b> deep in the carnival, where the remnants of the palace’s power grid are displayed across a flickering console. <i>“The system’s corrupted,”</i> Jolly explains. <i>“We need to cut the power at <b>Node A</b>, but the time it takes for the power to actually shut down at <b>Node D</b> — the palace — doesn’t make sense anymore.”</i> <br><br> Jolly pulls up a map of the power grid, highlighting key nodes. <i>“It should take 30 minutes in total to shut off the defenses, but corruption has altered the flow. We need to figure out the real time, or we’ll miss our window.”</i> <br><br> You step forward, studying the grid and its complex connections. The answer lies in calculating how long the power will take to shut down once the switch is flipped. <br><br> Jolly’s eyes flicker with unease. <i>“This has to be precise. If we get it wrong, the palace’s defenses won’t fall, and we’ll be trapped out here — cut off from the Crystal of Joy with no way in.”</i>
 
     <h2>Objective</h3>
     Calculate the true time it will take for the palace's defenses to power down after cutting the main supply at Node A, using the corrupted power instructions as your guide.
 
     <h2>Challenge</h2>
-    <p>Given the following instructions, determine how much time does it take for electricity to travel from <strong>Node A</strong> to <strong>Node D</strong> (Crystal Palace):</p>
+    <p>Given the following instructions, determine how much time does it take for electricity to travel from <strong>Node A</strong> (Control Room) to <strong>Node D</strong> (Crystal Palace):</p>
 
 <ul>
   <li>Electricity takes <strong>15 minutes</strong> to travel from <strong>Node A</strong>, the first node of the chain, to <strong>Node B</strong>.</li>
   <li>It takes <strong>5 minutes</strong> to travel from <strong>Node B</strong> to <strong>Node C</strong>.</li>
   <li>It takes <strong>10 minutes</strong> to travel from <strong>Node C</strong> to the last node of the chain, <strong>Node D</strong>.</li>
+  <li>The chain is a <strong>straight line</strong> with <strong>no branches</strong>.</li>
   <li>However, it does <strong>not</strong> take <strong>30 minutes</strong> anymore to travel from <strong>Node A</strong> to <strong>Node D</strong>.</li>
 </ul>
 

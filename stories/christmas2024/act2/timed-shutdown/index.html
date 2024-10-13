@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="direction--ltr"lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Day 10: Timed Shutdown | RiddleVerse</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Day 10: Timed Shutdown" />
+<meta name="author" content="Francisco Cerqueira" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Given the following instructions, determine how much time does it take for electricity to travel from Node A to Node D (Crystal Palace):" />
+<meta property="og:description" content="Given the following instructions, determine how much time does it take for electricity to travel from Node A to Node D (Crystal Palace):" />
+<link rel="canonical" href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/" />
+<meta property="og:url" content="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/" />
+<meta property="og:site_name" content="RiddleVerse" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-10-12T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Day 10: Timed Shutdown" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Francisco Cerqueira"},"dateModified":"2024-10-12T00:00:00+00:00","datePublished":"2024-10-12T00:00:00+00:00","description":"Given the following instructions, determine how much time does it take for electricity to travel from Node A to Node D (Crystal Palace):","headline":"Day 10: Timed Shutdown","mainEntityOfPage":{"@type":"WebPage","@id":"https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"},"url":"https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/png" href="/assets/favicon.png" />
+  <link rel="stylesheet" href="/assets/css/magnific-popup.css"><link type="application/atom+xml" rel="alternate" href="https://riddleverse.franciscogc.com/feed.xml" title="RiddleVerse" /><script src="https://code.jquery.com/jquery-3.2.0.min.js"></script> 
+  <script src="/assets/js/jquery.magnific-popup.js"></script>
+  <script src="/assets/js/storage.js" type="module"></script>
+  <script src="/assets/js/stories.js" type="module"></script>
+</head>
+<body><script src="/assets/js/profile.js" type="module"></script>
+<div class="site-header">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/"><b class="command_prompt"></b>RiddleVerse<b class="blinking_cursor">_</b></a>
+    <a id="profile-name" class="profile-name" href="/profile/"></a>
+  </div>
+  <div class="wrapper nav-menu">
+    
+    <a href="/" class="
+    color-foreground color-green-hover"
+    >Home</a>
+    <span class="separator">|</span>
+    
+    <a href="/stories/" class="
+    color-foreground color-red-hover"
+    >Stories</a>
+    <span class="separator">|</span>
+    
+    <a href="/instructions/" class="
+    color-foreground color-orange-hover"
+    >Instructions</a>
+    
+    
+    <hr>
+  </div>
+</div><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+
+
+
+
+
+
+
+<div class="post">
+  <div class="post-header">
+    <h1 id="post-title" class="post-title">Day 10: Timed Shutdown</h1>
+    <button class="back-button" onclick="location.href='/stories/christmas2024/act2/'">Back</button>
+  </div>
+  
+    <img id="post-cover-img" src="/assets/img/stories/christmas2024/timed-shutdown.webp">
+  
+  <script type="module">
+    import { updateLockbyLevel } from '/assets/js/locker.js';
+    let story = 'christmas2024';
+    let level = parseInt('10') - 1;
+    updateLockbyLevel("level-region", story, level);
+    updateLockbyLevel("post-cover-img", story, level);
+    updateLockbyLevel("post-title", story, level);
+</script>
+<lock-region id="level-region" class="post">
+    <script src="/assets/js/level-checker.js" type="module"></script>
+<script type="module">
+    import { updateLevelPage } from '/assets/js/level-checker.js';
+    updateLevelPage('christmas2024', '10');
+</script>
+<lock-region id="level-region" class="post">
+    <h2>Previously</h2>
+    After restoring Jolly’s mobility by retrieving the servo motor from the carousel, you are now ready to begin the plan to infiltrate the Crystal Palace.
+
+    <h2>Narrative</h3>
+    With Jolly’s mobility restored, the two of you set out toward the <b>Crystal Palace</b>, where the Crystal of Joy is kept. Jolly explains that the palace’s defenses are strong, but there’s a way to weaken them. <i>“The first step is cutting off the palace’s power grid,”</i> Jolly says, as you move through the corrupted carnival. <i>“Without power, the barriers around the crystal will come down. We’ll have a short window to get inside.”</i> <br><br> The journey leads you to a rusted, hidden <b>control room</b> deep in the carnival, where the remnants of the palace’s power grid are displayed across a flickering console. <i>“The system’s corrupted,”</i> Jolly explains. <i>“We need to cut the power at <b>Node A</b>, but the time it takes for the power to actually shut down at <b>Node D</b> — the palace — doesn’t make sense anymore.”</i> <br><br> Jolly pulls up a map of the power grid, highlighting key nodes. <i>“It should take 30 minutes in total to shut off the defenses, but corruption has altered the flow. We need to figure out the real time, or we’ll miss our window.”</i> <br><br> You step forward, studying the grid and its complex connections. The answer lies in calculating how long the power will take to shut down once the switch is flipped. <br><br> Jolly’s eyes flicker with unease. <i>“This has to be precise. If we get it wrong, the palace’s defenses won’t fall, and we’ll be trapped out here—cut off from the Crystal of Joy with no way in.”</i>
+
+    <h2>Objective</h3>
+    Calculate the true time it will take for the palace's defenses to power down after cutting the main supply at Node A, using the corrupted power instructions as your guide.
+
+    <h2>Challenge</h2>
+    <p>Given the following instructions, determine how much time does it take for electricity to travel from <strong>Node A</strong> to <strong>Node D</strong> (Crystal Palace):</p>
+
+<ul>
+  <li>Electricity takes <strong>15 minutes</strong> to travel from <strong>Node A</strong>, the first node of the chain, to <strong>Node B</strong>.</li>
+  <li>It takes <strong>5 minutes</strong> to travel from <strong>Node B</strong> to <strong>Node C</strong>.</li>
+  <li>It takes <strong>10 minutes</strong> to travel from <strong>Node C</strong> to the last node of the chain, <strong>Node D</strong>.</li>
+  <li>However, it does <strong>not</strong> take <strong>30 minutes</strong> anymore to travel from <strong>Node A</strong> to <strong>Node D</strong>.</li>
+</ul>
+
+<details>
+ <summary>Hint 1</summary>
+ Be flexible in your thinking and see if you can figure it out.
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ Node B must come after Node A, right? Well, maybe not. That's just the order of letters in the alphabet! 
+</details>
+
+    <div id="submission-field">
+        <h3>Answer</h3>
+        <span>
+            <b class="command_prompt"></b>
+            <input id="submission-text" class="level-input-text" oninput="hideFeedback(true)"></input>
+            <span id="answer-feedback" class="answer-feedback">Wrong answer!</span>
+        </span>
+        <br>
+        <button id="submit-button" class="level-input-button" onclick="sendLevelAnswer('christmas2024', '10')">Submit</button>
+    </div>
+    <div id="outcome-field">
+        <h2>Outcome</h2>
+        After carefully analyzing the power grid and calculating the true time it will take for the palace’s defenses to go down, you finally arrive at the correct answer. The corrupted system may have been tricky, but now you know exactly when the Crystal Palace will be vulnerable. <br><br> Jolly watches closely as you step back from the console, its expression serious. <i>"That’s it,"</i> Jolly says. <i>"We’ve got the time. Now we just need to be ready. Once the power goes down at the palace, we’ll have our window to act."</i> <br><br> You know the hardest part of the infiltration is still ahead, but with the timing locked in, the journey to reclaim the Crystal of Joy has taken one step forward.
+
+    </div>
+</lock-region>
+
+</lock-region>
+
+</div>
+
+<script>
+// Image modal
+var $imgs = [];
+$('img').each(function(idx) {
+  var obj = {
+    src: $(this).attr('src')
+  }
+  $imgs.push(obj);
+  var elem = $(this);
+  $(this).click(function() {
+    $('.modal').magnificPopup('open', idx);
+  });
+});
+
+$('.modal').magnificPopup({
+  items: $imgs,
+  type: 'image',
+  closeOnContentClick: true,
+  mainClass: 'mfp-img-mobile',
+  image: {
+    verticalFit: true
+  }
+  
+});
+</script>
+
+      </div>
+    </main><footer class="site-footer">
+  <div class="wrapper">
+    <hr>
+    <div class="credits">Copyright &copy; 2024 Francisco Cerqueira.</div><script type="text/javascript">
+const theme = localStorage.getItem('theme');
+
+if (theme === "light") {
+    document.documentElement.setAttribute('data-theme', 'light');
+} else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+}
+const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');
+
+function activateDarkTheme() {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.documentElement.classList.add('theme--dark');
+    document.documentElement.classList.remove('theme--light');
+	window.localStorage.setItem('theme', 'dark');
+}
+
+function activateLightTheme() {
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.documentElement.classList.add('theme--light');
+    document.documentElement.classList.remove('theme--dark');
+	window.localStorage.setItem('theme', 'light');
+}
+
+if (theme === "dark") {
+    activateDarkTheme();
+} else if (theme === "light") {
+    activateLightTheme();
+} else if  (userPrefers === "light") {
+    activateDarkTheme();
+} else {
+    activateDarkTheme();
+}
+</script></div>
+  </div>
+</footer>
+
+
+<script>
+      window.FontAwesomeConfig = {
+        searchPseudoElements: true
+      }
+    </script>
+    <script src="/assets/js/locker.js" type="module"></script>
+  </body>
+
+</html>

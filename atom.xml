@@ -57,13 +57,84 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-13T01:00:44+00:00</updated>
+ <updated>2024-10-13T13:38:43+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Day 10: Timed Shutdown</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"/>
+   <updated>2024-10-12T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown</id>
+   <content type="html">&lt;p&gt;Given the following instructions, determine how much time does it take for electricity to travel from &lt;strong&gt;Node A&lt;/strong&gt; to &lt;strong&gt;Node D&lt;/strong&gt; (Crystal Palace):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Electricity takes &lt;strong&gt;15 minutes&lt;/strong&gt; to travel from &lt;strong&gt;Node A&lt;/strong&gt;, the first node of the chain, to &lt;strong&gt;Node B&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;It takes &lt;strong&gt;5 minutes&lt;/strong&gt; to travel from &lt;strong&gt;Node B&lt;/strong&gt; to &lt;strong&gt;Node C&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;It takes &lt;strong&gt;10 minutes&lt;/strong&gt; to travel from &lt;strong&gt;Node C&lt;/strong&gt; to the last node of the chain, &lt;strong&gt;Node D&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;However, it does &lt;strong&gt;not&lt;/strong&gt; take &lt;strong&gt;30 minutes&lt;/strong&gt; anymore to travel from &lt;strong&gt;Node A&lt;/strong&gt; to &lt;strong&gt;Node D&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Be flexible in your thinking and see if you can figure it out.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ Node B must come after Node A, right? Well, maybe not. That&apos;s just the order of letters in the alphabet! 
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Day 9: Unlocking Mobility</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/unlocking-mobility/"/>
+   <updated>2024-10-11T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/unlocking-mobility</id>
+   <content type="html">&lt;p&gt;Find the four-number code that opens the locker using the clues that are written in the paper placed nearby.&lt;/p&gt;
+
+&lt;p&gt;The paper has the following written:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Only use digits from 0 to 5.
+- Each digit can only be used once.
+
+Attempt 1:
+Code: 4150
+Different Position: 2
+Correct Position: 2
+
+Attempt 2:
+Code: 3054
+Different Position: 1
+Correct Position: 2
+
+Attempt 3:
+Code: 0123
+Different Position: 0
+Correct Position: 2
+
+Attempt 4:
+Code: 3514
+Different Position: 2
+Correct Position: 1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Start by working out which digits belong in the code, regardless of order.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ Every digit in the code is in the very top row of digits. Two of the digits in 4150 are even in the right place. 
+&lt;/details&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Day 8: Circuit of Trust</title>
@@ -89,7 +160,7 @@
 
 &lt;details&gt;
  &lt;summary&gt;Hint 1&lt;/summary&gt;
- Start by focusing on the **end of the circuit** where the lamp is. Work backwards from there to figure out how the power needs to flow to reach the output.
+ Start by focusing on the &lt;b&gt;end of the circuit&lt;/b&gt; where the lamp is. Work backwards from there to figure out how the power needs to flow to reach the output.
 &lt;/details&gt;
 
 &lt;details&gt;
@@ -99,7 +170,7 @@
 
 &lt;details&gt;
  &lt;summary&gt;Hint 3&lt;/summary&gt;
- Be careful with the **XOR gates** — they require exactly one input to be active, so ensure you&apos;re sending only one signal through.
+ Be careful with the &lt;b&gt;XOR gates&lt;/b&gt; — they require exactly one input to be active, so ensure you&apos;re sending only one signal through.
 &lt;/details&gt;
 </content>
  </entry>

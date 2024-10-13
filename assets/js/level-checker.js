@@ -26,6 +26,9 @@ export function sendLevelAnswer(story, level) {
 }
 
 export function updateLevelPage(story, level) {
+    if (typeof level === 'string') {
+        level = parseInt(level);
+    }
     let playerLevel = getProgress(story);
     let hasSolved = playerLevel >= level;
     

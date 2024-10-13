@@ -10,7 +10,7 @@ previously: >
 narrative: >
     With the Power Core now securely in place, the faint hum of Jolly’s systems fills the air, but the robot remains stationary, its joints stiff from years of disuse. While Jolly’s eyes glow brighter, it’s clear that full mobility is still beyond reach.
     <br><br>
-    <i>“Thanks for getting me powered up, but I’m still stuck here,”</i> Jolly says, glancing at its motionless legs. <i>“To get moving again, I’ll need a <b>servo motor</b>. Luckily, I know where we can find one—the old carousel over by the heart of the carnival.”<i>
+    <i>“Thanks for getting me powered up, but I’m still stuck here,”</i> Jolly says, glancing at its motionless legs. <i>“To get moving again, I’ll need a <b>servo motor</b>. Luckily, I know where we can find one — the old carousel over by the heart of the carnival.”</i>
     <br><br>
     You remember passing the dilapidated ride earlier. Once a centerpiece of joy, the carousel now stands twisted and broken, its horses frozen in place.
     <br><br>

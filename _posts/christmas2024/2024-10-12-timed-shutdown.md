@@ -16,7 +16,7 @@ narrative: >
     <br><br>
     You step forward, studying the grid and its complex connections. The answer lies in calculating how long the power will take to shut down once the switch is flipped.
     <br><br>
-    Jolly’s eyes flicker with unease. <i>“This has to be precise. If we get it wrong, the palace’s defenses won’t fall, and we’ll be trapped out here—cut off from the Crystal of Joy with no way in.”</i>
+    Jolly’s eyes flicker with unease. <i>“This has to be precise. If we get it wrong, the palace’s defenses won’t fall, and we’ll be trapped out here — cut off from the Crystal of Joy with no way in.”</i>
 objective: >
     Calculate the true time it will take for the palace's defenses to power down after cutting the main supply at Node A, using the corrupted power instructions as your guide.
 outcome: >
@@ -27,11 +27,12 @@ outcome: >
     You know the hardest part of the infiltration is still ahead, but with the timing locked in, the journey to reclaim the Crystal of Joy has taken one step forward.
 ---
 
-Given the following instructions, determine how much time does it take for electricity to travel from **Node A** to **Node D** (Crystal Palace):
+Given the following instructions, determine how much time does it take for electricity to travel from **Node A** (Control Room) to **Node D** (Crystal Palace):
 
 - Electricity takes **15 minutes** to travel from **Node A**, the first node of the chain, to **Node B**.
 - It takes **5 minutes** to travel from **Node B** to **Node C**.
 - It takes **10 minutes** to travel from **Node C** to the last node of the chain, **Node D**.
+- The chain is a **straight line** with **no branches**.
 - However, it does **not** take **30 minutes** anymore to travel from **Node A** to **Node D**.
 
 <details>

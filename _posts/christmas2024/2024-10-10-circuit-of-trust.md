@@ -46,7 +46,7 @@ Instructions:
 
 <details>
  <summary>Hint 1</summary>
- Start by focusing on the **end of the circuit** where the lamp is. Work backwards from there to figure out how the power needs to flow to reach the output.
+ Start by focusing on the <b>end of the circuit</b> where the lamp is. Work backwards from there to figure out how the power needs to flow to reach the output.
 </details>
 
 <details>
@@ -56,5 +56,5 @@ Instructions:
 
 <details>
  <summary>Hint 3</summary>
- Be careful with the **XOR gates** — they require exactly one input to be active, so ensure you're sending only one signal through.
+ Be careful with the <b>XOR gates</b> — they require exactly one input to be active, so ensure you're sending only one signal through.
 </details>

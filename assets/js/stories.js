@@ -12,6 +12,7 @@ export const STORIES_DATA = [
             "DB,I,FA,IW,IS,LS,SF,SW,FB,B,LO,FS",
             "wheel",
             ["00100", "01100", "10100", "11000"],
+            "0154",
         ]
     },
 ];

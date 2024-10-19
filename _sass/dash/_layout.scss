@@ -452,6 +452,10 @@ th, td {
   align-items: center;
 }
 
+.unclickable {
+  pointer-events: none;
+}
+
 .level-input-text {
   width: 30%;
   border: 0px solid $color-foreground;

@@ -27,7 +27,7 @@ outcome: >
     You know the hardest part of the infiltration is still ahead, but with the timing locked in, the journey to reclaim the Crystal of Joy has taken one step forward.
 ---
 
-Given the following instructions, determine how much time does it take for electricity to travel from **Node A** (Control Room) to **Node D** (Crystal Palace):
+Given the following instructions, determine how much time (in minutes) does it take for electricity to travel from **Node A** (Control Room) to **Node D** (Crystal Palace):
 
 - Electricity takes **15 minutes** to travel from **Node A**, the first node of the chain, to **Node B**.
 - It takes **5 minutes** to travel from **Node B** to **Node C**.

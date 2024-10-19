@@ -12,7 +12,7 @@ narrative: >
     <br><br>
     Suddenly, through the faint mist ahead, you hear a faint <b>beeping sound</b> — an electronic rhythm cutting through the oppressive atmosphere. You cautiously follow the sound until you find a small, weathered radio, half-buried under discarded festival decorations. The radio's rhythmic beeping repeats over and over, and you realize it isn’t random noise. The pattern seems familiar — it’s <b>Morse code</b>.
     <br><br>
-    Instinctively, you begin listening more closely. As the beeping continues, you feel a sense of urgency. Decoding this message might be your first real clue in this twisted place, but the meaning behind it is still unclear. If you can decipher the code, it might guide you to someone — or something — that can help.
+    Instinctively, you begin listening more closely. As the beeping continues, you feel a sense of urgency. Decoding this message might be your first real clue in this twisted place, but the meaning behind it is still unclear.
 objective: >
     Your task is to decode the Morse code signal coming from the radio.
 outcome: >

@@ -67,5 +67,5 @@ Correct Position: 1
 
 <details>
  <summary>Hint 2</summary>
- Every digit in the code is in the very top row of digits. Two of the digits in 4150 are even in the right place. 
+ Every digit in the code is in the first attempt. Two of the digits in 4150 are even in the right place. 
 </details>

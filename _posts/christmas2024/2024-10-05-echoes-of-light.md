@@ -34,6 +34,7 @@ Here a representation of your location:
 Keep these aspects in mind:
 - Rotate **exactly two** solar panels to direct the sunlight from the top-left corner to the bottom-right corner.
 - The beam of light is casted with a **45-degree** angle, i.e. diagonally (as depicted by the arrow).
+- The panels **reflect 100%** of the light, which means the incidence angle is the same as the reflection angle.
 - The solar panels can only be rotated by a **90-degree** angle. Therefore, their orientation is either **horizontal** or **vertical**.
 - The answer must contain the **coordinates** of the solar panels that need to be **rotated**.
 - The answer must folow the format `x,y x,y`, where `x` indicates the column index and `y` indicates the row index. The top left corner position is `1,1`, while the bottom right position is `8,8`. The order of the positions is irrelevant.

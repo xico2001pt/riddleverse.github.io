@@ -332,9 +332,14 @@ th, td {
   padding: 1vw;
 }
 
+#info-table {
+  border: 0px solid;
+}
+
 .profile-input-header {
   @include relative-font-size(1.1);
   padding-right: 1em;
+  padding-left: 0;
 }
 
 .profile-input-text {

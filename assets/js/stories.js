@@ -25,6 +25,7 @@ export const STORIES_DATA = [
                 "C,M,Y,MY,YC,MC,CMY",
                 "C,M,Y,YM,YC,MC,CMY"
             ],
+            "JOY",
         ]
     },
 ];

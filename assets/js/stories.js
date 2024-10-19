@@ -15,6 +15,16 @@ export const STORIES_DATA = [
             ["00100", "01100", "10100", "11000"],
             "0154",
             ["20", "twenty"],
+            [
+                "C,M,Y,MY,CY,CM,CMY", 
+                "C,M,Y,YM,CY,CM,CMY", 
+                "C,M,Y,MY,YC,CM,CMY", 
+                "C,M,Y,MY,CY,MC,CMY", 
+                "C,M,Y,YM,YC,CM,CMY", 
+                "C,M,Y,YM,CY,MC,CMY",
+                "C,M,Y,MY,YC,MC,CMY",
+                "C,M,Y,YM,YC,MC,CMY"
+            ],
         ]
     },
 ];

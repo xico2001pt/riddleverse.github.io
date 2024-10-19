@@ -10,10 +10,22 @@ export const STORIES_DATA = [
             ["2,2 7,5", "7,5 2,2"],
             "F6S6E4A3G1",
             "DB,I,FA,IW,IS,LS,SF,SW,FB,B,LO,FS",
+
             "wheel",
             ["00100", "01100", "10100", "11000"],
             "0154",
-            "20",
+            ["20", "twenty"],
+            [
+                "C,M,Y,MY,CY,CM,CMY", 
+                "C,M,Y,YM,CY,CM,CMY", 
+                "C,M,Y,MY,YC,CM,CMY", 
+                "C,M,Y,MY,CY,MC,CMY", 
+                "C,M,Y,YM,YC,CM,CMY", 
+                "C,M,Y,YM,CY,MC,CMY",
+                "C,M,Y,MY,YC,MC,CMY",
+                "C,M,Y,YM,YC,MC,CMY"
+            ],
+            "JOY",
         ]
     },
 ];

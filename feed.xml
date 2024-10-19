@@ -1,4 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-19T00:56:28+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 10: Timed Shutdown</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/" rel="alternate" type="text/html" title="Day 10: Timed Shutdown" /><published>2024-10-12T00:00:00+00:00</published><updated>2024-10-12T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"><![CDATA[<p>Given the following instructions, determine how much time does it take for electricity to travel from <strong>Node A</strong> (Control Room) to <strong>Node D</strong> (Crystal Palace):</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-19T13:16:32+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 12: The Dark Descent</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent/" rel="alternate" type="text/html" title="Day 12: The Dark Descent" /><published>2024-10-14T00:00:00+00:00</published><updated>2024-10-14T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent/"><![CDATA[<p>As you follow Jolly’s commands through the darkness, you realize that the path you’re walking seems to form a pattern. Though you can’t see it, Jolly’s commands guide you step by step in a way that feels deliberate. Your goal is to figure out what word the path reminds you of based on the directions given:</p>
+<ul>
+  <li>Jolly will tell you to move <strong>forward</strong>, <strong>rotate left</strong>, or <strong>rotate right</strong> to navigate the cave.</li>
+  <li>By the time you finish the path, the shape of the journey will <strong>reveal a word</strong>, which is the <strong>answer</strong> to this challenge.</li>
+</ul>
+
+<p>Jolly’s Instructions:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rotate right
+forward 2 steps
+rotate left
+forward 3 steps
+rotate left
+forward 2 steps
+rotate right
+forward 1 step
+rotate right
+forward 4 steps
+rotate right
+forward 1 step
+rotate right
+forward 1 step
+rotate left
+forward 4 steps
+rotate right
+forward 3 steps
+rotate left
+forward 1 step
+rotate left
+forward 5 steps
+rotate left
+forward 6 steps
+rotate right
+forward 3 steps
+rotate right
+forward 5 steps
+rotate right
+forward 2 steps
+rotate left
+forward 1 step
+rotate left
+forward 4 steps
+rotate left
+forward 4 steps
+rotate left
+forward 1 step
+rotate right
+forward 2 steps
+rotate right
+forward 1 step
+rotate right
+forward 1 step
+rotate left
+forward 1 step
+rotate left
+forward 1 step
+rotate right
+forward 1 step
+rotate right
+forward 2 steps
+</code></pre></div></div>
+
+<details>
+ <summary>Hint 1</summary>
+ Draw a path following these instructions and you should see a word...
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[As you follow Jolly’s commands through the darkness, you realize that the path you’re walking seems to form a pattern. Though you can’t see it, Jolly’s commands guide you step by step in a way that feels deliberate. Your goal is to figure out what word the path reminds you of based on the directions given: Jolly will tell you to move forward, rotate left, or rotate right to navigate the cave. By the time you finish the path, the shape of the journey will reveal a word, which is the answer to this challenge.]]></summary></entry><entry><title type="html">Day 11: Laser Grid</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/laser-grid/" rel="alternate" type="text/html" title="Day 11: Laser Grid" /><published>2024-10-13T00:00:00+00:00</published><updated>2024-10-13T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/laser-grid</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/laser-grid/"><![CDATA[<p>Jolly has provided you with three lenses — <strong>Cyan</strong>, <strong>Magenta</strong>, and <strong>Yellow</strong> — each capable of absorbing certain laser colors. Your task is to correctly place the lenses and absorb the right lasers to prevent them from reflecting and triggering the alarm.</p>
+
+<p>The lasers in the room are of the following colors: <strong>Red</strong>, <strong>Green</strong>, <strong>Blue</strong>, <strong>Cyan</strong>, <strong>Magenta</strong>, <strong>Yellow</strong>, and <strong>White</strong>.</p>
+
+<p>Notice that:</p>
+<ul>
+  <li>The <strong>Cyan (C) lens</strong> absorbs <strong>Red light</strong>.</li>
+  <li>The <strong>Magenta (M) lens</strong> absorbs <strong>Green light</strong>.</li>
+  <li>The <strong>Yellow (Y) lens</strong> absorbs <strong>Blue light</strong>.</li>
+  <li>The answer should be a sequence ordered according to the lasers listed above containing the lens that should be used to absorb the respective light separated by commas (<code class="language-plaintext highlighter-rouge">,</code>). An example of a possible answer (obviously wrong) could be <code class="language-plaintext highlighter-rouge">C,CM,M,Y,CMY,MY,CY</code>.</li>
+</ul>
+
+<details>
+ <summary>Hint 1</summary>
+ Start by matching the <b>primary color lasers</b> (Red, Green, and Blue) to their corresponding lenses.
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ The **Cyan**, **Magenta**, and **Yellow** colors are a mix the other **RGB** colors. But which ones? After figuring out, apply the same logic by combining more than one lens.
+</details>
+
+<details>
+ <summary>Hint 3</summary>
+ White light is composed by all the other colors, so it should be straightforward.
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Jolly has provided you with three lenses — Cyan, Magenta, and Yellow — each capable of absorbing certain laser colors. Your task is to correctly place the lenses and absorb the right lasers to prevent them from reflecting and triggering the alarm.]]></summary></entry><entry><title type="html">Day 10: Timed Shutdown</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/" rel="alternate" type="text/html" title="Day 10: Timed Shutdown" /><published>2024-10-12T00:00:00+00:00</published><updated>2024-10-12T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"><![CDATA[<p>Given the following instructions, determine how much time (in minutes) does it take for electricity to travel from <strong>Node A</strong> (Control Room) to <strong>Node D</strong> (Crystal Palace):</p>
 
 <ul>
   <li>Electricity takes <strong>15 minutes</strong> to travel from <strong>Node A</strong>, the first node of the chain, to <strong>Node B</strong>.</li>
@@ -16,7 +106,7 @@
 <details>
  <summary>Hint 2</summary>
  Node B must come after Node A, right? Well, maybe not. That's just the order of letters in the alphabet! 
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Given the following instructions, determine how much time does it take for electricity to travel from Node A (Control Room) to Node D (Crystal Palace):]]></summary></entry><entry><title type="html">Day 9: Unlocking Mobility</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/unlocking-mobility/" rel="alternate" type="text/html" title="Day 9: Unlocking Mobility" /><published>2024-10-11T00:00:00+00:00</published><updated>2024-10-11T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/unlocking-mobility</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/unlocking-mobility/"><![CDATA[<p>Find the four-number code that opens the locker using the clues that are written in the paper placed nearby.</p>
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Given the following instructions, determine how much time (in minutes) does it take for electricity to travel from Node A (Control Room) to Node D (Crystal Palace):]]></summary></entry><entry><title type="html">Day 9: Unlocking Mobility</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/unlocking-mobility/" rel="alternate" type="text/html" title="Day 9: Unlocking Mobility" /><published>2024-10-11T00:00:00+00:00</published><updated>2024-10-11T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/unlocking-mobility</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/unlocking-mobility/"><![CDATA[<p>Find the four-number code that opens the locker using the clues that are written in the paper placed nearby.</p>
 
 <p>The paper has the following written:</p>
 
@@ -51,7 +141,7 @@ Correct Position: 1
 
 <details>
  <summary>Hint 2</summary>
- Every digit in the code is in the very top row of digits. Two of the digits in 4150 are even in the right place. 
+ Every digit in the code is in the first attempt. Two of the digits in 4150 are even in the right place. 
 </details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Find the four-number code that opens the locker using the clues that are written in the paper placed nearby.]]></summary></entry><entry><title type="html">Day 8: Circuit of Trust</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/circuit-of-trust/" rel="alternate" type="text/html" title="Day 8: Circuit of Trust" /><published>2024-10-10T00:00:00+00:00</published><updated>2024-10-10T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/circuit-of-trust</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/circuit-of-trust/"><![CDATA[<p>The Power Core is locked behind a security compartment within the generator, and the only way to access it is by rerouting the electrical current through a series of <strong>logic gates</strong> to activate a mechanism. Once the correct sequence is established, the mechanism will light up a <strong>lamp</strong>, signaling that the compartment has been unlocked.</p>
 
 <p>The circuit board in front of you displays a series of interconnected <strong>AND</strong>, <strong>OR</strong>, <strong>XOR</strong>, and <strong>NOT</strong> gates, each affecting the flow of electricity. Your goal is to guide the power from the input through the logic gates in such a way that it activates the output lamp.</p>
@@ -215,7 +305,7 @@ Recipes:
 - 3 Fire Herb (F) + 2 Sunstone Dust (S) + 1 Ash Root (A) = 2 Warm Essence (W)
 - 4 Ember Flower (E) + 1 Ash Root (A) = 3 Flame Potion (P)
 - 1 Glowing Coal (G) + 2 Flame Potion (P) + 2 Sunstone Dust (S) = 1 Blazing Core (B)
-- 3 Warm Essence (W) + 1 Blazing Core (B) = 1 Essence of Warmth
+- 4 Warm Essence (W) + 1 Blazing Core (B) = 1 Essence of Warmth
 </code></pre></div></div>
 
 <p>Given this information, your task is to determine how many of each base ingredient is required to make the final product.</p>
@@ -244,6 +334,7 @@ Recipes:
 <ul>
   <li>Rotate <strong>exactly two</strong> solar panels to direct the sunlight from the top-left corner to the bottom-right corner.</li>
   <li>The beam of light is casted with a <strong>45-degree</strong> angle, i.e. diagonally (as depicted by the arrow).</li>
+  <li>The panels <strong>reflect 100%</strong> of the light, which means the incidence angle is the same as the reflection angle.</li>
   <li>The solar panels can only be rotated by a <strong>90-degree</strong> angle. Therefore, their orientation is either <strong>horizontal</strong> or <strong>vertical</strong>.</li>
   <li>The answer must contain the <strong>coordinates</strong> of the solar panels that need to be <strong>rotated</strong>.</li>
   <li>The answer must folow the format <code class="language-plaintext highlighter-rouge">x,y x,y</code>, where <code class="language-plaintext highlighter-rouge">x</code> indicates the column index and <code class="language-plaintext highlighter-rouge">y</code> indicates the row index. The top left corner position is <code class="language-plaintext highlighter-rouge">1,1</code>, while the bottom right position is <code class="language-plaintext highlighter-rouge">8,8</code>. The order of the positions is irrelevant.</li>
@@ -256,49 +347,4 @@ Recipes:
 <details>
  <summary>Hint 2</summary>
  Try starting from the end position and backtracking the beam path. There aren't so many options available...
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[You are on a grid with solar panels scattered across the field. The top-left corner contains the sunlight source focused through a magnifying glass, and the bottom-right corner is blocked by snow and ice, preventing your exit.]]></summary></entry><entry><title type="html">Day 3: Perilous Froststeps</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/perilous-froststeps/" rel="alternate" type="text/html" title="Day 3: Perilous Froststeps" /><published>2024-10-04T00:00:00+00:00</published><updated>2024-10-04T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/perilous-froststeps</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act1/perilous-froststeps/"><![CDATA[<p>As you stand before the magical staircase, the steps shimmer with ancient numbers. Some glow brightly, while others appear cracked and unstable, as if someone has tried and failed to ascend before. You notice that the steps marked <strong>2</strong>, <strong>3</strong>, <strong>5</strong>, <strong>7</strong>, and <strong>11</strong> appear safe, while others (up to the step number 11) show signs of wear and danger.</p>
-
-<p>The Guardian’s cryptic words echo in your mind:</p>
-
-<blockquote>
-  <p>Step only on those numbers that follow the rhythm of the prime.</p>
-</blockquote>
-
-<p>Given the fact that the staircase has 30 steps and the steps are inscribed with numbers ranging from 1 to 30, your task is to determine the correct sequence of safe steps based on this pattern.</p>
-
-<p>Notice that:</p>
-<ul>
-  <li>The sequence values should be separated by commas (<code class="language-plaintext highlighter-rouge">,</code>).</li>
-  <li>The sequence should start with <code class="language-plaintext highlighter-rouge">2,3,5,7,11</code> and must be ordered from the smallest to the largest value.</li>
-</ul>
-
-<details>
- <summary>Hint 1</summary> 
- You notice that numbers like 2, 3, 5, 7, and 11 seem untouched and stable. There might be something special about these numbers.
-</details>
-
-<details>
- <summary>Hint 2</summary> 
- Look for numbers that can only be divided by 1 and themselves. These numbers seem to hold the key to safe passage.
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[As you stand before the magical staircase, the steps shimmer with ancient numbers. Some glow brightly, while others appear cracked and unstable, as if someone has tried and failed to ascend before. You notice that the steps marked 2, 3, 5, 7, and 11 appear safe, while others (up to the step number 11) show signs of wear and danger.]]></summary></entry><entry><title type="html">Day 2: The Rotating Labyrinth</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-rotating-labyrinth/" rel="alternate" type="text/html" title="Day 2: The Rotating Labyrinth" /><published>2024-10-03T00:00:00+00:00</published><updated>2024-10-03T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-rotating-labyrinth</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act1/the-rotating-labyrinth/"><![CDATA[<p>Knowing that, with each step you make, the maze rotates 90 degrees clockwise, you must determine the sequence of cardinal directions you must follow at each step in order to successfully reach the exit.</p>
-
-<p>Here is the maze that you drew:</p>
-
-<div><img class="challenge-img" src="/assets/img/stories/christmas2024/rotating-labyrinth-sketch.webp" /></div>
-
-<p>Notice the following assumptions:</p>
-<ul>
-  <li>You already <strong>start inside</strong> the maze, at the initial tile <strong>(marked with red)</strong>, and your target position is <strong>outside</strong> the maze.</li>
-  <li>The image is represented so that the <strong>North</strong> direction is pointing <strong>upwards</strong> and the <strong>South</strong> direction is pointing <strong>downwards</strong>.</li>
-  <li>The sequence must <strong>only contain</strong> the letters <code class="language-plaintext highlighter-rouge">N</code>, <code class="language-plaintext highlighter-rouge">S</code>, <code class="language-plaintext highlighter-rouge">E</code>, and <code class="language-plaintext highlighter-rouge">W</code>. An example of an answer (obviously wrong) is <code class="language-plaintext highlighter-rouge">SENSW</code>.</li>
-</ul>
-
-<details>
- <summary>Hint 1</summary>
- The simplest (yet most time-consuming) approach is to determine the path <b>dynamically</b>, by rotating the maze each time you make a move. But there is a clever way to solve it...
-</details>
-
-<details>
- <summary>Hint 2</summary>
- The second approach consists in determining the path <b>statically</b>, by solving the path while ignoring the rotations. After that, you only need to rotate each step according to its position in the sequence. For example, the second step should be rotated by 90 degrees, the third by 180 degrees, and so on.
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Knowing that, with each step you make, the maze rotates 90 degrees clockwise, you must determine the sequence of cardinal directions you must follow at each step in order to successfully reach the exit.]]></summary></entry></feed>
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[You are on a grid with solar panels scattered across the field. The top-left corner contains the sunlight source focused through a magnifying glass, and the bottom-right corner is blocked by snow and ice, preventing your exit.]]></summary></entry></feed>

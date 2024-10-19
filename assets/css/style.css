@@ -3173,7 +3173,9 @@ table, th, td { border: 1px solid; }
 
 th, td { text-align: center; padding: 1vw; }
 
-.profile-input-header { font-size: 22px; padding-right: 1em; }
+#info-table { border: 0px solid; }
+
+.profile-input-header { font-size: 22px; padding-right: 1em; padding-left: 0; }
 
 .profile-input-text { width: 100%; border: 2px solid #DAE4ED; color: #DAE4ED; padding: 0.5em 0.6em; border-radius: 0.3em; font-size: 18px; }
 

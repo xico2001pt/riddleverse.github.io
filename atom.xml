@@ -57,7 +57,7 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-19T00:56:28+00:00</updated>
+ <updated>2024-10-19T13:16:32+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
@@ -66,11 +66,119 @@
 
  
  <entry>
+   <title>Day 12: The Dark Descent</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent/"/>
+   <updated>2024-10-14T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent</id>
+   <content type="html">&lt;p&gt;As you follow Jolly’s commands through the darkness, you realize that the path you’re walking seems to form a pattern. Though you can’t see it, Jolly’s commands guide you step by step in a way that feels deliberate. Your goal is to figure out what word the path reminds you of based on the directions given:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Jolly will tell you to move &lt;strong&gt;forward&lt;/strong&gt;, &lt;strong&gt;rotate left&lt;/strong&gt;, or &lt;strong&gt;rotate right&lt;/strong&gt; to navigate the cave.&lt;/li&gt;
+  &lt;li&gt;By the time you finish the path, the shape of the journey will &lt;strong&gt;reveal a word&lt;/strong&gt;, which is the &lt;strong&gt;answer&lt;/strong&gt; to this challenge.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Jolly’s Instructions:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rotate right
+forward 2 steps
+rotate left
+forward 3 steps
+rotate left
+forward 2 steps
+rotate right
+forward 1 step
+rotate right
+forward 4 steps
+rotate right
+forward 1 step
+rotate right
+forward 1 step
+rotate left
+forward 4 steps
+rotate right
+forward 3 steps
+rotate left
+forward 1 step
+rotate left
+forward 5 steps
+rotate left
+forward 6 steps
+rotate right
+forward 3 steps
+rotate right
+forward 5 steps
+rotate right
+forward 2 steps
+rotate left
+forward 1 step
+rotate left
+forward 4 steps
+rotate left
+forward 4 steps
+rotate left
+forward 1 step
+rotate right
+forward 2 steps
+rotate right
+forward 1 step
+rotate right
+forward 1 step
+rotate left
+forward 1 step
+rotate left
+forward 1 step
+rotate right
+forward 1 step
+rotate right
+forward 2 steps
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Draw a path following these instructions and you should see a word...
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Day 11: Laser Grid</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/laser-grid/"/>
+   <updated>2024-10-13T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/laser-grid</id>
+   <content type="html">&lt;p&gt;Jolly has provided you with three lenses — &lt;strong&gt;Cyan&lt;/strong&gt;, &lt;strong&gt;Magenta&lt;/strong&gt;, and &lt;strong&gt;Yellow&lt;/strong&gt; — each capable of absorbing certain laser colors. Your task is to correctly place the lenses and absorb the right lasers to prevent them from reflecting and triggering the alarm.&lt;/p&gt;
+
+&lt;p&gt;The lasers in the room are of the following colors: &lt;strong&gt;Red&lt;/strong&gt;, &lt;strong&gt;Green&lt;/strong&gt;, &lt;strong&gt;Blue&lt;/strong&gt;, &lt;strong&gt;Cyan&lt;/strong&gt;, &lt;strong&gt;Magenta&lt;/strong&gt;, &lt;strong&gt;Yellow&lt;/strong&gt;, and &lt;strong&gt;White&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Notice that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The &lt;strong&gt;Cyan (C) lens&lt;/strong&gt; absorbs &lt;strong&gt;Red light&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;Magenta (M) lens&lt;/strong&gt; absorbs &lt;strong&gt;Green light&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;Yellow (Y) lens&lt;/strong&gt; absorbs &lt;strong&gt;Blue light&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The answer should be a sequence ordered according to the lasers listed above containing the lens that should be used to absorb the respective light separated by commas (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;,&lt;/code&gt;). An example of a possible answer (obviously wrong) could be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C,CM,M,Y,CMY,MY,CY&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Start by matching the &lt;b&gt;primary color lasers&lt;/b&gt; (Red, Green, and Blue) to their corresponding lenses.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ The **Cyan**, **Magenta**, and **Yellow** colors are a mix the other **RGB** colors. But which ones? After figuring out, apply the same logic by combining more than one lens.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 3&lt;/summary&gt;
+ White light is composed by all the other colors, so it should be straightforward.
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Day 10: Timed Shutdown</title>
    <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"/>
    <updated>2024-10-12T00:00:00+00:00</updated>
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown</id>
-   <content type="html">&lt;p&gt;Given the following instructions, determine how much time does it take for electricity to travel from &lt;strong&gt;Node A&lt;/strong&gt; (Control Room) to &lt;strong&gt;Node D&lt;/strong&gt; (Crystal Palace):&lt;/p&gt;
+   <content type="html">&lt;p&gt;Given the following instructions, determine how much time (in minutes) does it take for electricity to travel from &lt;strong&gt;Node A&lt;/strong&gt; (Control Room) to &lt;strong&gt;Node D&lt;/strong&gt; (Crystal Palace):&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Electricity takes &lt;strong&gt;15 minutes&lt;/strong&gt; to travel from &lt;strong&gt;Node A&lt;/strong&gt;, the first node of the chain, to &lt;strong&gt;Node B&lt;/strong&gt;.&lt;/li&gt;
@@ -132,7 +240,7 @@ Correct Position: 1
 
 &lt;details&gt;
  &lt;summary&gt;Hint 2&lt;/summary&gt;
- Every digit in the code is in the very top row of digits. Two of the digits in 4150 are even in the right place. 
+ Every digit in the code is in the first attempt. Two of the digits in 4150 are even in the right place. 
 &lt;/details&gt;
 </content>
  </entry>
@@ -342,7 +450,7 @@ Recipes:
 - 3 Fire Herb (F) + 2 Sunstone Dust (S) + 1 Ash Root (A) = 2 Warm Essence (W)
 - 4 Ember Flower (E) + 1 Ash Root (A) = 3 Flame Potion (P)
 - 1 Glowing Coal (G) + 2 Flame Potion (P) + 2 Sunstone Dust (S) = 1 Blazing Core (B)
-- 3 Warm Essence (W) + 1 Blazing Core (B) = 1 Essence of Warmth
+- 4 Warm Essence (W) + 1 Blazing Core (B) = 1 Essence of Warmth
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Given this information, your task is to determine how many of each base ingredient is required to make the final product.&lt;/p&gt;
@@ -380,6 +488,7 @@ Recipes:
 &lt;ul&gt;
   &lt;li&gt;Rotate &lt;strong&gt;exactly two&lt;/strong&gt; solar panels to direct the sunlight from the top-left corner to the bottom-right corner.&lt;/li&gt;
   &lt;li&gt;The beam of light is casted with a &lt;strong&gt;45-degree&lt;/strong&gt; angle, i.e. diagonally (as depicted by the arrow).&lt;/li&gt;
+  &lt;li&gt;The panels &lt;strong&gt;reflect 100%&lt;/strong&gt; of the light, which means the incidence angle is the same as the reflection angle.&lt;/li&gt;
   &lt;li&gt;The solar panels can only be rotated by a &lt;strong&gt;90-degree&lt;/strong&gt; angle. Therefore, their orientation is either &lt;strong&gt;horizontal&lt;/strong&gt; or &lt;strong&gt;vertical&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;The answer must contain the &lt;strong&gt;coordinates&lt;/strong&gt; of the solar panels that need to be &lt;strong&gt;rotated&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;The answer must folow the format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x,y x,y&lt;/code&gt;, where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; indicates the column index and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y&lt;/code&gt; indicates the row index. The top left corner position is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1,1&lt;/code&gt;, while the bottom right position is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8,8&lt;/code&gt;. The order of the positions is irrelevant.&lt;/li&gt;

@@ -26,6 +26,7 @@ export const STORIES_DATA = [
                 "C,M,Y,YM,YC,MC,CMY"
             ],
             "JOY",
+            "123456",
         ]
     },
 ];

@@ -29,13 +29,13 @@ A bunch of figures are arranged in a pattern as shown in the code below:
 
 <div><img class="challenge-img" src="/assets/img/stories/christmas2024/locker-code-incomplete.png"></div>
 
-Can you figure out which symbol is missing?
+Can you figure out which symbol is missing **at the end**?
 
 <div><img class="challenge-img" src="/assets/img/stories/christmas2024/symbol-example.png"></div>
 
 Notice that:
 - You must determine which dashes must be **active** to depict the intended **symbol**, following the **numeration** of the figure above.
-- Your answer must contain the **index** of the dashes that must be active **ordered** from the smallest to the larger one. For example, the answer `136` activates the dashes that represent the number seven.
+- Your answer must contain the **index** of the dashes **ordered** from the smallest to the largest one. For example, the answer `136` activates the dashes that represent the number seven.
 
 <details>
  <summary>Hint 1</summary>

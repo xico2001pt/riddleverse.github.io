@@ -45,7 +45,7 @@ Notice that:
 
 <details>
  <summary>Hint 2</summary>
- The **Cyan**, **Magenta**, and **Yellow** colors are a mix the other **RGB** colors. But which ones? After figuring out, apply the same logic by combining more than one lens.
+ The Cyan, Magenta, and Yellow colors are a mix the other RGB colors. But which ones? After figuring out, apply the same logic by combining more than one lens.
 </details>
 
 <details>

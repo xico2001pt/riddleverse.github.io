@@ -72,6 +72,7 @@
 <script type="module">
     import { updateLockbyLevel } from '/assets/js/locker.js';
     const story = "christmas2024";
+    updateLockbyLevel("post-title", story, 6);
     
         
         updateLockbyLevel("/stories/christmas2024/act2/act-2-prologue-title", story, parseInt('7') - 1);
@@ -100,6 +101,10 @@
         
         updateLockbyLevel("/stories/christmas2024/act2/the-dark-descent-title", story, parseInt('12') - 1);
         updateLockbyLevel("/stories/christmas2024/act2/the-dark-descent-img", story, parseInt('12') - 1);
+    
+        
+        updateLockbyLevel("/stories/christmas2024/act2/the-missing-digit-title", story, parseInt('13') - 1);
+        updateLockbyLevel("/stories/christmas2024/act2/the-missing-digit-img", story, parseInt('13') - 1);
     
 </script>
 
@@ -261,10 +266,12 @@
         
             
             
-            <div id="-title" 
+            <div id="/stories/christmas2024/act2/the-missing-digit-title" 
             
-            >
+            class="grid-item grid-title">
             
+                
+                    <a href="/stories/christmas2024/act2/the-missing-digit/"><h2 class="grid-title-text">Day 13: The Missing Digit</h2></a>
                 
             </div>
         
@@ -291,10 +298,12 @@
         
             
             
-            <div id="-img" 
+            <div id="/stories/christmas2024/act2/the-missing-digit-img" 
             
-            >
+            class="grid-item grid-img">
             
+                
+                    <a href="/stories/christmas2024/act2/the-missing-digit/"><img src="/assets/img/stories/christmas2024/the-missing-digit.webp"></a>
                 
             </div>
         

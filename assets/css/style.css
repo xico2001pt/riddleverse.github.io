@@ -3227,6 +3227,8 @@ th, td { text-align: center; padding: 1vw; }
 
 .locked-region { font-size: 28px; display: flex; align-items: center; }
 
+.unclickable { pointer-events: none; }
+
 .level-input-text { width: 30%; border: 0px solid #DAE4ED; color: #DAE4ED; padding: 0.35em 0.5em; border-radius: 0.3em; font-size: 20px; }
 
 .theme--dark .level-input-text { background-color: #1E2227; }

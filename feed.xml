@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-21T00:58:48+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 12: The Dark Descent</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent/" rel="alternate" type="text/html" title="Day 12: The Dark Descent" /><published>2024-10-14T00:00:00+00:00</published><updated>2024-10-14T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent/"><![CDATA[<p>As you follow Jolly’s commands through the darkness, you realize that the path you’re walking seems to form a pattern. Though you can’t see it, Jolly’s commands guide you step by step in a way that feels deliberate. Your goal is to figure out what word the path reminds you of based on the directions given:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-21T20:29:28+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 13: The Missing Digit</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit/" rel="alternate" type="text/html" title="Day 13: The Missing Digit" /><published>2024-10-15T00:00:00+00:00</published><updated>2024-10-15T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit/"><![CDATA[<p>A bunch of figures are arranged in a pattern as shown in the code below:</p>
+
+<div><img class="challenge-img" src="/assets/img/stories/christmas2024/locker-code-incomplete.png" /></div>
+
+<p>Can you figure out which symbol is missing?</p>
+
+<div><img class="challenge-img" src="/assets/img/stories/christmas2024/symbol-example.png" /></div>
+
+<p>Notice that:</p>
+<ul>
+  <li>You must determine which dashes must be <strong>active</strong> to depict the intended <strong>symbol</strong>, following the <strong>numeration</strong> of the figure above.</li>
+  <li>Your answer must contain the <strong>index</strong> of the dashes that must be active <strong>ordered</strong> from the smallest to the larger one. For example, the answer <code class="language-plaintext highlighter-rouge">136</code> activates the dashes that represent the number seven.</li>
+</ul>
+
+<details>
+ <summary>Hint 1</summary>
+ This sequence of symbols must form a pattern...
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ This symbols look so familiar. Maybe they are flipped?
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[A bunch of figures are arranged in a pattern as shown in the code below:]]></summary></entry><entry><title type="html">Day 12: The Dark Descent</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent/" rel="alternate" type="text/html" title="Day 12: The Dark Descent" /><published>2024-10-14T00:00:00+00:00</published><updated>2024-10-14T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent/"><![CDATA[<p>As you follow Jolly’s commands through the darkness, you realize that the path you’re walking seems to form a pattern. Though you can’t see it, Jolly’s commands guide you step by step in a way that feels deliberate. Your goal is to figure out what word the path reminds you of based on the directions given:</p>
 <ul>
   <li>Jolly will tell you to move <strong>forward</strong>, <strong>rotate left</strong>, or <strong>rotate right</strong> to navigate the cave.</li>
   <li>By the time you finish the path, the shape of the journey will <strong>reveal a word</strong>, which is the <strong>answer</strong> to this challenge.</li>
@@ -322,29 +344,4 @@ Recipes:
 <details>
  <summary>Hint 2</summary>
  Break down Recipe 3 carefully — it involves three ingredients, and you’ll need to make sure you produce enough Flame Potions and Sunstone Dust to create the Blazing Core.
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[You need to gather and combine five magical ingredients using four ancient recipes to create the Essence of Warmth. Each recipe requires specific quantities of ingredients, and you must calculate the total amount needed for each ingredient to produce exactly one Essence of Warmth.]]></summary></entry><entry><title type="html">Day 4: Echoes of Light</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/echoes-of-light/" rel="alternate" type="text/html" title="Day 4: Echoes of Light" /><published>2024-10-05T00:00:00+00:00</published><updated>2024-10-05T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/echoes-of-light</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act1/echoes-of-light/"><![CDATA[<p>You are on a grid with solar panels scattered across the field. The top-left corner contains the sunlight source focused through a magnifying glass, and the bottom-right corner is blocked by snow and ice, preventing your exit.</p>
-
-<p>Due to your weakened state, you can only rotate two solar panels. Your task is to position them so that the sunlight reflects from panel to panel and reaches the snow-covered path at the bottom-right corner, melting the snow and clearing the way.</p>
-
-<p>Here a representation of your location:</p>
-
-<div><img class="challenge-img" src="/assets/img/stories/christmas2024/gridfield-with-panels.webp" /></div>
-
-<p>Keep these aspects in mind:</p>
-<ul>
-  <li>Rotate <strong>exactly two</strong> solar panels to direct the sunlight from the top-left corner to the bottom-right corner.</li>
-  <li>The beam of light is casted with a <strong>45-degree</strong> angle, i.e. diagonally (as depicted by the arrow).</li>
-  <li>The panels <strong>reflect 100%</strong> of the light, which means the incidence angle is the same as the reflection angle.</li>
-  <li>The solar panels can only be rotated by a <strong>90-degree</strong> angle. Therefore, their orientation is either <strong>horizontal</strong> or <strong>vertical</strong>.</li>
-  <li>The answer must contain the <strong>coordinates</strong> of the solar panels that need to be <strong>rotated</strong>.</li>
-  <li>The answer must folow the format <code class="language-plaintext highlighter-rouge">x,y x,y</code>, where <code class="language-plaintext highlighter-rouge">x</code> indicates the column index and <code class="language-plaintext highlighter-rouge">y</code> indicates the row index. The top left corner position is <code class="language-plaintext highlighter-rouge">1,1</code>, while the bottom right position is <code class="language-plaintext highlighter-rouge">8,8</code>. The order of the positions is irrelevant.</li>
-</ul>
-
-<details>
- <summary>Hint 1</summary> 
- The light moves in straight lines and bounces at 90-degree angles from the panels. Consider which panels would redirect the ligth to a valid position.
-</details>
-<details>
- <summary>Hint 2</summary>
- Try starting from the end position and backtracking the beam path. There aren't so many options available...
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[You are on a grid with solar panels scattered across the field. The top-left corner contains the sunlight source focused through a magnifying glass, and the bottom-right corner is blocked by snow and ice, preventing your exit.]]></summary></entry></feed>
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[You need to gather and combine five magical ingredients using four ancient recipes to create the Essence of Warmth. Each recipe requires specific quantities of ingredients, and you must calculate the total amount needed for each ingredient to produce exactly one Essence of Warmth.]]></summary></entry></feed>

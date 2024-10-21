@@ -57,13 +57,44 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-21T00:58:48+00:00</updated>
+ <updated>2024-10-21T20:29:28+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Day 13: The Missing Digit</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit/"/>
+   <updated>2024-10-15T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit</id>
+   <content type="html">&lt;p&gt;A bunch of figures are arranged in a pattern as shown in the code below:&lt;/p&gt;
+
+&lt;div&gt;&lt;img class=&quot;challenge-img&quot; src=&quot;/assets/img/stories/christmas2024/locker-code-incomplete.png&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Can you figure out which symbol is missing?&lt;/p&gt;
+
+&lt;div&gt;&lt;img class=&quot;challenge-img&quot; src=&quot;/assets/img/stories/christmas2024/symbol-example.png&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Notice that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You must determine which dashes must be &lt;strong&gt;active&lt;/strong&gt; to depict the intended &lt;strong&gt;symbol&lt;/strong&gt;, following the &lt;strong&gt;numeration&lt;/strong&gt; of the figure above.&lt;/li&gt;
+  &lt;li&gt;Your answer must contain the &lt;strong&gt;index&lt;/strong&gt; of the dashes that must be active &lt;strong&gt;ordered&lt;/strong&gt; from the smallest to the larger one. For example, the answer &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;136&lt;/code&gt; activates the dashes that represent the number seven.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ This sequence of symbols must form a pattern...
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ This symbols look so familiar. Maybe they are flipped?
+&lt;/details&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Day 12: The Dark Descent</title>

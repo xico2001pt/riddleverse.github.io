@@ -11,6 +11,9 @@ function checkAnswer(answer, correct) {
 }
 
 export function sendLevelAnswer(story, level) {
+    if (typeof level === 'string') {
+        level = parseInt(level);
+    }
     let elem = document.getElementById('submission-text');
     let answer = elem.value.toLowerCase();
     let correct = getStoryData(story).solutions[level-1];

@@ -28,8 +28,8 @@ function lockElement(element) {
         }
     }
     if (element.href) {
-        // Change the image src to a placeholder
         element.href = '';
+        element.classList.add('unclickable');
     } 
 }
 

@@ -57,13 +57,109 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-22T15:29:32+00:00</updated>
+ <updated>2024-10-22T18:07:04+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Day 15: Perfect Timing</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/perfect-timing/"/>
+   <updated>2024-10-18T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/perfect-timing</id>
+   <content type="html">&lt;p&gt;The &lt;strong&gt;Forgotten Dreamscape&lt;/strong&gt; is made up of six islands surrounding the &lt;strong&gt;main island at the center&lt;/strong&gt;. To collect the fragments of the Veil of Wonder, you must travel from your &lt;strong&gt;starting island&lt;/strong&gt;, pass through the main island, and continue to the six surrounding islands. Time flows differently on each island, and the cloud bridges between islands take no time to travel.&lt;/p&gt;
+
+&lt;div&gt;&lt;img class=&quot;challenge-img&quot; src=&quot;/assets/img/stories/christmas2024/forgotten-dreamscape-islands.webp&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Below are the &lt;strong&gt;estimated times&lt;/strong&gt; you will spend on &lt;strong&gt;each island&lt;/strong&gt;, along with the &lt;strong&gt;time dilation factor&lt;/strong&gt; for each island. Your task is to calculate &lt;strong&gt;how long&lt;/strong&gt; it will take to &lt;strong&gt;complete the journey&lt;/strong&gt; and meet the Guardian at the main island.&lt;/p&gt;
+
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Island&lt;/th&gt;
+            &lt;th&gt;Estimated Duration&lt;/th&gt;
+            &lt;th&gt;Time Dilation Factor&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;1&lt;/td&gt;
+            &lt;td&gt;30 minutes&lt;/td&gt;
+            &lt;td&gt;x2 (time moves twice as fast)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;50 minutes&lt;/td&gt;
+            &lt;td&gt;x0.5 (time moves half as fast)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;3&lt;/td&gt;
+            &lt;td&gt;5 minutes&lt;/td&gt;
+            &lt;td&gt;x1 (normal time)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;25 minutes&lt;/td&gt;
+            &lt;td&gt;x3 (time moves three times as fast)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;5&lt;/td&gt;
+            &lt;td&gt;40 minutes&lt;/td&gt;
+            &lt;td&gt;x0.25 (time moves very slowly)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;6&lt;/td&gt;
+            &lt;td&gt;12 minutes&lt;/td&gt;
+            &lt;td&gt;x1.5 (time moves faster than normal)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Main Island&lt;/td&gt;
+            &lt;td&gt;
+                10 minutes to reactivate bridges, &lt;br /&gt;
+                10 minutes for displacement between bridges
+            &lt;/td&gt;
+            &lt;td&gt;No time dilation&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Notice that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You start at &lt;strong&gt;Island 3&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;When reaching the &lt;strong&gt;main island&lt;/strong&gt; to travel to another island, you must account &lt;strong&gt;10 minutes&lt;/strong&gt; for displacement between bridges.&lt;/li&gt;
+  &lt;li&gt;The answer is the total number of &lt;strong&gt;minutes&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Prologue</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/prologue/"/>
+   <updated>2024-10-17T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/act-3-prologue</id>
+   <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You wake with a start, disoriented and aching from the explosion. As your vision clears, you realize you are no longer in the crumbling palace but in a strange, ethereal world. The air here feels different — heavy with mystery and magic. Beside you stands a ghostly figure, the &lt;strong&gt;Guardian of the Veil of Wonder&lt;/strong&gt;, her form shimmering like stardust in the soft light.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“I used the last of my strength to bring you here,”&lt;/em&gt; she says, her voice gentle but fading. &lt;em&gt;“Before the explosion, I anticipated the coming of the evil force. To protect the Veil, I split it into six fragments and scattered them across the islands of the &lt;strong&gt;Forgotten Dreamscape&lt;/strong&gt;. This is where the last hope for restoring Christmas lies.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Guardian gestures toward the horizon, where the islands float in the mist. &lt;em&gt;“The &lt;strong&gt;main island&lt;/strong&gt;, where the Veil must be restored, is at the center of this realm. However, two of the islands have been severed from it, cut off by the malevolent force. To reassemble the Veil of Wonder, you must &lt;strong&gt;visit all six islands&lt;/strong&gt;, reclaim the fragments, and return them to the main island to reignite its power.”&lt;/em&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Her voice softens, growing faint as her form flickers. &lt;em&gt;“I am too weak now to guide you further. You must continue alone. But be careful — this realm is fragile, and the evil force grows stronger with each passing moment.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The journey ahead is daunting, but the path is clear. Six islands, each holding a piece of the &lt;strong&gt;Veil of Wonder&lt;/strong&gt;, must be traversed to restore Christmas magic…&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Day 14: Final Pulse</title>

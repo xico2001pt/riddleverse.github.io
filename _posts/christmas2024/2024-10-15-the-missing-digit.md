@@ -35,7 +35,7 @@ Can you figure out which symbol is missing **at the end**?
 
 Notice that:
 - You must determine which dashes must be **active** to depict the intended **symbol**, following the **numeration** of the figure above.
-- Your answer must contain the **index** of the dashes **ordered** from the smallest to the largest one. For example, the answer `136` activates the dashes that represent the number seven.
+- Your answer must contain the **index** of the active dashes **ordered** from the smallest to the largest one. For example, the answer `136` activates the dashes that represent the number seven.
 
 <details>
  <summary>Hint 1</summary>

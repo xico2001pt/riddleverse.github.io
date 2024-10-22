@@ -266,6 +266,10 @@
   }
 }
 
+i {
+  color: $color-yellow;
+}
+
 .post-link-wrapper {
    margin-bottom: 1.1em;
    & > .post-link {
@@ -332,7 +336,7 @@ th, td {
   padding: 1vw;
 }
 
-#info-table * {
+#info-table, #info-table > tbody, #info-table > tbody > tr > td, #info-table > tbody > tr {
   border: 0px solid !important;
 }
 

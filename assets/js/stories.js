@@ -27,6 +27,7 @@ export const STORIES_DATA = [
             ],
             "JOY",
             "123456",
+            "40,45,5,10",
         ]
     },
 ];

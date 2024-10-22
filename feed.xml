@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-22T00:57:49+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 13: The Missing Digit</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit/" rel="alternate" type="text/html" title="Day 13: The Missing Digit" /><published>2024-10-15T00:00:00+00:00</published><updated>2024-10-15T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit/"><![CDATA[<p>A bunch of figures are arranged in a pattern as shown in the code below:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-22T15:29:32+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 14: Final Pulse</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/final-pulse/" rel="alternate" type="text/html" title="Day 14: Final Pulse" /><published>2024-10-16T00:00:00+00:00</published><updated>2024-10-16T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/final-pulse</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/final-pulse/"><![CDATA[<p>Jolly has the capability to use <strong>electromagnetic pulses (EMPs)</strong> to shatter the <strong>four barriers</strong> surrounding the <strong>Crystal of Joy</strong>. However, each barrier requires a specific amount of power to be disrupted, and Jolly’s battery has a limited capacity.</p>
+
+<p>The <strong>power</strong> needed for each barrier follows <strong>specific rules</strong> based on the strength of the emotional energy each barrier draws:</p>
+<ul>
+  <li>The <strong>sum of the power</strong> required for <strong>all four barriers</strong> equals <strong>100 units</strong> (Jolly’s full battery capacity).</li>
+  <li>The barrier of <strong>Doubt</strong> requires <strong>more 5 units</strong> of power than <strong>Fear</strong>.</li>
+  <li><strong>Despair</strong> demands <strong>twice the amount</strong> of power as <strong>Sorrow</strong>.</li>
+  <li><strong>Fear</strong> and <strong>Sorrow together</strong> use exactly <strong>45 units</strong> of power.</li>
+</ul>
+
+<p>Your answer must be contain the amount of power dedicated to each barrier — <strong>Fear</strong>, <strong>Doubt</strong>, <strong>Sorrow</strong>, and <strong>Despair</strong>, respectively — separated by commas (<code class="language-plaintext highlighter-rouge">,</code>). An example of a possible answer (obviously wrong) could be <code class="language-plaintext highlighter-rouge">25,20,30,25</code>.</p>
+
+<details>
+ <summary>Hint 1</summary>
+ Start by replacing the barriers' names by letters and formalizing the problem as a system of equations.
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ Try to replace the variables of the equation so that you end up with only one variable remaining.
+</details>
+
+<details>
+ <summary>Hint 3</summary>
+ You can also use trial and error. Or use an online equation solver.
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Jolly has the capability to use electromagnetic pulses (EMPs) to shatter the four barriers surrounding the Crystal of Joy. However, each barrier requires a specific amount of power to be disrupted, and Jolly’s battery has a limited capacity.]]></summary></entry><entry><title type="html">Day 13: The Missing Digit</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit/" rel="alternate" type="text/html" title="Day 13: The Missing Digit" /><published>2024-10-15T00:00:00+00:00</published><updated>2024-10-15T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit/"><![CDATA[<p>A bunch of figures are arranged in a pattern as shown in the code below:</p>
 
 <div><img class="challenge-img" src="/assets/img/stories/christmas2024/locker-code-incomplete.png" /></div>
 
@@ -9,7 +34,7 @@
 <p>Notice that:</p>
 <ul>
   <li>You must determine which dashes must be <strong>active</strong> to depict the intended <strong>symbol</strong>, following the <strong>numeration</strong> of the figure above.</li>
-  <li>Your answer must contain the <strong>index</strong> of the dashes <strong>ordered</strong> from the smallest to the largest one. For example, the answer <code class="language-plaintext highlighter-rouge">136</code> activates the dashes that represent the number seven.</li>
+  <li>Your answer must contain the <strong>index</strong> of the active dashes <strong>ordered</strong> from the smallest to the largest one. For example, the answer <code class="language-plaintext highlighter-rouge">136</code> activates the dashes that represent the number seven.</li>
 </ul>
 
 <details>
@@ -314,34 +339,4 @@ Correct Position: 1
   <li>All spells must be used exactly once.</li>
   <li>Prerequisites must be strictly followed.</li>
   <li>The answer should contain the sequence of the abbreviation of the spells, from the first to the last one, separated by commas (<code class="language-plaintext highlighter-rouge">,</code>). For example: <code class="language-plaintext highlighter-rouge">SF,B,DB,...,IS</code>.</li>
-</ul>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[A malevolent force has enveloped the mystical Ember with four elemental barriers. To break through these barriers and save the realm, you must cast all 12 spells in the correct order, adhering strictly to their prerequisites. Your mission is to determine the unique sequence of spells that will dismantle the barriers and defeat the force.]]></summary></entry><entry><title type="html">Day 5: Flames Bound in Ice</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act1/flames-bound-in-ice/" rel="alternate" type="text/html" title="Day 5: Flames Bound in Ice" /><published>2024-10-06T00:00:00+00:00</published><updated>2024-10-06T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act1/flames-bound-in-ice</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act1/flames-bound-in-ice/"><![CDATA[<p>You need to gather and combine five magical ingredients using four ancient recipes to create the <strong>Essence of Warmth</strong>. Each recipe requires specific quantities of ingredients, and you must calculate the total amount needed for each ingredient to produce <strong>exactly one</strong> Essence of Warmth.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ingredients:
-- Fire Herb (F)
-- Sunstone Dust (S)
-- Ember Flower (E)
-- Ash Root (A)
-- Glowing Coal (G)
-
-Recipes:
-- 3 Fire Herb (F) + 2 Sunstone Dust (S) + 1 Ash Root (A) = 2 Warm Essence (W)
-- 4 Ember Flower (E) + 1 Ash Root (A) = 3 Flame Potion (P)
-- 1 Glowing Coal (G) + 2 Flame Potion (P) + 2 Sunstone Dust (S) = 1 Blazing Core (B)
-- 4 Warm Essence (W) + 1 Blazing Core (B) = 1 Essence of Warmth
-</code></pre></div></div>
-
-<p>Given this information, your task is to determine how many of each base ingredient is required to make the final product.</p>
-
-<ul>
-  <li>Your answer must be in the format <code class="language-plaintext highlighter-rouge">FxSxExAxGx</code>, where <code class="language-plaintext highlighter-rouge">x</code> represents the amount of the ingredient preceding it. An example of a possible answer (obviously wrong) could be <code class="language-plaintext highlighter-rouge">F12S5E1A2G6</code>.</li>
-</ul>
-
-<details>
- <summary>Hint 1</summary>
- Start by figuring out how many Warm Essences (W) and Blazing Cores (B) are needed for the final Essence of Warmth.
-</details>
-
-<details>
- <summary>Hint 2</summary>
- Break down Recipe 3 carefully — it involves three ingredients, and you’ll need to make sure you produce enough Flame Potions and Sunstone Dust to create the Blazing Core.
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[You need to gather and combine five magical ingredients using four ancient recipes to create the Essence of Warmth. Each recipe requires specific quantities of ingredients, and you must calculate the total amount needed for each ingredient to produce exactly one Essence of Warmth.]]></summary></entry></feed>
+</ul>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[A malevolent force has enveloped the mystical Ember with four elemental barriers. To break through these barriers and save the realm, you must cast all 12 spells in the correct order, adhering strictly to their prerequisites. Your mission is to determine the unique sequence of spells that will dismantle the barriers and defeat the force.]]></summary></entry></feed>

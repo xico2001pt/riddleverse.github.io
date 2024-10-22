@@ -57,13 +57,47 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-22T00:57:49+00:00</updated>
+ <updated>2024-10-22T15:29:32+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Day 14: Final Pulse</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/final-pulse/"/>
+   <updated>2024-10-16T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/final-pulse</id>
+   <content type="html">&lt;p&gt;Jolly has the capability to use &lt;strong&gt;electromagnetic pulses (EMPs)&lt;/strong&gt; to shatter the &lt;strong&gt;four barriers&lt;/strong&gt; surrounding the &lt;strong&gt;Crystal of Joy&lt;/strong&gt;. However, each barrier requires a specific amount of power to be disrupted, and Jolly’s battery has a limited capacity.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;power&lt;/strong&gt; needed for each barrier follows &lt;strong&gt;specific rules&lt;/strong&gt; based on the strength of the emotional energy each barrier draws:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The &lt;strong&gt;sum of the power&lt;/strong&gt; required for &lt;strong&gt;all four barriers&lt;/strong&gt; equals &lt;strong&gt;100 units&lt;/strong&gt; (Jolly’s full battery capacity).&lt;/li&gt;
+  &lt;li&gt;The barrier of &lt;strong&gt;Doubt&lt;/strong&gt; requires &lt;strong&gt;more 5 units&lt;/strong&gt; of power than &lt;strong&gt;Fear&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Despair&lt;/strong&gt; demands &lt;strong&gt;twice the amount&lt;/strong&gt; of power as &lt;strong&gt;Sorrow&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fear&lt;/strong&gt; and &lt;strong&gt;Sorrow together&lt;/strong&gt; use exactly &lt;strong&gt;45 units&lt;/strong&gt; of power.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Your answer must be contain the amount of power dedicated to each barrier — &lt;strong&gt;Fear&lt;/strong&gt;, &lt;strong&gt;Doubt&lt;/strong&gt;, &lt;strong&gt;Sorrow&lt;/strong&gt;, and &lt;strong&gt;Despair&lt;/strong&gt;, respectively — separated by commas (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;,&lt;/code&gt;). An example of a possible answer (obviously wrong) could be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;25,20,30,25&lt;/code&gt;.&lt;/p&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Start by replacing the barriers&apos; names by letters and formalizing the problem as a system of equations.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ Try to replace the variables of the equation so that you end up with only one variable remaining.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 3&lt;/summary&gt;
+ You can also use trial and error. Or use an online equation solver.
+&lt;/details&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Day 13: The Missing Digit</title>
@@ -81,7 +115,7 @@
 &lt;p&gt;Notice that:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;You must determine which dashes must be &lt;strong&gt;active&lt;/strong&gt; to depict the intended &lt;strong&gt;symbol&lt;/strong&gt;, following the &lt;strong&gt;numeration&lt;/strong&gt; of the figure above.&lt;/li&gt;
-  &lt;li&gt;Your answer must contain the &lt;strong&gt;index&lt;/strong&gt; of the dashes &lt;strong&gt;ordered&lt;/strong&gt; from the smallest to the largest one. For example, the answer &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;136&lt;/code&gt; activates the dashes that represent the number seven.&lt;/li&gt;
+  &lt;li&gt;Your answer must contain the &lt;strong&gt;index&lt;/strong&gt; of the active dashes &lt;strong&gt;ordered&lt;/strong&gt; from the smallest to the largest one. For example, the answer &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;136&lt;/code&gt; activates the dashes that represent the number seven.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;details&gt;

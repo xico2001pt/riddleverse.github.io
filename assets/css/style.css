@@ -3137,6 +3137,8 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 
 .post > blockquote li:before { content: "\f068"; }
 
+i { color: #FCBC28; }
+
 .post-link-wrapper { margin-bottom: 1.1em; }
 
 .post-link-wrapper > .post-link { font-size: 20px; font-size: 25px; display: inline-block; text-align: initial; }
@@ -3173,7 +3175,7 @@ table, th, td { border: 1px solid; }
 
 th, td { text-align: center; padding: 1vw; }
 
-#info-table * { border: 0px solid !important; }
+#info-table, #info-table > tbody, #info-table > tbody > tr > td, #info-table > tbody > tr { border: 0px solid !important; }
 
 .profile-input-header { font-size: 22px; padding-right: 1em; padding-left: 0; }
 

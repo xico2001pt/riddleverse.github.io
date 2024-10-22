@@ -12,16 +12,15 @@ You wake with a start, disoriented and aching from the explosion. As your vision
 
 <br>
 
-*“I used the last of my strength to bring you here,”* she says, her voice gentle but fading. *“Right after the explosion, I teleported you to the **Forgotten Dreamscape**. This is where the **Veil of Wonder** is hidden — the last hope for restoring Christmas. But I am weak now. The explosion drained what little energy I had left. You’ll have to continue without me.”*
+*"I used the last of my strength to bring you here,"* she says, her voice gentle but fading. *"Before the explosion, I anticipated the coming of the evil force. To protect the Veil, I split it into six fragments and scattered them across the islands of the **Forgotten Dreamscape**. This is where the last hope for restoring Christmas lies."*
 
 <br>
 
-You try to ask more, but the Guardian raises her hand, pointing toward the horizon. *“This realm is made up of **six islands**, each tied to fading fragments of wonder and imagination. I’ve hidden myself on the farthest island to protect myself. To reach the main island, where the Veil is kept, you’ll need to travel through all six islands.”*
+The Guardian gestures toward the horizon, where the islands float in the mist. *"The **main island**, where the Veil must be restored, is at the center of this realm. However, two of the islands have been severed from it, cut off by the malevolent force. To reassemble the Veil of Wonder, you must **visit all six islands**, reclaim the fragments, and return them to the main island to reignite its power."*
+<br>
+
+Her voice softens, growing faint as her form flickers. *"I am too weak now to guide you further. You must continue alone. But be careful — this realm is fragile, and the evil force grows stronger with each passing moment."*
 
 <br>
 
-The Guardian’s figure begins to fade, her voice softening. *“Hurry... before the Dreamscape fades completely.”*
-
-<br>
-
-The journey ahead seems daunting, but the path is clear — six islands, each holding a key to reclaiming the **Veil of Wonder** and restoring the last flickers of Christmas magic. There is no turning back now.
+The journey ahead is daunting, but the path is clear. Six islands, each holding a piece of the **Veil of Wonder**, must be traversed to restore Christmas magic...

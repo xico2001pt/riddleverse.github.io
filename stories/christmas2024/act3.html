@@ -1,0 +1,22 @@
+---
+layout: post
+permalink: /stories/christmas2024/act3/
+title: "Act 3: The Veil of Wonder"
+---
+
+{% assign posts = site.categories.christmas2024 | reverse %}
+{% assign posts = posts | slice: 16, 11 %}
+{% assign for_size = posts | size | minus: 1 %}
+
+<script type="module">
+    import { updateLockbyLevel } from '/assets/js/locker.js';
+    const story = "christmas2024";
+    updateLockbyLevel("post-title", story, 14);
+    {% for i in (0..for_size) %}
+        {% assign post = posts[i] %}
+        updateLockbyLevel("{{ post.id }}-title", story, parseInt('{{ post.level }}') - 1);
+        updateLockbyLevel("{{ post.id }}-img", story, parseInt('{{ post.level }}') - 1);
+    {% endfor %}
+</script>
+
+{% include post-grid.html posts=posts %}

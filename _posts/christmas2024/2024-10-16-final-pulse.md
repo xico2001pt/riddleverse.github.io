@@ -36,7 +36,7 @@ outcome: >
     <br><br>
     As Jolly releases the final pulse, a brilliant wave of energy bursts from its body, shattering the remaining darkness around the <b>Crystal of Joy</b>. The corrupted Guardian convulses, then finally, the malevolent force releases its grip. The Crystal glows brighter and brighter until it floods the palace with radiant light. The dark, twisted carnival decorations fade, replaced by the vibrant, joyful atmosphere of a restored Christmas Realm.
     <br><br>
-    But the light is blinding—too intense. A low rumble shakes the ground beneath your feet. Before you can react, a powerful explosion erupts from the Crystal, sending a shockwave through the chamber. The force throws you backward, slamming into the cold, stone floor. Your vision blurs, the sound of the world fading into a high-pitched ring as darkness overtakes you.
+    But the light is blinding — too intense. A low rumble shakes the ground beneath your feet. Before you can react, a powerful explosion erupts from the Crystal, sending a shockwave through the chamber. The force throws you backward, slamming into the cold, stone floor. Your vision blurs, the sound of the world fading into a high-pitched ring as darkness overtakes you.
     <br><br>
     When you awaken, everything has changed. The carnival is gone...
 ---

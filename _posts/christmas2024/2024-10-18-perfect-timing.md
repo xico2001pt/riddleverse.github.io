@@ -1,6 +1,6 @@
 ---
 layout: level
-permalink: stories/christmas2024/act2/perfect-timing/
+permalink: stories/christmas2024/act3/perfect-timing/
 cover_img: stories/christmas2024/perfect-timing.webp
 category: christmas2024
 level: 15
@@ -39,7 +39,7 @@ Below are the **estimated times** you will spend on **each island**, along with 
     <thead>
         <tr>
             <th>Island</th>
-            <th>Estimated Duration</th>
+            <th>Estimated Local Duration</th>
             <th>Time Dilation Factor</th>
         </tr>
     </thead>
@@ -78,14 +78,24 @@ Below are the **estimated times** you will spend on **each island**, along with 
             <td>Main Island</td>
             <td>
                 10 minutes to reactivate bridges, <br>
-                10 minutes for displacement between bridges
+                10 minutes for <b>each</b> displacement between bridges
             </td>
-            <td>No time dilation</td>
+            <td>x1 (normal time)</td>
         </tr>
     </tbody>
 </table>
 
 Notice that:
 - You start at **Island 3**.
-- When reaching the **main island** to travel to another island, you must account **10 minutes** for displacement between bridges.
+- When reaching the **main island** to travel to another island, you must account **10 minutes** for **each** displacement between bridges.
 - The answer is the total number of **minutes**.
+
+<details>
+ <summary>Hint 1</summary>
+ For each island, you need to multiply the time dilation factor for the time spent there.
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ Each time you go to the main island to get to another island, you need to sum 10 minutes to account for internal displacement.
+</details>

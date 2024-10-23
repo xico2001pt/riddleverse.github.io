@@ -30,6 +30,7 @@ export const STORIES_DATA = [
             "40,45,5,10",
 
             "308",
+            "12",
         ]
     },
 ];

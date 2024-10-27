@@ -25,4 +25,4 @@ outcome: >
 
 Here is an excerpt of the captured audio. Make sure to decode it and write it as the answer.
 
-{% include audio-player.html src="the-beeping-signal.wav" type="wav" %}
+{% include audio-player.html src="stories/christmas2024/the-beeping-signal.wav" type="wav" %}

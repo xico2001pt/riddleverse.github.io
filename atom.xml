@@ -57,7 +57,7 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-29T00:58:25+00:00</updated>
+ <updated>2024-10-29T21:21:18+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
@@ -66,10 +66,132 @@
 
  
  <entry>
+   <title>Day 18: Cycle of Shadows</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/cycle-of-shadows/"/>
+   <updated>2024-10-21T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/cycle-of-shadows</id>
+   <content type="html">&lt;p&gt;On the &lt;strong&gt;Isle of Shifting Shadows&lt;/strong&gt;, you encounter the ancient &lt;strong&gt;Dial of Ages&lt;/strong&gt;, an enormous stone circle with numbers engraved around its edge. A central pillar casts a shadow that acts like the hand of a clock, pointing to different numbers based on the rotation of the circle. Currently, the shadow points to &lt;strong&gt;3&lt;/strong&gt; (East).&lt;/p&gt;
+
+&lt;p&gt;To unlock the next fragment of the &lt;strong&gt;Veil of Wonder&lt;/strong&gt;, you need to enter a passcode: &lt;strong&gt;51081&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Each time you submit a digit by aligning the shadow with it, the rapid movement of the sun causes the shadow to shift &lt;strong&gt;30 degrees clockwise&lt;/strong&gt;. Calculate the minimum total degrees of rotation required to align the shadow with the entire passcode sequence in the correct order.&lt;/p&gt;
+
+&lt;p&gt;Submit your answer in degrees.&lt;/p&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Remember, each time you submit a digit, the sun’s position causes the shadow to move 30 degrees clockwise. This will affect the next alignment you need to make.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ To minimize the total rotation, consider rotating the dial in the shortest direction to reach each target number.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 3&lt;/summary&gt;
+ The clock has numbers from 1 to 12. But perhaps there is a way to achieve the number 0...
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Day 17: Lost Memories</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/lost-memories/"/>
+   <updated>2024-10-20T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/lost-memories</id>
+   <content type="html">&lt;p&gt;To reveal the location of the second fragment, you must reassemble the memory image left by the Guardian. The image has been divided into a &lt;strong&gt;4x4 grid&lt;/strong&gt;, with each slice out of order.&lt;/p&gt;
+
+&lt;p&gt;Each slice corresponds to a numbered filename (e.g., 01.png, 02.png, etc.). Arrange the slices in the correct order to restore the complete image of the fragment’s location.&lt;/p&gt;
+
+&lt;p&gt;You can find the tiles &lt;a href=&quot;/assets/file/stories/christmas2024/fragments.zip&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Notice that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The order of tiles corresponds to positions from the &lt;strong&gt;top-left&lt;/strong&gt; corner to the &lt;strong&gt;bottom-right&lt;/strong&gt; corner.&lt;/li&gt;
+  &lt;li&gt;Place them &lt;strong&gt;from left to right&lt;/strong&gt; in each row, moving &lt;strong&gt;top to bottom&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Your final answer should be the sequence of filenames from &lt;strong&gt;1&lt;/strong&gt; to &lt;strong&gt;16&lt;/strong&gt; in their correct positions.&lt;/li&gt;
+  &lt;li&gt;The answer should be an ordered sequence of the images’ names separated by commas (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;,&lt;/code&gt;). Exclude any leading zeros from the answer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, the answer &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16&lt;/code&gt; will correspond to the tiles ordered in the following way:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;15&lt;/td&gt;
+      &lt;td&gt;16&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Use an auxiliar software to rearrange the images. Do not forget to keep their name associated.
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Day 16: Restoring the Bridges</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/restoring-the-bridges/"/>
+   <updated>2024-10-19T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/restoring-the-bridges</id>
+   <content type="html">&lt;p&gt;Four wheels are spinning at different speeds. You observe the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The first wheel completes one full rotation every &lt;strong&gt;1 minute&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The second wheel completes one full rotation every &lt;strong&gt;2 minutes&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The third wheel completes one full rotation every &lt;strong&gt;3 minutes&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The fourth wheel completes one full rotation every &lt;strong&gt;4 minutes&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Assuming they all start at the same position, how many &lt;strong&gt;minutes&lt;/strong&gt; will it take for &lt;strong&gt;all four wheels&lt;/strong&gt; to align at the starting position again?&lt;/p&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ If you wait 4 minutes, every wheel except the third will be at the start position. How many times do you have to repeat this?
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ You need to find the Least Common Multiple of these four numbers.
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Day 15: Perfect Timing</title>
-   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/perfect-timing/"/>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/perfect-timing/"/>
    <updated>2024-10-18T00:00:00+00:00</updated>
-   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/perfect-timing</id>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/perfect-timing</id>
    <content type="html">&lt;p&gt;The &lt;strong&gt;Forgotten Dreamscape&lt;/strong&gt; is made up of six islands surrounding the &lt;strong&gt;main island at the center&lt;/strong&gt;. To collect the fragments of the Veil of Wonder, you must travel from your &lt;strong&gt;starting island&lt;/strong&gt;, pass through the main island, and continue to the six surrounding islands. Time flows differently on each island, and the cloud bridges between islands take no time to travel.&lt;/p&gt;
 
 &lt;div&gt;&lt;img class=&quot;challenge-img&quot; src=&quot;/assets/img/stories/christmas2024/forgotten-dreamscape-islands.webp&quot; /&gt;&lt;/div&gt;
@@ -80,7 +202,7 @@
     &lt;thead&gt;
         &lt;tr&gt;
             &lt;th&gt;Island&lt;/th&gt;
-            &lt;th&gt;Estimated Duration&lt;/th&gt;
+            &lt;th&gt;Estimated Local Duration&lt;/th&gt;
             &lt;th&gt;Time Dilation Factor&lt;/th&gt;
         &lt;/tr&gt;
     &lt;/thead&gt;
@@ -119,9 +241,9 @@
             &lt;td&gt;Main Island&lt;/td&gt;
             &lt;td&gt;
                 10 minutes to reactivate bridges, &lt;br /&gt;
-                10 minutes for displacement between bridges
+                10 minutes for &lt;b&gt;each&lt;/b&gt; displacement between bridges
             &lt;/td&gt;
-            &lt;td&gt;No time dilation&lt;/td&gt;
+            &lt;td&gt;x1 (normal time)&lt;/td&gt;
         &lt;/tr&gt;
     &lt;/tbody&gt;
 &lt;/table&gt;
@@ -129,9 +251,19 @@
 &lt;p&gt;Notice that:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;You start at &lt;strong&gt;Island 3&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;When reaching the &lt;strong&gt;main island&lt;/strong&gt; to travel to another island, you must account &lt;strong&gt;10 minutes&lt;/strong&gt; for displacement between bridges.&lt;/li&gt;
+  &lt;li&gt;When reaching the &lt;strong&gt;main island&lt;/strong&gt; to travel to another island, you must account &lt;strong&gt;10 minutes&lt;/strong&gt; for &lt;strong&gt;each&lt;/strong&gt; displacement between bridges.&lt;/li&gt;
   &lt;li&gt;The answer is the total number of &lt;strong&gt;minutes&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ For each island, you need to multiply the time dilation factor for the time spent there.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ Each time you go to the main island to get to another island, you need to sum 10 minutes to account for internal displacement.
+&lt;/details&gt;
 </content>
  </entry>
  
@@ -142,7 +274,7 @@
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/act-3-prologue</id>
    <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;You wake with a start, disoriented and aching from the explosion. As your vision clears, you realize you are no longer in the crumbling palace but in a strange, ethereal world. The air here feels different — heavy with mystery and magic. Beside you stands a ghostly figure, the &lt;strong&gt;Guardian of the Veil of Wonder&lt;/strong&gt;, her form shimmering like stardust in the soft light.&lt;/p&gt;
+&lt;p&gt;You wake up from the explosion. As your vision clears, you realize you are no longer in the crumbling palace but in a strange, ethereal world. The air here feels different — heavy with mystery and magic. Beside you stands a ghostly figure, the &lt;strong&gt;Guardian of the Veil of Wonder&lt;/strong&gt;, her form shimmering like stardust in the soft light.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -453,8 +585,8 @@ Correct Position: 1
    <content type="html">&lt;p&gt;Here is an excerpt of the captured audio. Make sure to decode it and write it as the answer.&lt;/p&gt;
 
 &lt;audio controls=&quot;&quot;&gt;
-    &lt;source src=&quot;/assets/audio/the-beeping-signal.wav&quot; type=&quot;audio/wav&quot; /&gt;
-    Your browser does not support the audio player. Click &lt;a href=&quot;/assets/audio/the-beeping-signal.wav&quot;&gt;here&lt;/a&gt; to download it.
+    &lt;source src=&quot;/assets/audio/stories/christmas2024/the-beeping-signal.wav&quot; type=&quot;audio/wav&quot; /&gt;
+    Your browser does not support the audio player. Click &lt;a href=&quot;/assets/audio/stories/christmas2024/the-beeping-signal.wav&quot;&gt;here&lt;/a&gt; to download it.
 &lt;/audio&gt;
 
 </content>

@@ -3137,7 +3137,7 @@ html.direction--rtl pre { direction: ltr; text-align: left; }
 
 .post > blockquote li:before { content: "\f068"; }
 
-i { color: #FCBC28; }
+i, em { color: #FCBC28; }
 
 .post-link-wrapper { margin-bottom: 1.1em; }
 
@@ -3225,7 +3225,7 @@ th, td { text-align: center; padding: 1vw; }
 
 .grid-img { padding: 1vh; border-radius: 0 0 0.3em 0.3em; }
 
-.small-desc { font-size: 19px; margin-bottom: 1vh; }
+.small-desc { font-size: 18px; margin-bottom: 1vh; }
 
 .locked-region { font-size: 28px; display: flex; align-items: center; }
 

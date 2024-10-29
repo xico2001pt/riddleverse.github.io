@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-29T00:58:25+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 15: Perfect Timing</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/perfect-timing/" rel="alternate" type="text/html" title="Day 15: Perfect Timing" /><published>2024-10-18T00:00:00+00:00</published><updated>2024-10-18T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/perfect-timing</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/perfect-timing/"><![CDATA[<p>The <strong>Forgotten Dreamscape</strong> is made up of six islands surrounding the <strong>main island at the center</strong>. To collect the fragments of the Veil of Wonder, you must travel from your <strong>starting island</strong>, pass through the main island, and continue to the six surrounding islands. Time flows differently on each island, and the cloud bridges between islands take no time to travel.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-29T21:21:18+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 18: Cycle of Shadows</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/cycle-of-shadows/" rel="alternate" type="text/html" title="Day 18: Cycle of Shadows" /><published>2024-10-21T00:00:00+00:00</published><updated>2024-10-21T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/cycle-of-shadows</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/cycle-of-shadows/"><![CDATA[<p>On the <strong>Isle of Shifting Shadows</strong>, you encounter the ancient <strong>Dial of Ages</strong>, an enormous stone circle with numbers engraved around its edge. A central pillar casts a shadow that acts like the hand of a clock, pointing to different numbers based on the rotation of the circle. Currently, the shadow points to <strong>3</strong> (East).</p>
+
+<p>To unlock the next fragment of the <strong>Veil of Wonder</strong>, you need to enter a passcode: <strong>51081</strong>.</p>
+
+<p>Each time you submit a digit by aligning the shadow with it, the rapid movement of the sun causes the shadow to shift <strong>30 degrees clockwise</strong>. Calculate the minimum total degrees of rotation required to align the shadow with the entire passcode sequence in the correct order.</p>
+
+<p>Submit your answer in degrees.</p>
+
+<details>
+ <summary>Hint 1</summary>
+ Remember, each time you submit a digit, the sun’s position causes the shadow to move 30 degrees clockwise. This will affect the next alignment you need to make.
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ To minimize the total rotation, consider rotating the dial in the shortest direction to reach each target number.
+</details>
+
+<details>
+ <summary>Hint 3</summary>
+ The clock has numbers from 1 to 12. But perhaps there is a way to achieve the number 0...
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[On the Isle of Shifting Shadows, you encounter the ancient Dial of Ages, an enormous stone circle with numbers engraved around its edge. A central pillar casts a shadow that acts like the hand of a clock, pointing to different numbers based on the rotation of the circle. Currently, the shadow points to 3 (East).]]></summary></entry><entry><title type="html">Day 17: Lost Memories</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/lost-memories/" rel="alternate" type="text/html" title="Day 17: Lost Memories" /><published>2024-10-20T00:00:00+00:00</published><updated>2024-10-20T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/lost-memories</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/lost-memories/"><![CDATA[<p>To reveal the location of the second fragment, you must reassemble the memory image left by the Guardian. The image has been divided into a <strong>4x4 grid</strong>, with each slice out of order.</p>
+
+<p>Each slice corresponds to a numbered filename (e.g., 01.png, 02.png, etc.). Arrange the slices in the correct order to restore the complete image of the fragment’s location.</p>
+
+<p>You can find the tiles <a href="/assets/file/stories/christmas2024/fragments.zip">here</a>.</p>
+
+<p>Notice that:</p>
+<ul>
+  <li>The order of tiles corresponds to positions from the <strong>top-left</strong> corner to the <strong>bottom-right</strong> corner.</li>
+  <li>Place them <strong>from left to right</strong> in each row, moving <strong>top to bottom</strong>.</li>
+  <li>Your final answer should be the sequence of filenames from <strong>1</strong> to <strong>16</strong> in their correct positions.</li>
+  <li>The answer should be an ordered sequence of the images’ names separated by commas (<code class="language-plaintext highlighter-rouge">,</code>). Exclude any leading zeros from the answer.</li>
+</ul>
+
+<p>For example, the answer <code class="language-plaintext highlighter-rouge">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16</code> will correspond to the tiles ordered in the following way:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+    </tr>
+  </tbody>
+</table>
+
+<details>
+ <summary>Hint 1</summary>
+ Use an auxiliar software to rearrange the images. Do not forget to keep their name associated.
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[To reveal the location of the second fragment, you must reassemble the memory image left by the Guardian. The image has been divided into a 4x4 grid, with each slice out of order.]]></summary></entry><entry><title type="html">Day 16: Restoring the Bridges</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/restoring-the-bridges/" rel="alternate" type="text/html" title="Day 16: Restoring the Bridges" /><published>2024-10-19T00:00:00+00:00</published><updated>2024-10-19T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/restoring-the-bridges</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/restoring-the-bridges/"><![CDATA[<p>Four wheels are spinning at different speeds. You observe the following:</p>
+<ul>
+  <li>The first wheel completes one full rotation every <strong>1 minute</strong>.</li>
+  <li>The second wheel completes one full rotation every <strong>2 minutes</strong>.</li>
+  <li>The third wheel completes one full rotation every <strong>3 minutes</strong>.</li>
+  <li>The fourth wheel completes one full rotation every <strong>4 minutes</strong>.</li>
+</ul>
+
+<p>Assuming they all start at the same position, how many <strong>minutes</strong> will it take for <strong>all four wheels</strong> to align at the starting position again?</p>
+
+<details>
+ <summary>Hint 1</summary>
+ If you wait 4 minutes, every wheel except the third will be at the start position. How many times do you have to repeat this?
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ You need to find the Least Common Multiple of these four numbers.
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Four wheels are spinning at different speeds. You observe the following: The first wheel completes one full rotation every 1 minute. The second wheel completes one full rotation every 2 minutes. The third wheel completes one full rotation every 3 minutes. The fourth wheel completes one full rotation every 4 minutes.]]></summary></entry><entry><title type="html">Day 15: Perfect Timing</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/perfect-timing/" rel="alternate" type="text/html" title="Day 15: Perfect Timing" /><published>2024-10-18T00:00:00+00:00</published><updated>2024-10-18T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/perfect-timing</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/perfect-timing/"><![CDATA[<p>The <strong>Forgotten Dreamscape</strong> is made up of six islands surrounding the <strong>main island at the center</strong>. To collect the fragments of the Veil of Wonder, you must travel from your <strong>starting island</strong>, pass through the main island, and continue to the six surrounding islands. Time flows differently on each island, and the cloud bridges between islands take no time to travel.</p>
 
 <div><img class="challenge-img" src="/assets/img/stories/christmas2024/forgotten-dreamscape-islands.webp" /></div>
 
@@ -8,7 +103,7 @@
     <thead>
         <tr>
             <th>Island</th>
-            <th>Estimated Duration</th>
+            <th>Estimated Local Duration</th>
             <th>Time Dilation Factor</th>
         </tr>
     </thead>
@@ -47,9 +142,9 @@
             <td>Main Island</td>
             <td>
                 10 minutes to reactivate bridges, <br />
-                10 minutes for displacement between bridges
+                10 minutes for <b>each</b> displacement between bridges
             </td>
-            <td>No time dilation</td>
+            <td>x1 (normal time)</td>
         </tr>
     </tbody>
 </table>
@@ -57,11 +152,21 @@
 <p>Notice that:</p>
 <ul>
   <li>You start at <strong>Island 3</strong>.</li>
-  <li>When reaching the <strong>main island</strong> to travel to another island, you must account <strong>10 minutes</strong> for displacement between bridges.</li>
+  <li>When reaching the <strong>main island</strong> to travel to another island, you must account <strong>10 minutes</strong> for <strong>each</strong> displacement between bridges.</li>
   <li>The answer is the total number of <strong>minutes</strong>.</li>
-</ul>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[The Forgotten Dreamscape is made up of six islands surrounding the main island at the center. To collect the fragments of the Veil of Wonder, you must travel from your starting island, pass through the main island, and continue to the six surrounding islands. Time flows differently on each island, and the cloud bridges between islands take no time to travel.]]></summary></entry><entry><title type="html">Prologue</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/prologue/" rel="alternate" type="text/html" title="Prologue" /><published>2024-10-17T00:00:00+00:00</published><updated>2024-10-17T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/act-3-prologue</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/prologue/"><![CDATA[<p><br /></p>
+</ul>
 
-<p>You wake with a start, disoriented and aching from the explosion. As your vision clears, you realize you are no longer in the crumbling palace but in a strange, ethereal world. The air here feels different — heavy with mystery and magic. Beside you stands a ghostly figure, the <strong>Guardian of the Veil of Wonder</strong>, her form shimmering like stardust in the soft light.</p>
+<details>
+ <summary>Hint 1</summary>
+ For each island, you need to multiply the time dilation factor for the time spent there.
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ Each time you go to the main island to get to another island, you need to sum 10 minutes to account for internal displacement.
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[The Forgotten Dreamscape is made up of six islands surrounding the main island at the center. To collect the fragments of the Veil of Wonder, you must travel from your starting island, pass through the main island, and continue to the six surrounding islands. Time flows differently on each island, and the cloud bridges between islands take no time to travel.]]></summary></entry><entry><title type="html">Prologue</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/prologue/" rel="alternate" type="text/html" title="Prologue" /><published>2024-10-17T00:00:00+00:00</published><updated>2024-10-17T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/act-3-prologue</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/prologue/"><![CDATA[<p><br /></p>
+
+<p>You wake up from the explosion. As your vision clears, you realize you are no longer in the crumbling palace but in a strange, ethereal world. The air here feels different — heavy with mystery and magic. Beside you stands a ghostly figure, the <strong>Guardian of the Veil of Wonder</strong>, her form shimmering like stardust in the soft light.</p>
 
 <p><br /></p>
 
@@ -231,75 +336,4 @@ forward 2 steps
 <details>
  <summary>Hint 2</summary>
  Node B must come after Node A, right? Well, maybe not. That's just the order of letters in the alphabet! 
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Given the following instructions, determine how much time (in minutes) does it take for electricity to travel from Node A (Control Room) to Node D (Crystal Palace):]]></summary></entry><entry><title type="html">Day 9: Unlocking Mobility</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/unlocking-mobility/" rel="alternate" type="text/html" title="Day 9: Unlocking Mobility" /><published>2024-10-11T00:00:00+00:00</published><updated>2024-10-11T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/unlocking-mobility</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/unlocking-mobility/"><![CDATA[<p>Find the four-number code that opens the locker using the clues that are written in the paper placed nearby.</p>
-
-<p>The paper has the following written:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Only use digits from 0 to 5.
-- Each digit can only be used once.
-
-Attempt 1:
-Code: 4150
-Different Position: 2
-Correct Position: 2
-
-Attempt 2:
-Code: 3054
-Different Position: 1
-Correct Position: 2
-
-Attempt 3:
-Code: 0123
-Different Position: 0
-Correct Position: 2
-
-Attempt 4:
-Code: 3514
-Different Position: 2
-Correct Position: 1
-</code></pre></div></div>
-
-<details>
- <summary>Hint 1</summary>
- Start by working out which digits belong in the code, regardless of order.
-</details>
-
-<details>
- <summary>Hint 2</summary>
- Every digit in the code is in the first attempt. Two of the digits in 4150 are even in the right place. 
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Find the four-number code that opens the locker using the clues that are written in the paper placed nearby.]]></summary></entry><entry><title type="html">Day 8: Circuit of Trust</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/circuit-of-trust/" rel="alternate" type="text/html" title="Day 8: Circuit of Trust" /><published>2024-10-10T00:00:00+00:00</published><updated>2024-10-10T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/circuit-of-trust</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/circuit-of-trust/"><![CDATA[<p>The Power Core is locked behind a security compartment within the generator, and the only way to access it is by rerouting the electrical current through a series of <strong>logic gates</strong> to activate a mechanism. Once the correct sequence is established, the mechanism will light up a <strong>lamp</strong>, signaling that the compartment has been unlocked.</p>
-
-<p>The circuit board in front of you displays a series of interconnected <strong>AND</strong>, <strong>OR</strong>, <strong>XOR</strong>, and <strong>NOT</strong> gates, each affecting the flow of electricity. Your goal is to guide the power from the input through the logic gates in such a way that it activates the output lamp.</p>
-
-<div><img class="challenge-img" src="/assets/img/stories/christmas2024/logic-circuit.png" /></div>
-
-<p>Instructions:</p>
-<ul>
-  <li>You must manipulate the switches connected to the input so that the output result activates the lamp.</li>
-  <li><strong>AND Gates</strong> require both inputs to be active for the power to pass through.</li>
-  <li><strong>OR Gates</strong> allow power to pass if at least one input is active.</li>
-  <li><strong>XOR Gates</strong> allow power to pass only if one input is active, but not both. If both inputs are active, the power is blocked.</li>
-  <li><strong>NOT Gates</strong> invert the signal, meaning an inactive input becomes active and vice versa.</li>
-  <li>The answer must contain the activation state of the switches from the top to the bottom, where <code class="language-plaintext highlighter-rouge">1</code> indicates <strong>active</strong> and <code class="language-plaintext highlighter-rouge">0</code> indicates <strong>inactive</strong>. An example of a possible answer (obviously wrong) could be <code class="language-plaintext highlighter-rouge">00011</code>.</li>
-  <li>Note that there is more than one possible answer.</li>
-</ul>
-
-<details>
- <summary>Hint 1</summary>
- Start by focusing on the <b>end of the circuit</b> where the lamp is. Work backwards from there to figure out how the power needs to flow to reach the output.
-</details>
-
-<details>
- <summary>Hint 2</summary>
- The last two switches in the sequence are very direct and will help you narrow down the correct path. Pay close attention to those.
-</details>
-
-<details>
- <summary>Hint 3</summary>
- Be careful with the <b>XOR gates</b> — they require exactly one input to be active, so ensure you're sending only one signal through.
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[The Power Core is locked behind a security compartment within the generator, and the only way to access it is by rerouting the electrical current through a series of logic gates to activate a mechanism. Once the correct sequence is established, the mechanism will light up a lamp, signaling that the compartment has been unlocked.]]></summary></entry><entry><title type="html">Day 7: The Beeping Signal</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-beeping-signal/" rel="alternate" type="text/html" title="Day 7: The Beeping Signal" /><published>2024-10-09T00:00:00+00:00</published><updated>2024-10-09T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-beeping-signal</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-beeping-signal/"><![CDATA[<p>Here is an excerpt of the captured audio. Make sure to decode it and write it as the answer.</p>
-
-<audio controls="">
-    <source src="/assets/audio/the-beeping-signal.wav" type="audio/wav" />
-    Your browser does not support the audio player. Click <a href="/assets/audio/the-beeping-signal.wav">here</a> to download it.
-</audio>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Here is an excerpt of the captured audio. Make sure to decode it and write it as the answer.]]></summary></entry></feed>
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Given the following instructions, determine how much time (in minutes) does it take for electricity to travel from Node A (Control Room) to Node D (Crystal Palace):]]></summary></entry></feed>

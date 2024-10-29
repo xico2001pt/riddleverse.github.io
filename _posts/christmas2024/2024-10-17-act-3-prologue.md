@@ -8,7 +8,7 @@ title: Prologue
 ---
 <br>
 
-You wake with a start, disoriented and aching from the explosion. As your vision clears, you realize you are no longer in the crumbling palace but in a strange, ethereal world. The air here feels different — heavy with mystery and magic. Beside you stands a ghostly figure, the **Guardian of the Veil of Wonder**, her form shimmering like stardust in the soft light.
+You wake up from the explosion. As your vision clears, you realize you are no longer in the crumbling palace but in a strange, ethereal world. The air here feels different — heavy with mystery and magic. Beside you stands a ghostly figure, the **Guardian of the Veil of Wonder**, her form shimmering like stardust in the soft light.
 
 <br>
 

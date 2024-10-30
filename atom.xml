@@ -57,13 +57,61 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-10-30T00:57:48+00:00</updated>
+ <updated>2024-10-30T16:17:02+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Day 20: The Spectrum Sanctuary</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-spectrum-sanctuary/"/>
+   <updated>2024-10-23T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-spectrum-sanctuary</id>
+   <content type="html">&lt;p&gt;Inside the &lt;strong&gt;Spectrum Sanctuary&lt;/strong&gt;, beams of sunlight pass through the prism overhead, casting seven colors across the chamber. Each color illuminates a single letter on the walls:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Violet&lt;/strong&gt; projects the letter &lt;strong&gt;Y&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Red&lt;/strong&gt; projects the letter &lt;strong&gt;F&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Orange&lt;/strong&gt; projects the letter &lt;strong&gt;O&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Grenn&lt;/strong&gt; projects the letter &lt;strong&gt;E&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Blue&lt;/strong&gt; projects the letter &lt;strong&gt;B&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Yellow&lt;/strong&gt; projects the letter &lt;strong&gt;R&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Indigo&lt;/strong&gt; projects the letter &lt;strong&gt;A&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The answer is the word formed by the projected letters.&lt;/p&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Each color projects a different letter, but together, they form a single word. Try reordering them by the natural spectrum of colors.
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Day 19: The Lunar Refinery</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-lunar-refinery/"/>
+   <updated>2024-10-22T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-lunar-refinery</id>
+   <content type="html">&lt;p&gt;On the &lt;strong&gt;Mystic Processing Wheel&lt;/strong&gt;, you have &lt;strong&gt;10 compartments&lt;/strong&gt; for refining Lunar Dust. Each compartment can hold &lt;strong&gt;two measures&lt;/strong&gt; of dust and rotates so that one compartment rotates through the exit platform &lt;strong&gt;every minute&lt;/strong&gt;, passing through the &lt;strong&gt;Processing Chamber&lt;/strong&gt; at the top before releasing the refined dust at the bottom.&lt;/p&gt;
+
+&lt;p&gt;The wheel has been activated, and you have exactly &lt;strong&gt;30 minutes&lt;/strong&gt; to maximize the amount of Lunar Dust refined before the window closes. Dust can only be added to compartments at the bottom of the wheel, and it takes &lt;strong&gt;one minute&lt;/strong&gt; for each compartment to advance to the position where the next compartment was.&lt;/p&gt;
+
+&lt;p&gt;Calculate the maximum amount of Lunar Dust you can refine in this time.&lt;/p&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Think about the way the wheel works. If two measures are added at the bottom compartment, how much time will pass before they return? 
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ If you only have 30 minutes, that means that at some point it will not be worth to add more Dust, as there will be no time for it to return.
+&lt;/details&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Day 18: Cycle of Shadows</title>
@@ -104,7 +152,7 @@
 
 &lt;p&gt;Each slice corresponds to a numbered filename (e.g., 01.png, 02.png, etc.). Arrange the slices in the correct order to restore the complete image of the fragment’s location.&lt;/p&gt;
 
-&lt;p&gt;You can find the tiles &lt;a href=&quot;/assets/file/stories/christmas2024/fragments.zip&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can find the slices &lt;a href=&quot;/assets/file/stories/christmas2024/fragments.zip&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Notice that:&lt;/p&gt;
 &lt;ul&gt;
@@ -117,41 +165,33 @@
 &lt;p&gt;For example, the answer &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16&lt;/code&gt; will correspond to the tiles ordered in the following way:&lt;/p&gt;
 
 &lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;6&lt;/td&gt;
-      &lt;td&gt;7&lt;/td&gt;
-      &lt;td&gt;8&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;9&lt;/td&gt;
-      &lt;td&gt;10&lt;/td&gt;
-      &lt;td&gt;11&lt;/td&gt;
-      &lt;td&gt;12&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;13&lt;/td&gt;
-      &lt;td&gt;14&lt;/td&gt;
-      &lt;td&gt;15&lt;/td&gt;
-      &lt;td&gt;16&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;1&lt;/td&gt;
+    &lt;td&gt;2&lt;/td&gt;
+    &lt;td&gt;3&lt;/td&gt;
+    &lt;td&gt;4&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;5&lt;/td&gt;
+    &lt;td&gt;6&lt;/td&gt;
+    &lt;td&gt;7&lt;/td&gt;
+    &lt;td&gt;8&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;9&lt;/td&gt;
+    &lt;td&gt;10&lt;/td&gt;
+    &lt;td&gt;11&lt;/td&gt;
+    &lt;td&gt;12&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;13&lt;/td&gt;
+    &lt;td&gt;14&lt;/td&gt;
+    &lt;td&gt;15&lt;/td&gt;
+    &lt;td&gt;16&lt;/td&gt;
+  &lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;details&gt;
  &lt;summary&gt;Hint 1&lt;/summary&gt;
@@ -781,7 +821,7 @@ Recipes:
 &lt;ul&gt;
   &lt;li&gt;Rotate &lt;strong&gt;exactly two&lt;/strong&gt; solar panels to direct the sunlight from the top-left corner to the bottom-right corner.&lt;/li&gt;
   &lt;li&gt;The beam of light is casted with a &lt;strong&gt;45-degree&lt;/strong&gt; angle, i.e. diagonally (as depicted by the arrow).&lt;/li&gt;
-  &lt;li&gt;The panels &lt;strong&gt;reflect 100%&lt;/strong&gt; of the light, which means the incidence angle is the same as the reflection angle.&lt;/li&gt;
+  &lt;li&gt;The panels &lt;strong&gt;reflect 100%&lt;/strong&gt; of the light and the incidence angle &lt;strong&gt;is the same&lt;/strong&gt; as the reflection angle.&lt;/li&gt;
   &lt;li&gt;The solar panels can only be rotated by a &lt;strong&gt;90-degree&lt;/strong&gt; angle. Therefore, their orientation is either &lt;strong&gt;horizontal&lt;/strong&gt; or &lt;strong&gt;vertical&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;The answer must contain the &lt;strong&gt;coordinates&lt;/strong&gt; of the solar panels that need to be &lt;strong&gt;rotated&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;The answer must folow the format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x,y x,y&lt;/code&gt;, where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; indicates the column index and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y&lt;/code&gt; indicates the row index. The top left corner position is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1,1&lt;/code&gt;, while the bottom right position is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8,8&lt;/code&gt;. The order of the positions is irrelevant.&lt;/li&gt;

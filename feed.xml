@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-30T00:57:48+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 18: Cycle of Shadows</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/cycle-of-shadows/" rel="alternate" type="text/html" title="Day 18: Cycle of Shadows" /><published>2024-10-21T00:00:00+00:00</published><updated>2024-10-21T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/cycle-of-shadows</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/cycle-of-shadows/"><![CDATA[<p>On the <strong>Isle of Shifting Shadows</strong>, you encounter the ancient <strong>Dial of Ages</strong>, an enormous stone circle with numbers engraved around its edge. A central pillar casts a shadow that acts like the hand of a clock, pointing to different numbers based on the rotation of the circle. Currently, the shadow points to <strong>3</strong> (East).</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-10-30T16:17:02+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 20: The Spectrum Sanctuary</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-spectrum-sanctuary/" rel="alternate" type="text/html" title="Day 20: The Spectrum Sanctuary" /><published>2024-10-23T00:00:00+00:00</published><updated>2024-10-23T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-spectrum-sanctuary</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-spectrum-sanctuary/"><![CDATA[<p>Inside the <strong>Spectrum Sanctuary</strong>, beams of sunlight pass through the prism overhead, casting seven colors across the chamber. Each color illuminates a single letter on the walls:</p>
+<ul>
+  <li><strong>Violet</strong> projects the letter <strong>Y</strong></li>
+  <li><strong>Red</strong> projects the letter <strong>F</strong></li>
+  <li><strong>Orange</strong> projects the letter <strong>O</strong></li>
+  <li><strong>Grenn</strong> projects the letter <strong>E</strong></li>
+  <li><strong>Blue</strong> projects the letter <strong>B</strong></li>
+  <li><strong>Yellow</strong> projects the letter <strong>R</strong></li>
+  <li><strong>Indigo</strong> projects the letter <strong>A</strong></li>
+</ul>
+
+<p>The answer is the word formed by the projected letters.</p>
+
+<details>
+ <summary>Hint 1</summary>
+ Each color projects a different letter, but together, they form a single word. Try reordering them by the natural spectrum of colors.
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Inside the Spectrum Sanctuary, beams of sunlight pass through the prism overhead, casting seven colors across the chamber. Each color illuminates a single letter on the walls: Violet projects the letter Y Red projects the letter F Orange projects the letter O Grenn projects the letter E Blue projects the letter B Yellow projects the letter R Indigo projects the letter A]]></summary></entry><entry><title type="html">Day 19: The Lunar Refinery</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-lunar-refinery/" rel="alternate" type="text/html" title="Day 19: The Lunar Refinery" /><published>2024-10-22T00:00:00+00:00</published><updated>2024-10-22T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-lunar-refinery</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-lunar-refinery/"><![CDATA[<p>On the <strong>Mystic Processing Wheel</strong>, you have <strong>10 compartments</strong> for refining Lunar Dust. Each compartment can hold <strong>two measures</strong> of dust and rotates so that one compartment rotates through the exit platform <strong>every minute</strong>, passing through the <strong>Processing Chamber</strong> at the top before releasing the refined dust at the bottom.</p>
+
+<p>The wheel has been activated, and you have exactly <strong>30 minutes</strong> to maximize the amount of Lunar Dust refined before the window closes. Dust can only be added to compartments at the bottom of the wheel, and it takes <strong>one minute</strong> for each compartment to advance to the position where the next compartment was.</p>
+
+<p>Calculate the maximum amount of Lunar Dust you can refine in this time.</p>
+
+<details>
+ <summary>Hint 1</summary>
+ Think about the way the wheel works. If two measures are added at the bottom compartment, how much time will pass before they return? 
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ If you only have 30 minutes, that means that at some point it will not be worth to add more Dust, as there will be no time for it to return.
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[On the Mystic Processing Wheel, you have 10 compartments for refining Lunar Dust. Each compartment can hold two measures of dust and rotates so that one compartment rotates through the exit platform every minute, passing through the Processing Chamber at the top before releasing the refined dust at the bottom.]]></summary></entry><entry><title type="html">Day 18: Cycle of Shadows</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/cycle-of-shadows/" rel="alternate" type="text/html" title="Day 18: Cycle of Shadows" /><published>2024-10-21T00:00:00+00:00</published><updated>2024-10-21T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/cycle-of-shadows</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/cycle-of-shadows/"><![CDATA[<p>On the <strong>Isle of Shifting Shadows</strong>, you encounter the ancient <strong>Dial of Ages</strong>, an enormous stone circle with numbers engraved around its edge. A central pillar casts a shadow that acts like the hand of a clock, pointing to different numbers based on the rotation of the circle. Currently, the shadow points to <strong>3</strong> (East).</p>
 
 <p>To unlock the next fragment of the <strong>Veil of Wonder</strong>, you need to enter a passcode: <strong>51081</strong>.</p>
 
@@ -23,7 +53,7 @@
 
 <p>Each slice corresponds to a numbered filename (e.g., 01.png, 02.png, etc.). Arrange the slices in the correct order to restore the complete image of the fragment’s location.</p>
 
-<p>You can find the tiles <a href="/assets/file/stories/christmas2024/fragments.zip">here</a>.</p>
+<p>You can find the slices <a href="/assets/file/stories/christmas2024/fragments.zip">here</a>.</p>
 
 <p>Notice that:</p>
 <ul>
@@ -36,41 +66,33 @@
 <p>For example, the answer <code class="language-plaintext highlighter-rouge">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16</code> will correspond to the tiles ordered in the following way:</p>
 
 <table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th> </th>
-      <th> </th>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>6</td>
-      <td>7</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>10</td>
-      <td>11</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>14</td>
-      <td>15</td>
-      <td>16</td>
-    </tr>
-  </tbody>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+  </tr>
 </table>
+
+<p><br /></p>
 
 <details>
  <summary>Hint 1</summary>
@@ -293,47 +315,4 @@ forward 2 steps
 <details>
  <summary>Hint 1</summary>
  Draw a path following these instructions and you should see a word...
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[As you follow Jolly’s commands through the darkness, you realize that the path you’re walking seems to form a pattern. Though you can’t see it, Jolly’s commands guide you step by step in a way that feels deliberate. Your goal is to figure out what word the path reminds you of based on the directions given: Jolly will tell you to move forward, rotate left, or rotate right to navigate the cave. By the time you finish the path, the shape of the journey will reveal a word, which is the answer to this challenge.]]></summary></entry><entry><title type="html">Day 11: Laser Grid</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/laser-grid/" rel="alternate" type="text/html" title="Day 11: Laser Grid" /><published>2024-10-13T00:00:00+00:00</published><updated>2024-10-13T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/laser-grid</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/laser-grid/"><![CDATA[<p>Jolly has provided you with three lenses — <strong>Cyan</strong>, <strong>Magenta</strong>, and <strong>Yellow</strong> — each capable of absorbing certain laser colors. Your task is to correctly place the lenses and absorb the right lasers to prevent them from reflecting and triggering the alarm.</p>
-
-<p>The lasers in the room are of the following colors: <strong>Red</strong>, <strong>Green</strong>, <strong>Blue</strong>, <strong>Cyan</strong>, <strong>Magenta</strong>, <strong>Yellow</strong>, and <strong>White</strong>.</p>
-
-<p>Notice that:</p>
-<ul>
-  <li>The <strong>Cyan (C) lens</strong> absorbs <strong>Red light</strong>.</li>
-  <li>The <strong>Magenta (M) lens</strong> absorbs <strong>Green light</strong>.</li>
-  <li>The <strong>Yellow (Y) lens</strong> absorbs <strong>Blue light</strong>.</li>
-  <li>The answer should be a sequence ordered according to the lasers listed above containing the lens that should be used to absorb the respective light separated by commas (<code class="language-plaintext highlighter-rouge">,</code>). An example of a possible answer (obviously wrong) could be <code class="language-plaintext highlighter-rouge">C,CM,M,Y,CMY,MY,CY</code>.</li>
-</ul>
-
-<details>
- <summary>Hint 1</summary>
- Start by matching the <b>primary color lasers</b> (Red, Green, and Blue) to their corresponding lenses.
-</details>
-
-<details>
- <summary>Hint 2</summary>
- The Cyan, Magenta, and Yellow colors are a mix the other RGB colors. But which ones? After figuring out, apply the same logic by combining more than one lens.
-</details>
-
-<details>
- <summary>Hint 3</summary>
- White light is composed by all the other colors, so it should be straightforward.
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Jolly has provided you with three lenses — Cyan, Magenta, and Yellow — each capable of absorbing certain laser colors. Your task is to correctly place the lenses and absorb the right lasers to prevent them from reflecting and triggering the alarm.]]></summary></entry><entry><title type="html">Day 10: Timed Shutdown</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/" rel="alternate" type="text/html" title="Day 10: Timed Shutdown" /><published>2024-10-12T00:00:00+00:00</published><updated>2024-10-12T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/timed-shutdown/"><![CDATA[<p>Given the following instructions, determine how much time (in minutes) does it take for electricity to travel from <strong>Node A</strong> (Control Room) to <strong>Node D</strong> (Crystal Palace):</p>
-
-<ul>
-  <li>Electricity takes <strong>15 minutes</strong> to travel from <strong>Node A</strong>, the first node of the chain, to <strong>Node B</strong>.</li>
-  <li>It takes <strong>5 minutes</strong> to travel from <strong>Node B</strong> to <strong>Node C</strong>.</li>
-  <li>It takes <strong>10 minutes</strong> to travel from <strong>Node C</strong> to the last node of the chain, <strong>Node D</strong>.</li>
-  <li>The chain is a <strong>straight line</strong> with <strong>no branches</strong>.</li>
-  <li>However, it does <strong>not</strong> take <strong>30 minutes</strong> anymore to travel from <strong>Node A</strong> to <strong>Node D</strong>.</li>
-</ul>
-
-<details>
- <summary>Hint 1</summary>
- Be flexible in your thinking and see if you can figure it out.
-</details>
-
-<details>
- <summary>Hint 2</summary>
- Node B must come after Node A, right? Well, maybe not. That's just the order of letters in the alphabet! 
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Given the following instructions, determine how much time (in minutes) does it take for electricity to travel from Node A (Control Room) to Node D (Crystal Palace):]]></summary></entry></feed>
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[As you follow Jolly’s commands through the darkness, you realize that the path you’re walking seems to form a pattern. Though you can’t see it, Jolly’s commands guide you step by step in a way that feels deliberate. Your goal is to figure out what word the path reminds you of based on the directions given: Jolly will tell you to move forward, rotate left, or rotate right to navigate the cave. By the time you finish the path, the shape of the journey will reveal a word, which is the answer to this challenge.]]></summary></entry></feed>

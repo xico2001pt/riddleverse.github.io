@@ -29,7 +29,7 @@ To reveal the location of the second fragment, you must reassemble the memory im
 
 Each slice corresponds to a numbered filename (e.g., 01.png, 02.png, etc.). Arrange the slices in the correct order to restore the complete image of the fragment’s location.
 
-You can find the tiles [here](/assets/file/stories/christmas2024/fragments.zip).
+You can find the slices [here](/assets/file/stories/christmas2024/fragments.zip).
 
 Notice that:
 - The order of tiles corresponds to positions from the **top-left** corner to the **bottom-right** corner.
@@ -39,12 +39,34 @@ Notice that:
 
 For example, the answer `1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16` will correspond to the tiles ordered in the following way:
 
-|||||
-|---|---|---|---|
-|1|2|3|4|
-|5|6|7|8|
-|9|10|11|12|
-|13|14|15|16|
+<table>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+  </tr>
+</table>
+
+<br>
 
 <details>
  <summary>Hint 1</summary>

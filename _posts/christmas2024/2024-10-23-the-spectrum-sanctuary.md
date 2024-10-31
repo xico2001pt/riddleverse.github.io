@@ -14,13 +14,16 @@ narrative: >
 objective: >
     Decode the word formed by the letters projected in each color of the spectrum to unlock the next fragment.
 outcome: >
+    After carefully piecing together the colors of the rainbow and deciphering the word, you whisper it aloud. Instantly, the vibrant beams of light converge into a single, brilliant ray, illuminating a hidden path leading outside the sanctuary. Following the path, you find yourself at a quiet clearing in the <b>forebay</b>, where the next fragment of the Veil of Wonder rests upon an ancient pedestal.
+    <br><br>
+    As you grasp the fragment, a gentle warmth spreads through you, and you sense the magic of the island growing stronger. With five fragments now secured, the final island await as you move ever closer to restoring the Veil’s magic.
 ---
 
 Inside the **Spectrum Sanctuary**, beams of sunlight pass through the prism overhead, casting seven colors across the chamber. Each color illuminates a single letter on the walls:
 - **Violet** projects the letter **Y**
 - **Red** projects the letter **F**
 - **Orange** projects the letter **O**
-- **Grenn** projects the letter **E**
+- **Green** projects the letter **E**
 - **Blue** projects the letter **B**
 - **Yellow** projects the letter **R**
 - **Indigo** projects the letter **A**

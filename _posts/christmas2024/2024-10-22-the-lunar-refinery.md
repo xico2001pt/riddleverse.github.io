@@ -10,7 +10,7 @@ previously: >
 narrative: >
     The <b>Island of Twisted Toys</b> is a haunting blend of wonder and distortion, where towering, oversized toys lie abandoned under a dim, flickering sky. Cracked doll faces peer out from piles of gears, and rusty merry-go-round horses creak in the wind. As you venture deeper into the island, you sense a faint magical energy pulsing from a structure ahead — a massive, strange contraption that looms over the ruins of an old carnival attraction.
     <br><br>
-    This is the <b>Mystic Processing Wheel</b>, a legendary device once used to refine <b>Lunar Dust</b> — a material so potent it powers the island’s enchanted toys. As you study the wheel’s intricate engravings, the faded voice of the <b>Guardian echoes faintly in your mind.
+    This is the <b>Mystic Processing Wheel</b>, a legendary device once used to refine <b>Lunar Dust</b> — a material so potent it powers the island’s enchanted toys. As you study the wheel’s intricate engravings, the faded voice of the <b>Guardian</b> echoes faintly in your mind.
     <br><br>
     <i>"The Mystic Processing Wheel holds great power,"</i> she whispers. <i>“Only by refining enough Lunar Dust will you unlock the energy to release the next fragment of the Veil of Wonder. But take caution — the wheel’s enchantment is ancient and follows a precise rhythm.”</i>
     <br><br>

@@ -3213,7 +3213,7 @@ th, td { text-align: center; padding: 1vw; }
 
 .back-button:before { content: "\f053"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; margin-right: 0.5em; }
 
-.grid-container { display: grid; grid-template-columns: 33% 33% 33%; gap: 0 0.8vw; }
+.grid-container { display: grid; grid-template-columns: 32.5% 32.5% 32.5%; gap: 0 1.1vw; }
 
 .grid-item { display: flex; align-items: center; justify-content: center; background-color: #1E2227; }
 

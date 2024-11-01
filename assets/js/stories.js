@@ -35,6 +35,9 @@ export const STORIES_DATA = [
             "390",
             "42",
             "Forebay",
+            "RUN",
+            "Crystal Palace",
+            "8192",
         ]
     },
 ];

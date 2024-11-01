@@ -57,13 +57,73 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-11-01T01:02:02+00:00</updated>
+ <updated>2024-11-01T14:13:25+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Day 23: The Healing Seeds</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-healing-seeds/"/>
+   <updated>2024-10-26T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-healing-seeds</id>
+   <content type="html">&lt;p&gt;You begin with &lt;strong&gt;two&lt;/strong&gt; healing seeds. After planting them, the Guardian of the Hearth can use its powers to accelerate their growth cycle, allowing each plant to mature and produce &lt;strong&gt;two seeds after 5 minutes&lt;/strong&gt; before dying. Each new seed can then be replanted, continuing the cycle.&lt;/p&gt;
+
+&lt;p&gt;Starting with &lt;strong&gt;two seeds&lt;/strong&gt; and with exactly &lt;strong&gt;1 hour&lt;/strong&gt; available, calculate how many seeds you’ll have by the end of the time limit, maximizing the harvest to support the Guardian of the Veil in the final confrontation.&lt;/p&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Each plant only lives for one cycle, so consider how many cycles you can achieve within the hour to maximize seed production.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ Think of each new seed as a multiplying factor, starting with two and doubling with each cycle.
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Day 22: The Last Sacrifice</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-last-sacrifice/"/>
+   <updated>2024-10-25T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-last-sacrifice</id>
+   <content type="html">&lt;p&gt;The Guardian is ready to teleport you, but only if you can determine the exact location within the &lt;strong&gt;Realm of Joy&lt;/strong&gt;. Reflecting on your journey, you recall key details about the realm that could guide you to safety.&lt;/p&gt;
+
+&lt;p&gt;When you believe you’ve identified the correct location, enter the answer to activate the teleportation spell and escape before the island collapses entirely.&lt;/p&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Think back to a place filled with joy and life that served as a sanctuary in your journey — somewhere that has previously sheltered powerful artifacts.
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Day 21: Symbols of the Lost</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/symbols-of-the-lost/"/>
+   <updated>2024-10-24T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/symbols-of-the-lost</id>
+   <content type="html">&lt;p&gt;Before you stands an ancient wall marked with three distinct symbols.&lt;/p&gt;
+
+&lt;div&gt;&lt;img class=&quot;challenge-img&quot; src=&quot;/assets/img/stories/christmas2024/wall-symbols.webp&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Carefully study the symbols in the provided image and identify the word that will guide you to the fragment’s resting place.&lt;/p&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Think about the words associated with each symbol. How can you use them to get a single word?
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ Maybe using one of the letters of each word will help. But which one?
+&lt;/details&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Day 20: The Spectrum Sanctuary</title>
@@ -75,7 +135,7 @@
   &lt;li&gt;&lt;strong&gt;Violet&lt;/strong&gt; projects the letter &lt;strong&gt;Y&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Red&lt;/strong&gt; projects the letter &lt;strong&gt;F&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Orange&lt;/strong&gt; projects the letter &lt;strong&gt;O&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Grenn&lt;/strong&gt; projects the letter &lt;strong&gt;E&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Green&lt;/strong&gt; projects the letter &lt;strong&gt;E&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Blue&lt;/strong&gt; projects the letter &lt;strong&gt;B&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Yellow&lt;/strong&gt; projects the letter &lt;strong&gt;R&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Indigo&lt;/strong&gt; projects the letter &lt;strong&gt;A&lt;/strong&gt;&lt;/li&gt;
@@ -939,7 +999,7 @@ Recipes:
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Your quest begins at the coldest point of this calamity—the Ember of Warmth. Once the heart of the Christmas Realm’s light and love, it now lies dormant, hidden deep within the Vault of the Hearth. The Guardian of the Hearth, bound in icy chains, can no longer protect it. The once vibrant lands are now veiled in a creeping chill, and the Ember’s glow has dimmed, casting shadows where warmth used to reign.&lt;/p&gt;
+&lt;p&gt;Your quest begins at the coldest point of this calamity — the Ember of Warmth. Once the heart of the Christmas Realm’s light and love, it now lies dormant, hidden deep within the Vault of the Hearth. The Guardian of the Hearth, bound in icy chains, can no longer protect it. The once vibrant lands are now veiled in a creeping chill, and the Ember’s glow has dimmed, casting shadows where warmth used to reign.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 

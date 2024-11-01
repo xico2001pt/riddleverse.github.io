@@ -1,9 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-11-01T01:02:02+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 20: The Spectrum Sanctuary</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-spectrum-sanctuary/" rel="alternate" type="text/html" title="Day 20: The Spectrum Sanctuary" /><published>2024-10-23T00:00:00+00:00</published><updated>2024-10-23T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-spectrum-sanctuary</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-spectrum-sanctuary/"><![CDATA[<p>Inside the <strong>Spectrum Sanctuary</strong>, beams of sunlight pass through the prism overhead, casting seven colors across the chamber. Each color illuminates a single letter on the walls:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://riddleverse.franciscogc.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riddleverse.franciscogc.com/" rel="alternate" type="text/html" /><updated>2024-11-01T14:13:25+00:00</updated><id>https://riddleverse.franciscogc.com/feed.xml</id><title type="html">RiddleVerse</title><author><name>Francisco Cerqueira</name></author><entry><title type="html">Day 23: The Healing Seeds</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-healing-seeds/" rel="alternate" type="text/html" title="Day 23: The Healing Seeds" /><published>2024-10-26T00:00:00+00:00</published><updated>2024-10-26T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-healing-seeds</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-healing-seeds/"><![CDATA[<p>You begin with <strong>two</strong> healing seeds. After planting them, the Guardian of the Hearth can use its powers to accelerate their growth cycle, allowing each plant to mature and produce <strong>two seeds after 5 minutes</strong> before dying. Each new seed can then be replanted, continuing the cycle.</p>
+
+<p>Starting with <strong>two seeds</strong> and with exactly <strong>1 hour</strong> available, calculate how many seeds you’ll have by the end of the time limit, maximizing the harvest to support the Guardian of the Veil in the final confrontation.</p>
+
+<details>
+ <summary>Hint 1</summary>
+ Each plant only lives for one cycle, so consider how many cycles you can achieve within the hour to maximize seed production.
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ Think of each new seed as a multiplying factor, starting with two and doubling with each cycle.
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[You begin with two healing seeds. After planting them, the Guardian of the Hearth can use its powers to accelerate their growth cycle, allowing each plant to mature and produce two seeds after 5 minutes before dying. Each new seed can then be replanted, continuing the cycle.]]></summary></entry><entry><title type="html">Day 22: The Last Sacrifice</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-last-sacrifice/" rel="alternate" type="text/html" title="Day 22: The Last Sacrifice" /><published>2024-10-25T00:00:00+00:00</published><updated>2024-10-25T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-last-sacrifice</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-last-sacrifice/"><![CDATA[<p>The Guardian is ready to teleport you, but only if you can determine the exact location within the <strong>Realm of Joy</strong>. Reflecting on your journey, you recall key details about the realm that could guide you to safety.</p>
+
+<p>When you believe you’ve identified the correct location, enter the answer to activate the teleportation spell and escape before the island collapses entirely.</p>
+
+<details>
+ <summary>Hint 1</summary>
+ Think back to a place filled with joy and life that served as a sanctuary in your journey — somewhere that has previously sheltered powerful artifacts.
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[The Guardian is ready to teleport you, but only if you can determine the exact location within the Realm of Joy. Reflecting on your journey, you recall key details about the realm that could guide you to safety.]]></summary></entry><entry><title type="html">Day 21: Symbols of the Lost</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/symbols-of-the-lost/" rel="alternate" type="text/html" title="Day 21: Symbols of the Lost" /><published>2024-10-24T00:00:00+00:00</published><updated>2024-10-24T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/symbols-of-the-lost</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/symbols-of-the-lost/"><![CDATA[<p>Before you stands an ancient wall marked with three distinct symbols.</p>
+
+<div><img class="challenge-img" src="/assets/img/stories/christmas2024/wall-symbols.webp" /></div>
+
+<p>Carefully study the symbols in the provided image and identify the word that will guide you to the fragment’s resting place.</p>
+
+<details>
+ <summary>Hint 1</summary>
+ Think about the words associated with each symbol. How can you use them to get a single word?
+</details>
+
+<details>
+ <summary>Hint 2</summary>
+ Maybe using one of the letters of each word will help. But which one?
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Before you stands an ancient wall marked with three distinct symbols.]]></summary></entry><entry><title type="html">Day 20: The Spectrum Sanctuary</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-spectrum-sanctuary/" rel="alternate" type="text/html" title="Day 20: The Spectrum Sanctuary" /><published>2024-10-23T00:00:00+00:00</published><updated>2024-10-23T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-spectrum-sanctuary</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-spectrum-sanctuary/"><![CDATA[<p>Inside the <strong>Spectrum Sanctuary</strong>, beams of sunlight pass through the prism overhead, casting seven colors across the chamber. Each color illuminates a single letter on the walls:</p>
 <ul>
   <li><strong>Violet</strong> projects the letter <strong>Y</strong></li>
   <li><strong>Red</strong> projects the letter <strong>F</strong></li>
   <li><strong>Orange</strong> projects the letter <strong>O</strong></li>
-  <li><strong>Grenn</strong> projects the letter <strong>E</strong></li>
+  <li><strong>Green</strong> projects the letter <strong>E</strong></li>
   <li><strong>Blue</strong> projects the letter <strong>B</strong></li>
   <li><strong>Yellow</strong> projects the letter <strong>R</strong></li>
   <li><strong>Indigo</strong> projects the letter <strong>A</strong></li>
@@ -14,7 +47,7 @@
 <details>
  <summary>Hint 1</summary>
  Each color projects a different letter, but together, they form a single word. Try reordering them by the natural spectrum of colors.
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Inside the Spectrum Sanctuary, beams of sunlight pass through the prism overhead, casting seven colors across the chamber. Each color illuminates a single letter on the walls: Violet projects the letter Y Red projects the letter F Orange projects the letter O Grenn projects the letter E Blue projects the letter B Yellow projects the letter R Indigo projects the letter A]]></summary></entry><entry><title type="html">Day 19: The Lunar Refinery</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-lunar-refinery/" rel="alternate" type="text/html" title="Day 19: The Lunar Refinery" /><published>2024-10-22T00:00:00+00:00</published><updated>2024-10-22T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-lunar-refinery</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-lunar-refinery/"><![CDATA[<p>On the <strong>Mystic Processing Wheel</strong>, you have <strong>10 compartments</strong> for refining Lunar Dust. Each compartment can hold <strong>two measures</strong> of dust and rotates so that one compartment rotates through the exit platform <strong>every minute</strong>, passing through the <strong>Processing Chamber</strong> at the top before releasing the refined dust at the bottom.</p>
+</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Inside the Spectrum Sanctuary, beams of sunlight pass through the prism overhead, casting seven colors across the chamber. Each color illuminates a single letter on the walls: Violet projects the letter Y Red projects the letter F Orange projects the letter O Green projects the letter E Blue projects the letter B Yellow projects the letter R Indigo projects the letter A]]></summary></entry><entry><title type="html">Day 19: The Lunar Refinery</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-lunar-refinery/" rel="alternate" type="text/html" title="Day 19: The Lunar Refinery" /><published>2024-10-22T00:00:00+00:00</published><updated>2024-10-22T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-lunar-refinery</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-lunar-refinery/"><![CDATA[<p>On the <strong>Mystic Processing Wheel</strong>, you have <strong>10 compartments</strong> for refining Lunar Dust. Each compartment can hold <strong>two measures</strong> of dust and rotates so that one compartment rotates through the exit platform <strong>every minute</strong>, passing through the <strong>Processing Chamber</strong> at the top before releasing the refined dust at the bottom.</p>
 
 <p>The wheel has been activated, and you have exactly <strong>30 minutes</strong> to maximize the amount of Lunar Dust refined before the window closes. Dust can only be added to compartments at the bottom of the wheel, and it takes <strong>one minute</strong> for each compartment to advance to the position where the next compartment was.</p>
 
@@ -203,116 +236,4 @@
 
 <p><br /></p>
 
-<p>The journey ahead is daunting, but the path is clear. Six islands, each holding a piece of the <strong>Veil of Wonder</strong>, must be traversed to restore Christmas magic…</p>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Day 14: Final Pulse</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/final-pulse/" rel="alternate" type="text/html" title="Day 14: Final Pulse" /><published>2024-10-16T00:00:00+00:00</published><updated>2024-10-16T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/final-pulse</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/final-pulse/"><![CDATA[<p>Jolly has the capability to use <strong>electromagnetic pulses (EMPs)</strong> to shatter the <strong>four barriers</strong> surrounding the <strong>Crystal of Joy</strong>. However, each barrier requires a specific amount of power to be disrupted, and Jolly’s battery has a limited capacity.</p>
-
-<p>The <strong>power</strong> needed for each barrier follows <strong>specific rules</strong> based on the strength of the emotional energy each barrier draws:</p>
-<ul>
-  <li>The <strong>sum of the power</strong> required for <strong>all four barriers</strong> equals <strong>100 units</strong> (Jolly’s full battery capacity).</li>
-  <li>The barrier of <strong>Doubt</strong> requires <strong>more 5 units</strong> of power than <strong>Fear</strong>.</li>
-  <li><strong>Despair</strong> demands <strong>twice the amount</strong> of power as <strong>Sorrow</strong>.</li>
-  <li><strong>Fear</strong> and <strong>Sorrow together</strong> use exactly <strong>45 units</strong> of power.</li>
-</ul>
-
-<p>Your answer must be contain the amount of power dedicated to each barrier — <strong>Fear</strong>, <strong>Doubt</strong>, <strong>Sorrow</strong>, and <strong>Despair</strong>, respectively — separated by commas (<code class="language-plaintext highlighter-rouge">,</code>). An example of a possible answer (obviously wrong) could be <code class="language-plaintext highlighter-rouge">25,20,30,25</code>.</p>
-
-<details>
- <summary>Hint 1</summary>
- Start by replacing the barriers' names by letters and formalizing the problem as a system of equations.
-</details>
-
-<details>
- <summary>Hint 2</summary>
- Try to replace the variables of the equation so that you end up with only one variable remaining.
-</details>
-
-<details>
- <summary>Hint 3</summary>
- You can also use trial and error. Or use an online equation solver.
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[Jolly has the capability to use electromagnetic pulses (EMPs) to shatter the four barriers surrounding the Crystal of Joy. However, each barrier requires a specific amount of power to be disrupted, and Jolly’s battery has a limited capacity.]]></summary></entry><entry><title type="html">Day 13: The Missing Digit</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit/" rel="alternate" type="text/html" title="Day 13: The Missing Digit" /><published>2024-10-15T00:00:00+00:00</published><updated>2024-10-15T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-missing-digit/"><![CDATA[<p>A bunch of figures are arranged in a pattern as shown in the code below:</p>
-
-<div><img class="challenge-img" src="/assets/img/stories/christmas2024/locker-code-incomplete.png" /></div>
-
-<p>Can you figure out which symbol is missing <strong>at the end</strong>?</p>
-
-<div><img class="challenge-img" src="/assets/img/stories/christmas2024/symbol-example.png" /></div>
-
-<p>Notice that:</p>
-<ul>
-  <li>You must determine which dashes must be <strong>active</strong> to depict the intended <strong>symbol</strong>, following the <strong>numeration</strong> of the figure above.</li>
-  <li>Your answer must contain the <strong>index</strong> of the active dashes <strong>ordered</strong> from the smallest to the largest one. For example, the answer <code class="language-plaintext highlighter-rouge">136</code> activates the dashes that represent the number seven.</li>
-</ul>
-
-<details>
- <summary>Hint 1</summary>
- This sequence of symbols must form a pattern...
-</details>
-
-<details>
- <summary>Hint 2</summary>
- This symbols look so familiar. Maybe they are flipped?
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[A bunch of figures are arranged in a pattern as shown in the code below:]]></summary></entry><entry><title type="html">Day 12: The Dark Descent</title><link href="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent/" rel="alternate" type="text/html" title="Day 12: The Dark Descent" /><published>2024-10-14T00:00:00+00:00</published><updated>2024-10-14T00:00:00+00:00</updated><id>https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent</id><content type="html" xml:base="https://riddleverse.franciscogc.com/stories/christmas2024/act2/the-dark-descent/"><![CDATA[<p>As you follow Jolly’s commands through the darkness, you realize that the path you’re walking seems to form a pattern. Though you can’t see it, Jolly’s commands guide you step by step in a way that feels deliberate. Your goal is to figure out what word the path reminds you of based on the directions given:</p>
-<ul>
-  <li>Jolly will tell you to move <strong>forward</strong>, <strong>rotate left</strong>, or <strong>rotate right</strong> to navigate the cave.</li>
-  <li>By the time you finish the path, the shape of the journey will <strong>reveal a word</strong>, which is the <strong>answer</strong> to this challenge.</li>
-</ul>
-
-<p>Jolly’s Instructions:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rotate right
-forward 2 steps
-rotate left
-forward 3 steps
-rotate left
-forward 2 steps
-rotate right
-forward 1 step
-rotate right
-forward 4 steps
-rotate right
-forward 1 step
-rotate right
-forward 1 step
-rotate left
-forward 4 steps
-rotate right
-forward 3 steps
-rotate left
-forward 1 step
-rotate left
-forward 5 steps
-rotate left
-forward 6 steps
-rotate right
-forward 3 steps
-rotate right
-forward 5 steps
-rotate right
-forward 2 steps
-rotate left
-forward 1 step
-rotate left
-forward 4 steps
-rotate left
-forward 4 steps
-rotate left
-forward 1 step
-rotate right
-forward 2 steps
-rotate right
-forward 1 step
-rotate right
-forward 1 step
-rotate left
-forward 1 step
-rotate left
-forward 1 step
-rotate right
-forward 1 step
-rotate right
-forward 2 steps
-</code></pre></div></div>
-
-<details>
- <summary>Hint 1</summary>
- Draw a path following these instructions and you should see a word...
-</details>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[As you follow Jolly’s commands through the darkness, you realize that the path you’re walking seems to form a pattern. Though you can’t see it, Jolly’s commands guide you step by step in a way that feels deliberate. Your goal is to figure out what word the path reminds you of based on the directions given: Jolly will tell you to move forward, rotate left, or rotate right to navigate the cave. By the time you finish the path, the shape of the journey will reveal a word, which is the answer to this challenge.]]></summary></entry></feed>
+<p>The journey ahead is daunting, but the path is clear. Six islands, each holding a piece of the <strong>Veil of Wonder</strong>, must be traversed to restore Christmas magic…</p>]]></content><author><name>Francisco Cerqueira</name></author><category term="christmas2024" /><summary type="html"><![CDATA[]]></summary></entry></feed>

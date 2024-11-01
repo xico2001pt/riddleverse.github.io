@@ -16,7 +16,7 @@ A malevolent force has swept through the Christmas Realm, imprisoning the Guardi
 
 <br>
 
-Your quest begins at the coldest point of this calamity—the Ember of Warmth. Once the heart of the Christmas Realm’s light and love, it now lies dormant, hidden deep within the Vault of the Hearth. The Guardian of the Hearth, bound in icy chains, can no longer protect it. The once vibrant lands are now veiled in a creeping chill, and the Ember’s glow has dimmed, casting shadows where warmth used to reign.
+Your quest begins at the coldest point of this calamity — the Ember of Warmth. Once the heart of the Christmas Realm’s light and love, it now lies dormant, hidden deep within the Vault of the Hearth. The Guardian of the Hearth, bound in icy chains, can no longer protect it. The once vibrant lands are now veiled in a creeping chill, and the Ember’s glow has dimmed, casting shadows where warmth used to reign.
 
 <br>
 

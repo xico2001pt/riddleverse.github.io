@@ -44,7 +44,6 @@ export const STORIES_DATA = [
             ["1,8,9", "1,9,8", "8,9,1", "8,1,9", "9,1,8", "9,8,1"]
         ],
         unlocker_function: (level) => {
-            level = level - 1;
             const initialDate = new Date('2024-11-05T18:00:00Z')
             const currentDate = new Date();
             const diffTime = currentDate - initialDate;

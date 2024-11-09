@@ -36,12 +36,15 @@ function lockElement(element, message) {
 
 export function updateLockbyLevel(elemId, story, minLevel) {
     let currLevel = getProgress(story);
+    if (typeof minLevel === 'string') {
+        minLevel = parseInt(minLevel);
+    }
     if (currLevel < minLevel) {
         lockElement(document.getElementById(elemId), 'Locked');
         return;
     }
     let unlocker_function = getStoryData(story).unlocker_function;
-    if (unlocker_function && !unlocker_function(currLevel)) {
+    if (unlocker_function && !unlocker_function(minLevel)) {
         lockElement(document.getElementById(elemId), 'Come back later!');
         return;
     }

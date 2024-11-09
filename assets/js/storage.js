@@ -2,16 +2,16 @@ const IV = new TextEncoder().encode("francisco");
 
 let storageKey = "cerqueira";
 
-export function readFromStorage(key) {
+export async function readFromStorage(key) {
     let content = localStorage.getItem(key);
     if (content) {
-        content = decrypt(content, storageKey);
+        content = await decrypt(content, storageKey);
     }
     return content;
 }
 
-export function writeToStorage(key, value) {
-    value = encrypt(value, storageKey);
+export async function writeToStorage(key, value) {
+    value = await encrypt(value, storageKey);
     localStorage.setItem(key, value);
 }
 

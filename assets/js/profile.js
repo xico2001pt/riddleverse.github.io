@@ -37,13 +37,12 @@ export function updateProfile() {
     let elem = document.getElementById('form-name');
     if (elem) {
         setName(elem.value);
-        writeProfileToStorage();
-        setupProfileName();
+        writeProfileToStorage().then(() => {setupProfileName();})
     }
 }
 
-function readProfileFromStorage() {
-    let val = readFromStorage('profile');
+async function readProfileFromStorage() {
+    let val = await readFromStorage('profile');
     if (val) {
         let saved = JSON.parse(val);
         for (let key in saved) {
@@ -52,8 +51,8 @@ function readProfileFromStorage() {
     }
 }
 
-function writeProfileToStorage() {
-    writeToStorage('profile', JSON.stringify(profile));
+async function writeProfileToStorage() {
+    await writeToStorage('profile', JSON.stringify(profile));
 }
 
 function setupProfileName() {

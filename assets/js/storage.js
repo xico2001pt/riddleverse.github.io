@@ -17,6 +17,13 @@ export async function writeToStorage(key, value) {
 
 async function encrypt(text, derivedKey) {
     const encodedText = new TextEncoder().encode(text);
+    derivedKey = await window.crypto.subtle.importKey(
+        'raw', 
+        encoder.encode(derivedKey), 
+        { name: 'AES-GCM' },
+        false, 
+        ['encrypt']
+    );
 
     const encryptedData = await window.crypto.subtle.encrypt(
         { name: "AES-GCM", iv: IV },
@@ -35,6 +42,13 @@ async function encrypt(text, derivedKey) {
 
 async function decrypt(text, derivedKey) {
     const initializationVector = new Uint8Array(IV).buffer;
+    derivedKey = await window.crypto.subtle.importKey(
+        'raw', 
+        encoder.encode(derivedKey), 
+        { name: 'AES-GCM' },
+        false, 
+        ['decrypt']
+    );
 
     const string = atob(text);
     const uintArray = new Uint8Array(

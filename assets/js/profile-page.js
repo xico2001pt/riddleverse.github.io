@@ -3,6 +3,17 @@ import { STORIES_DATA } from "./stories.js";
 
 window.updateProfile = updateProfile;
 
+export function importFile() {
+    alert("Not implemented yet.");
+}
+
+export function exportFile() {
+    alert("Not implemented yet.");
+}
+
+window.importFile = importFile;
+window.exportFile = exportFile;
+
 function setupProfileName() {
     let elem = document.getElementById('form-name');
     if (elem) {

@@ -3185,6 +3185,34 @@ th, td { text-align: center; padding: 1vw; }
 
 .theme--light .profile-input-text { background-color: #f2f6f9; }
 
+.import-button { color: #FCBC28; padding: 0.3em 0.6em; border-radius: 0.3em; font-size: 18px; }
+
+.theme--dark .import-button { background-color: #1E2227; }
+
+.theme--light .import-button { background-color: #f2f6f9; }
+
+.import-button:hover { text-decoration: none; color: #fddb8d !important; }
+
+.theme--dark .import-button:hover { background-color: #292f35; }
+
+.theme--light .import-button:hover { background-color: white; }
+
+.import-button:before { content: "\f56f"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; margin-right: 0.5em; }
+
+.export-button { color: #4FC1E4; padding: 0.3em 0.6em; border-radius: 0.3em; font-size: 18px; }
+
+.theme--dark .export-button { background-color: #1E2227; }
+
+.theme--light .export-button { background-color: #f2f6f9; }
+
+.export-button:hover { text-decoration: none; color: #a7e0f2 !important; }
+
+.theme--dark .export-button:hover { background-color: #292f35; }
+
+.theme--light .export-button:hover { background-color: white; }
+
+.export-button:before { content: "\f56e"; font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; font-weight: 900; -webkit-font-smoothing: antialiased; margin-right: 0.5em; }
+
 .form-save { color: #50BD6A; padding: 0.3em 0.6em; border-radius: 0.3em; font-size: 18px; }
 
 .theme--dark .form-save { background-color: #1E2227; }

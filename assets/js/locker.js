@@ -16,7 +16,7 @@ function lockElement(element, message) {
     else if (element.children && element.children.length > 0) {
         // Recursively call the function for each child
         for (let i = 0; i < element.children.length; i++) {
-            lockElement(element.children[i]);
+            lockElement(element.children[i], message);
         }
     }
     // If the element is neither an image nor has children, change its value

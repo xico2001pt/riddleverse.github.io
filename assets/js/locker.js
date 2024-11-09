@@ -40,7 +40,7 @@ export function updateLockbyLevel(elemId, story, minLevel) {
         lockElement(document.getElementById(elemId), 'Locked');
         return;
     }
-    let unlocker_function = getStoryData(story);
+    let unlocker_function = getStoryData(story).unlocker_function;
     if (unlocker_function && !unlocker_function(currLevel)) {
         lockElement(document.getElementById(elemId), 'Come back later!');
         return;

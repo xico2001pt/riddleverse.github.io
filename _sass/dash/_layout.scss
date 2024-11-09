@@ -358,6 +358,50 @@ th, td {
   @include relative-font-size(0.9);
 }
 
+.import-button {
+  color: $color-yellow;
+  @include themed() {
+     background-color: t('background-color');
+  }
+  padding: 0.3em 0.6em;
+  border-radius: 0.3em;
+  &:hover {
+    text-decoration: none;
+    color: lighten($color-yellow, 20%) !important;
+    @include themed() {
+       background-color: lighten(t('background-color'), 5%);
+    }
+  }
+  &:before {
+    content: $icon-import;
+    @include font-awesome-icon;
+    margin-right: 0.5em;
+  }
+  @include relative-font-size(0.9);
+}
+
+.export-button {
+  color: $color-cyan;
+  @include themed() {
+     background-color: t('background-color');
+  }
+  padding: 0.3em 0.6em;
+  border-radius: 0.3em;
+  &:hover {
+    text-decoration: none;
+    color: lighten($color-cyan, 20%) !important;
+    @include themed() {
+       background-color: lighten(t('background-color'), 5%);
+    }
+  }
+  &:before {
+    content: $icon-export;
+    @include font-awesome-icon;
+    margin-right: 0.5em;
+  }
+  @include relative-font-size(0.9);
+}
+
 .form-save {
   color: $color-green;
   @include themed() {

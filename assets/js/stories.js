@@ -4,6 +4,7 @@ export const STORIES_DATA = [
         title: 'The Lost Artifacts of Christmas',
         total_levels: 24,
         solutions: [
+            // Act 1
             "Fire",
             "SOONSOWESOESOONE",
             "2,3,5,7,11,13,17,19,23,29",
@@ -11,6 +12,7 @@ export const STORIES_DATA = [
             "F6S6E4A3G1",
             "DB,I,FA,IW,IS,LS,SF,SW,FB,B,LO,FS",
 
+            // Act 2
             "wheel",
             ["00100", "01100", "10100", "11000"],
             "0154",
@@ -29,6 +31,7 @@ export const STORIES_DATA = [
             "123456",
             "40,45,5,10",
 
+            // Act 3
             "308",
             "12",
             "6,16,7,10,3,14,4,12,2,11,5,9,13,1,15,8",
@@ -38,7 +41,16 @@ export const STORIES_DATA = [
             "RUN",
             "Crystal Palace",
             "8192",
-        ]
+            ["1,8,9", "1,9,8", "8,9,1", "8,1,9", "9,1,8", "9,8,1"]
+        ],
+        unlocker_function: (level) => {
+            level = level - 1;
+            const initialDate = new Date('2024-11-055T18:00:00Z')
+            const currentDate = new Date();
+            const diffTime = currentDate - initialDate;
+            const diffDays = diffTime / (1000 * 3600 * 24); // Convert milliseconds to days
+            return diffDays > level;
+        }
     },
 ];
 

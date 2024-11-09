@@ -57,7 +57,7 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-11-09T00:54:46+00:00</updated>
+ <updated>2024-11-09T18:54:53+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
@@ -66,11 +66,49 @@
 
  
  <entry>
+   <title>Day 24: Clash of Guardians</title>
+   <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/clash-of-guardians/"/>
+   <updated>2024-10-27T00:00:00+00:00</updated>
+   <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/clash-of-guardians</id>
+   <content type="html">&lt;p&gt;As the battle against the evil force reaches its climax, you must harness the artifacts’ nine magical powers to overcome the protective barrier around the final fragment. However, your ability to channel these powers is limited by a &lt;strong&gt;maximum energy capacity of 20 units&lt;/strong&gt;. Each power carries a unique energy consumption and contributes a different level of magical power. Your challenge is to &lt;strong&gt;maximize the total power&lt;/strong&gt; used within this energy constraint to ensure victory.&lt;/p&gt;
+
+&lt;p&gt;The available powers, their energy weights, and their strengths are as follows:
+|Id|Name|Energy Consumption|Magical Power|
+|—|—|—|—|
+|1|Radiant Blaze|2|12|
+|2|Gale’s Whisper|3|10|
+|3|Titan’s Embrace|5|20|
+|4|Lunar Shield|6|15|
+|5|Starlight Surge|7|25|
+|6|Ember’s Touch|4|8|
+|7|Crystal Bloom|3|9|
+|8|Ethereal Echo|8|30|
+|9|Void’s Wrath|9|50|&lt;/p&gt;
+
+&lt;p&gt;Notice that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Your goal is to &lt;strong&gt;maximize the total magical power&lt;/strong&gt; without exceeding the &lt;strong&gt;energy capacity of 20 units&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The answer must contain the &lt;strong&gt;ids of the used powers&lt;/strong&gt;, in any order, separated by commas (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;,&lt;/code&gt;). An example of a possible answer (obviously wrong) could be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8,1,5,7&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 1&lt;/summary&gt;
+ Focus on selecting the combination of powers that provides the highest total magical force while staying within the 20-unit energy limit. Sometimes, choosing fewer powerful abilities can be more effective than many weaker ones.
+&lt;/details&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Hint 2&lt;/summary&gt;
+ This problem is know as the knapsack problem. There are solvers online.
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Day 23: The Healing Seeds</title>
    <link href="https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-healing-seeds/"/>
    <updated>2024-10-26T00:00:00+00:00</updated>
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/the-healing-seeds</id>
-   <content type="html">&lt;p&gt;You begin with &lt;strong&gt;two&lt;/strong&gt; healing seeds. After planting them, the Guardian of the Hearth can use its powers to accelerate their growth cycle, allowing each plant to mature and produce &lt;strong&gt;two seeds after 5 minutes&lt;/strong&gt; before dying. Each new seed can then be replanted, continuing the cycle.&lt;/p&gt;
+   <content type="html">&lt;p&gt;You begin with &lt;strong&gt;two&lt;/strong&gt; healing seeds. After planting them, the Guardian of the Hearth can use its powers to accelerate their growth cycle, allowing each plant to mature and produce &lt;strong&gt;two seeds after 5 minutes&lt;/strong&gt; before &lt;strong&gt;dying&lt;/strong&gt;. Each new seed can then be replanted, continuing the cycle.&lt;/p&gt;
 
 &lt;p&gt;Starting with &lt;strong&gt;two seeds&lt;/strong&gt; and with exactly &lt;strong&gt;1 hour&lt;/strong&gt; available, calculate how many seeds you’ll have by the end of the time limit, maximizing the harvest to support the Guardian of the Veil in the final confrontation.&lt;/p&gt;
 

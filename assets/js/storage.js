@@ -16,7 +16,8 @@ export async function writeToStorage(key, value) {
 }
 
 async function encrypt(text, derivedKey) {
-    const encodedText = new TextEncoder().encode(text);
+    const encoder = new TextEncoder();
+    const encodedText = encoder.encode(text);
     derivedKey = await window.crypto.subtle.importKey(
         'raw', 
         encoder.encode(derivedKey), 
@@ -41,6 +42,7 @@ async function encrypt(text, derivedKey) {
 };
 
 async function decrypt(text, derivedKey) {
+    const encoder = new TextEncoder();
     const initializationVector = new Uint8Array(IV).buffer;
     derivedKey = await window.crypto.subtle.importKey(
         'raw', 

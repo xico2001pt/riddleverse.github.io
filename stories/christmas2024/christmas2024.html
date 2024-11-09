@@ -6,6 +6,7 @@ title: The Lost Artifacts of Christmas
 <script type="module">
     import { updateLockbyLevel } from '/assets/js/locker.js';
     const story = "christmas2024";
+    updateLockbyLevel("act1", story, 0);
     updateLockbyLevel("act2", story, 6);
     updateLockbyLevel("act3", story, 14);
 </script>
@@ -21,7 +22,7 @@ You must journey through this mystical world, solve puzzles, and free the Guardi
 <br>
 
 <div>
-    <div style="display: flex; justify-content: flex-start; margin-bottom:4vh;">
+    <div id="act1" style="display: flex; justify-content: flex-start; margin-bottom:4vh;">
         <img src="{{ img_path }}stories/christmas2024/act1-cover.webp" style="width:45%;">
         <div style="width:47%; margin-left:1.25vw;">
             <h3>Act 1: The Ember of Warmth</h3>

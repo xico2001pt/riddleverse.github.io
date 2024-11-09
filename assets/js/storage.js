@@ -2,69 +2,26 @@ const IV = new TextEncoder().encode("francisco");
 
 let storageKey = "cerqueira";
 
-export async function readFromStorage(key) {
+export function readFromStorage(key) {
     let content = localStorage.getItem(key);
     if (content) {
-        content = await decrypt(content, storageKey);
+        content = decodeString(content, storageKey);
     }
     return content;
 }
 
-export async function writeToStorage(key, value) {
-    value = await encrypt(value, storageKey);
+export function writeToStorage(key, value) {
+    value = encodeString(value, storageKey);
     localStorage.setItem(key, value);
 }
 
-async function encrypt(text, derivedKey) {
+function encodeString(input) {
     const encoder = new TextEncoder();
-    const encodedText = encoder.encode(text);
-    derivedKey = await window.crypto.subtle.importKey(
-        'raw', 
-        encoder.encode(derivedKey), 
-        { name: 'AES-GCM' },
-        false, 
-        ['encrypt']
-    );
-
-    const encryptedData = await window.crypto.subtle.encrypt(
-        { name: "AES-GCM", iv: IV },
-        derivedKey,
-        encodedText
-    );
-
-    const uintArray = new Uint8Array(encryptedData);
-
-    const string = String.fromCharCode.apply(null, uintArray);
-
-    const base64Data = btoa(string);
-
-    return base64Data;
-};
-
-async function decrypt(text, derivedKey) {
-    const encoder = new TextEncoder();
-    const initializationVector = new Uint8Array(IV).buffer;
-    derivedKey = await window.crypto.subtle.importKey(
-        'raw', 
-        encoder.encode(derivedKey), 
-        { name: 'AES-GCM' },
-        false, 
-        ['decrypt']
-    );
-
-    const string = atob(text);
-    const uintArray = new Uint8Array(
-    [...string].map((char) => char.charCodeAt(0))
-    );
-    const algorithm = {
-    name: "AES-GCM",
-    iv: initializationVector,
-    };
-    const decryptedData = await window.crypto.subtle.decrypt(
-    algorithm,
-    derivedKey,
-    uintArray
-    );
-
-    return new TextDecoder().decode(decryptedData);
-};
+    return btoa(String.fromCharCode(...encoder.encode(input)));
+  }
+  
+function decodeString(encoded) {
+const decoder = new TextDecoder();
+const decodedData = atob(encoded).split('').map(char => char.charCodeAt(0));
+return decoder.decode(new Uint8Array(decodedData));
+}

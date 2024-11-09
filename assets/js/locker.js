@@ -1,6 +1,7 @@
-import { getName, getProgress, containsStory, getProgressLength, updateProfile } from "./profile.js";
+import { getProgress } from "./profile.js";
+import { getStoryData } from "./stories.js";
 
-function lockElement(element) {
+function lockElement(element, message) {
     // Check if the element is an image
     if (element.tagName === 'IMG') {
         // Change the image src to a placeholder
@@ -8,7 +9,7 @@ function lockElement(element) {
     } 
     //Check if lock region
     else if (element.tagName === 'LOCK-REGION') {
-        element.innerHTML = 'Locked';
+        element.innerHTML = message;
         element.classList.add('locked-region');
     }
     // Check if the element has children
@@ -20,11 +21,11 @@ function lockElement(element) {
     }
     // If the element is neither an image nor has children, change its value
     else {
-        // Change the value or text content to "Locked"
+        // Change the value or text content to message
         if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-            element.value = 'Locked';
+            element.value = message;
         } else {
-            element.textContent = 'Locked';
+            element.textContent = message;
         }
     }
     if (element.href) {
@@ -36,6 +37,12 @@ function lockElement(element) {
 export function updateLockbyLevel(elemId, story, minLevel) {
     let currLevel = getProgress(story);
     if (currLevel < minLevel) {
-        lockElement(document.getElementById(elemId));
+        lockElement(document.getElementById(elemId), 'Locked');
+        return;
+    }
+    let unlocker_function = getStoryData(story);
+    if (unlocker_function && !unlocker_function(currLevel)) {
+        lockElement(document.getElementById(elemId), 'Come back later!');
+        return;
     }
 }

@@ -42,7 +42,15 @@ export const STORIES_DATA = [
             "Crystal Palace",
             "8192",
             ["1,8,9", "1,9,8", "8,9,1", "8,1,9", "9,1,8", "9,8,1"]
-        ]
+        ],
+        unlocker_function: (level) => {
+            level = level - 1;
+            const initialDate = new Date('2024-11-055T18:00:00Z')
+            const currentDate = new Date();
+            const diffTime = currentDate - initialDate;
+            const diffDays = diffTime / (1000 * 3600 * 24); // Convert milliseconds to days
+            return diffDays > level;
+        }
     },
 ];
 

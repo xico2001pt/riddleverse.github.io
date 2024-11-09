@@ -27,7 +27,7 @@ outcome: >
     A quiet gratitude fills the air as the Guardian opens her eyes, restored and ready. Together, you share a silent moment, knowing that with this final strength, the ultimate step in your journey awaits — the final act to restore the last of the Christmas magic.
 ---
 
-You begin with **two** healing seeds. After planting them, the Guardian of the Hearth can use its powers to accelerate their growth cycle, allowing each plant to mature and produce **two seeds after 5 minutes** before dying. Each new seed can then be replanted, continuing the cycle.
+You begin with **two** healing seeds. After planting them, the Guardian of the Hearth can use its powers to accelerate their growth cycle, allowing each plant to mature and produce **two seeds after 5 minutes** before **dying**. Each new seed can then be replanted, continuing the cycle.
 
 Starting with **two seeds** and with exactly **1 hour** available, calculate how many seeds you’ll have by the end of the time limit, maximizing the harvest to support the Guardian of the Veil in the final confrontation.
 

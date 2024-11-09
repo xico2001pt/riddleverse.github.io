@@ -22,7 +22,7 @@ objective: >
 outcome: >
     As you call out <b>“Crystal Palace”</b>, the Guardian channels her remaining energy, and in a flash of light, you’re transported away from the crumbling island. The world spins, and when you open your eyes, you find yourself standing in the familiar gleam of the Crystal Palace, its grand halls glowing with joy and life once more.
     <br><br>
-    To your surprise and relief, you see both the Guardian and Jolly waiting for you. Jolly’s eyes flash with excitement, his usual cheerful spirit intact. He waves with his mechanical arm, beaming, and you realize that, against all odds, he’s safe and sound. The Guardian gives you a faint, weary smile, nodding as if to say, <i>“You’re not alone.”</i>
+    To your surprise and relief, you see both the Guardian and Jolly waiting for you. Jolly’s eyes flash with excitement, its usual cheerful spirit intact. He waves with its mechanical arm, beaming, and you realize that, against all odds, he’s safe and sound. The Guardian gives you a faint, weary smile, nodding as if to say, <i>“You’re not alone.”</i>
 ---
 
 The Guardian is ready to teleport you, but only if you can determine the exact location within the **Realm of Joy**. Reflecting on your journey, you recall key details about the realm that could guide you to safety.

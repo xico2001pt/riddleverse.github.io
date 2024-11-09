@@ -18,7 +18,7 @@
 {"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Francisco Cerqueira"},"headline":"RiddleVerse","url":"https://riddleverse.franciscogc.com/atom.xml"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="icon" type="image/png" href="/assets/favicon.png" />
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
   <link rel="stylesheet" href="/assets/css/magnific-popup.css"><link type="application/atom+xml" rel="alternate" href="https://riddleverse.franciscogc.com/feed.xml" title="RiddleVerse" /><script src="https://code.jquery.com/jquery-3.2.0.min.js"></script> 
   <script src="/assets/js/jquery.magnific-popup.js"></script>
   <script src="/assets/js/storage.js" type="module"></script>
@@ -57,7 +57,7 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-11-09T21:30:15+00:00</updated>
+ <updated>2024-11-09T22:07:51+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>

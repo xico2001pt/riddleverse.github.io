@@ -11,6 +11,7 @@ title: "Act 1: The Ember of Warmth"
 <script type="module">
     import { updateLockbyLevel } from '/assets/js/locker.js';
     const story = "christmas2024";
+    updateLockbyLevel("post-title", story, 0);
     {% for i in (0..for_size) %}
         {% assign post = posts[i] %}
         updateLockbyLevel("{{ post.id }}-title", story, parseInt('{{ post.level }}') - 1);

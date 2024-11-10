@@ -44,7 +44,7 @@ export const STORIES_DATA = [
             ["1,8,9", "1,9,8", "8,9,1", "8,1,9", "9,1,8", "9,8,1"]
         ],
         unlocker_function: (level) => {
-            const initialDate = new Date('2024-11-30T18:00:00Z')
+            const initialDate = new Date('2024-11-30T16:00:00Z')
             const currentDate = new Date();
             const diffTime = currentDate - initialDate;
             const diffDays = diffTime / (1000 * 3600 * 24); // Convert milliseconds to days

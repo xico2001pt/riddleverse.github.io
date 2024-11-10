@@ -1,4 +1,4 @@
-import { readFromStorage, writeToStorage } from "./storage.js";
+import { readFromStorage, writeToStorage, encodeString, decodeString, downloadFile } from "./storage.js";
 
 let profile = {
     name: '',
@@ -40,6 +40,18 @@ export function updateProfile() {
         writeProfileToStorage();
         setupProfileName();
     }
+}
+
+export function importProfile(content) {
+    content = decodeString(content);
+    writeToStorage('profile', content);
+    readProfileFromStorage();
+}
+
+export function exportProfile() {
+    let content = JSON.stringify(profile);
+    content = encodeString(content);
+    downloadFile('riddleverse_profile.dat', content);
 }
 
 function readProfileFromStorage() {

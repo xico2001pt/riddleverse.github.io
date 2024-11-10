@@ -1,14 +1,14 @@
-import { getName, getProgress, containsStory, getProgressLength, updateProfile } from "./profile.js";
+import { getName, getProgress, containsStory, getProgressLength, updateProfile, importProfile, exportProfile } from "./profile.js";
 import { STORIES_DATA } from "./stories.js";
 
 window.updateProfile = updateProfile;
 
 export function importFile() {
-    alert("Not implemented yet.");
+    document.getElementById('file-input').click();
 }
 
 export function exportFile() {
-    alert("Not implemented yet.");
+    exportProfile();
 }
 
 window.importFile = importFile;
@@ -45,5 +45,23 @@ function setupProgress() {
     }
 }
 
+function handleFileRead(event) {
+    const fileContent = event.target.result;
+    importProfile(fileContent);
+    window.location.reload();
+}
+
+function handleFileUpload(event) {
+    const file = event.target.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = handleFileRead;
+        reader.readAsText(file);
+    } else {
+        console.log('No file selected');
+    }
+}
+
 setupProfileName();
 setupProgress();
+document.getElementById('file-input').addEventListener('change', handleFileUpload);

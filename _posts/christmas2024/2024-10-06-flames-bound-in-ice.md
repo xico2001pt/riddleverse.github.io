@@ -46,14 +46,15 @@ Recipes:
 
 Given this information, your task is to determine how many of each base ingredient is required to make the final product.
 
+- The quantity of each ingredient must be an integer.
 - Your answer must be in the format `FxSxExAxGx`, where `x` represents the amount of the ingredient preceding it. An example of a possible answer (obviously wrong) could be `F12S5E1A2G6`.
 
 <details>
  <summary>Hint 1</summary>
- Start by figuring out how many Warm Essences (W) and Blazing Cores (B) are needed for the final Essence of Warmth.
+ Break down Recipe 3 carefully — it involves three ingredients, and you’ll need to make sure you produce enough Flame Potions and Sunstone Dust to create the Blazing Core.
 </details>
 
 <details>
  <summary>Hint 2</summary>
- Break down Recipe 3 carefully — it involves three ingredients, and you’ll need to make sure you produce enough Flame Potions and Sunstone Dust to create the Blazing Core.
+ You only need two Flaming Potions, but you can only produce three. I think there's no problem to waste 1 unit (except for the environment).
 </details>

@@ -57,7 +57,7 @@
  <title>RiddleVerse</title>
  <link href="https://riddleverse.franciscogc.com/atom.xml" rel="self"/>
  <link href="https://riddleverse.franciscogc.com/"/>
- <updated>2024-12-23T00:58:42+00:00</updated>
+ <updated>2024-12-23T19:32:45+00:00</updated>
  <id>https://riddleverse.franciscogc.com</id>
  <author>
    <name></name>
@@ -72,18 +72,74 @@
    <id>https://riddleverse.franciscogc.com/stories/christmas2024/act3/clash-of-guardians</id>
    <content type="html">&lt;p&gt;As the battle against the evil force reaches its climax, you must harness the artifacts’ nine magical powers to overcome the protective barrier around the final fragment. However, your ability to channel these powers is limited by a &lt;strong&gt;maximum energy capacity of 20 units&lt;/strong&gt;. Each power carries a unique energy consumption and contributes a different level of magical power. Your challenge is to &lt;strong&gt;maximize the total power&lt;/strong&gt; used within this energy constraint to ensure victory.&lt;/p&gt;
 
-&lt;p&gt;The available powers, their energy weights, and their strengths are as follows:
-|Id|Name|Energy Consumption|Magical Power|
-|—|—|—|—|
-|1|Radiant Blaze|2|12|
-|2|Gale’s Whisper|3|10|
-|3|Titan’s Embrace|5|20|
-|4|Lunar Shield|6|15|
-|5|Starlight Surge|7|25|
-|6|Ember’s Touch|4|8|
-|7|Crystal Bloom|3|9|
-|8|Ethereal Echo|8|30|
-|9|Void’s Wrath|9|50|&lt;/p&gt;
+&lt;p&gt;The available powers, their energy weights, and their strengths are as follows:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Id&lt;/th&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Energy Consumption&lt;/th&gt;
+      &lt;th&gt;Magical Power&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Radiant Blaze&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Gale’s Whisper&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Titan’s Embrace&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;20&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;Lunar Shield&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;Starlight Surge&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;Ember’s Touch&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;Crystal Bloom&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;Ethereal Echo&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;Void’s Wrath&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;50&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;Notice that:&lt;/p&gt;
 &lt;ul&gt;

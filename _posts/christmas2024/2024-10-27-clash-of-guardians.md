@@ -34,6 +34,7 @@ outcome: >
 As the battle against the evil force reaches its climax, you must harness the artifacts' nine magical powers to overcome the protective barrier around the final fragment. However, your ability to channel these powers is limited by a **maximum energy capacity of 20 units**. Each power carries a unique energy consumption and contributes a different level of magical power. Your challenge is to **maximize the total power** used within this energy constraint to ensure victory.
 
 The available powers, their energy weights, and their strengths are as follows:
+
 |Id|Name|Energy Consumption|Magical Power|
 |---|---|---|---|
 |1|Radiant Blaze|2|12|
